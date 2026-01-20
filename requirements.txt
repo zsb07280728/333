@@ -1,0 +1,13 @@
+aiohttp==3.13.2
+edge_tts==7.2.7
+ois3_sdk_python==3.2.30
+pandas==1.5.3
+numpy==1.24.4
+Pillow==12.1.0
+pydantic_settings==2.12.0
+pydub==0.25.1
+python-dotenv==1.2.1
+PyYAML==6.0.3
+Requests==2.32.5
+yarl==1.22.0
+ois3-sdk-python

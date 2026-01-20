@@ -1,0 +1,1174 @@
+2026-01-20 09:38:17,424 - INFO - === 4o_vehicle_control API对比工具启动 ===
+2026-01-20 09:38:19,263 - WARNING - CaseID: 86 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:19,327 - ERROR - CaseID: 288
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "AC", "function_option": "TEMPERATURE", "position": "THIRD_ROW", "range": "+"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:19,330 - ERROR - CaseID: 299
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "AC", "function_option": "TEMPERATURE", "position": "SECOND_ROW", "range": "+"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "AC", "function_option": "TEMPERATURE", "position": "SECOND_ROW", "range": "+2\u5ea6"}
+2026-01-20 09:38:20,250 - ERROR - CaseID: 651
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SEAT", "function_option": "TEMPERATURE", "position": "RIGHT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SEAT", "function_option": "TEMPERATURE", "position": "RIGHT_SEAT_OF_SECOND_ROW"}
+2026-01-20 09:38:20,387 - INFO - 已处理 1000 行数据
+2026-01-20 09:38:21,020 - ERROR - CaseID: 1049
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR"}
+2026-01-20 09:38:21,021 - ERROR - CaseID: 1050
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK", "position": "WHOLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+2026-01-20 09:38:21,023 - ERROR - CaseID: 1058
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK", "position": "WHOLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+2026-01-20 09:38:21,024 - WARNING - CaseID: 1061 - 参数解析失败: Unterminated string starting at: line 1 column 25 (char 24), 原始数据: {"query":"车门解锁操作","tag":"车门
+2026-01-20 09:38:21,024 - WARNING - CaseID: 1061 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 解锁
+2026-01-20 09:38:21,025 - WARNING - CaseID: 1061 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 操作","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:21,025 - WARNING - CaseID: 1061 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:21,025 - ERROR - CaseID: 1061
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:21,025 - ERROR - CaseID: 1063
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR"}
+2026-01-20 09:38:21,027 - ERROR - CaseID: 1067
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR"}
+2026-01-20 09:38:21,028 - ERROR - CaseID: 1071
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR"}
+2026-01-20 09:38:21,031 - WARNING - CaseID: 1082 - 参数解析失败: Unterminated string starting at: line 1 column 25 (char 24), 原始数据: {"query":"车门解锁指令","tag":"车门
+2026-01-20 09:38:21,031 - WARNING - CaseID: 1082 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 解锁
+2026-01-20 09:38:21,032 - WARNING - CaseID: 1082 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 指令","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:21,032 - WARNING - CaseID: 1082 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:21,032 - ERROR - CaseID: 1082
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:21,034 - WARNING - CaseID: 1089 - 参数解析失败: Unterminated string starting at: line 1 column 25 (char 24), 原始数据: {"query":"车门解锁命令","tag":"车门
+2026-01-20 09:38:21,034 - WARNING - CaseID: 1089 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 解锁
+2026-01-20 09:38:21,034 - WARNING - CaseID: 1089 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 命令","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:21,034 - WARNING - CaseID: 1089 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:21,034 - ERROR - CaseID: 1089
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:21,035 - ERROR - CaseID: 1092
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR"}
+2026-01-20 09:38:21,035 - ERROR - CaseID: 1094
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR_LOCK"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR"}
+2026-01-20 09:38:21,132 - ERROR - CaseID: 1414
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-01-20 09:38:21,133 - ERROR - CaseID: 1418
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-01-20 09:38:21,134 - ERROR - CaseID: 1420
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-01-20 09:38:21,135 - ERROR - CaseID: 1422
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-01-20 09:38:21,136 - ERROR - CaseID: 1428
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-01-20 09:38:21,756 - ERROR - CaseID: 1615
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:21,759 - ERROR - CaseID: 1625
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:21,762 - ERROR - CaseID: 1635
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:21,880 - INFO - 已处理 2000 行数据
+2026-01-20 09:38:22,469 - ERROR - CaseID: 2013
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,470 - ERROR - CaseID: 2017
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,472 - ERROR - CaseID: 2022
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,473 - ERROR - CaseID: 2025
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,474 - ERROR - CaseID: 2029
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,475 - ERROR - CaseID: 2033
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,478 - ERROR - CaseID: 2039
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,479 - ERROR - CaseID: 2043
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,481 - ERROR - CaseID: 2046
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,486 - ERROR - CaseID: 2059
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "AVM_CAPTION"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:22,491 - ERROR - CaseID: 2076
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,538 - ERROR - CaseID: 2238
+实际结果缺少以下预期项：
+  名称: charge_control, 参数: {"action": "turnoff", "entity": "BATTERY_INSULATION"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "AC"}
+2026-01-20 09:38:22,571 - ERROR - CaseID: 2351
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "device": "vehicle", "entity": "CHARGE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: skill_search, 参数: {"query": "\u4f60\u662f\u5426\u80fd\u591f\u8f66\u5b50\u7684\u5145\u7535\u72b6\u6001"}
+2026-01-20 09:38:22,573 - ERROR - CaseID: 2358
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,589 - ERROR - CaseID: 2404
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,596 - WARNING - CaseID: 2424 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"车辆电池充满电需要多久","tag":"车辆
+2026-01-20 09:38:22,596 - WARNING - CaseID: 2424 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 电池
+2026-01-20 09:38:22,596 - WARNING - CaseID: 2424 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 充满电
+2026-01-20 09:38:22,596 - WARNING - CaseID: 2424 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 时间","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:22,596 - WARNING - CaseID: 2424 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:22,596 - ERROR - CaseID: 2424
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:22,618 - ERROR - CaseID: 2479
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "TEMPERATURE_INSIDE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:23,202 - WARNING - CaseID: 2564 - 参数解析失败: Unterminated string starting at: line 1 column 29 (char 28), 原始数据: {"query":"如何查看车内空气质量","tag":"车内空气质量
+2026-01-20 09:38:23,202 - WARNING - CaseID: 2564 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 查看方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:23,202 - WARNING - CaseID: 2564 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:23,202 - ERROR - CaseID: 2564
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,231 - ERROR - CaseID: 2664
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,250 - ERROR - CaseID: 2727
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,250 - ERROR - CaseID: 2728
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "device": "vehicle", "entity": "ENDURANCE_REMAINING"}
+2026-01-20 09:38:23,250 - ERROR - CaseID: 2729
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,251 - ERROR - CaseID: 2732
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,252 - WARNING - CaseID: 2733 - 参数解析失败: Unterminated string starting at: line 1 column 31 (char 30), 原始数据: {"query":"车辆如何查看电池剩余电量","tag":"车辆
+2026-01-20 09:38:23,252 - WARNING - CaseID: 2733 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 电池剩余电量
+2026-01-20 09:38:23,252 - WARNING - CaseID: 2733 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 查看方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:23,252 - WARNING - CaseID: 2733 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:23,252 - ERROR - CaseID: 2733
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,252 - ERROR - CaseID: 2734
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,253 - ERROR - CaseID: 2737
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,254 - ERROR - CaseID: 2739
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,255 - ERROR - CaseID: 2743
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,256 - ERROR - CaseID: 2745
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,257 - ERROR - CaseID: 2749
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,258 - ERROR - CaseID: 2752
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,258 - ERROR - CaseID: 2753
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,260 - ERROR - CaseID: 2758
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,261 - ERROR - CaseID: 2761
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ELECTRICITY_REMAINING"}
+2026-01-20 09:38:23,273 - ERROR - CaseID: 2804
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,283 - ERROR - CaseID: 2835
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,290 - WARNING - CaseID: 2861 - 参数解析失败: Unterminated string starting at: line 1 column 31 (char 30), 原始数据: {"query":"车辆如何查看剩余续航里程","tag":"车辆
+2026-01-20 09:38:23,290 - WARNING - CaseID: 2861 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 剩余续航里程
+2026-01-20 09:38:23,290 - WARNING - CaseID: 2861 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 查看方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:23,290 - WARNING - CaseID: 2861 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:23,291 - ERROR - CaseID: 2861
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,291 - ERROR - CaseID: 2862
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,292 - ERROR - CaseID: 2865
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "device": "vehicle", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+2026-01-20 09:38:23,293 - WARNING - CaseID: 2868 - 参数解析失败: Unterminated string starting at: line 1 column 31 (char 30), 原始数据: {"query":"车辆如何查看当前续航里程","tag":"车辆
+2026-01-20 09:38:23,293 - WARNING - CaseID: 2868 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 当前续航里程
+2026-01-20 09:38:23,293 - WARNING - CaseID: 2868 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 查看","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:23,293 - WARNING - CaseID: 2868 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:23,293 - ERROR - CaseID: 2868
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,295 - ERROR - CaseID: 2877
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "device": "vehicle", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+2026-01-20 09:38:23,302 - ERROR - CaseID: 2898
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "device": "vehicle", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+2026-01-20 09:38:23,304 - ERROR - CaseID: 2905
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENDURANCE_REMAINING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "device": "vehicle", "entity": "ENDURANCE_REMAINING"}
+2026-01-20 09:38:23,316 - ERROR - CaseID: 2947
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:23,332 - INFO - 已处理 3000 行数据
+2026-01-20 09:38:24,085 - ERROR - CaseID: 3023
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "TIRE_PRESSURE", "position": "FRONT_LEFT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "TIRE_PRESSURE"}
+2026-01-20 09:38:24,103 - WARNING - CaseID: 3076 - 参数解析失败: Unterminated string starting at: line 1 column 28 (char 27), 原始数据: {"query":"从里程到现在是多少","tag":"里程
+2026-01-20 09:38:24,103 - WARNING - CaseID: 3076 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 现在","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,103 - WARNING - CaseID: 3076 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,103 - ERROR - CaseID: 3076
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,112 - ERROR - CaseID: 3104
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e24\u4e2a\u6708\u524d"}
+2026-01-20 09:38:24,113 - WARNING - CaseID: 3106 - 参数解析失败: Unterminated string starting at: line 1 column 31 (char 30), 原始数据: {"query":"车辆如何查看上月能耗情况","tag":"车辆
+2026-01-20 09:38:24,113 - WARNING - CaseID: 3106 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 查看
+2026-01-20 09:38:24,113 - WARNING - CaseID: 3106 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 上月能耗情况","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,113 - WARNING - CaseID: 3106 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,113 - ERROR - CaseID: 3106
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,114 - ERROR - CaseID: 3109
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e03\u5929\u524d"}
+2026-01-20 09:38:24,117 - ERROR - CaseID: 3119
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e0a\u5468"}
+2026-01-20 09:38:24,117 - ERROR - CaseID: 3120
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4eca\u5929"}
+2026-01-20 09:38:24,118 - ERROR - CaseID: 3121
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "2025\u5e7412\u6708"}
+2026-01-20 09:38:24,118 - WARNING - CaseID: 3122 - 参数解析失败: Unterminated string starting at: line 1 column 36 (char 35), 原始数据: {"query":"车辆如何统计最近十二个月的能耗变化","tag":"车辆
+2026-01-20 09:38:24,118 - WARNING - CaseID: 3122 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 统计
+2026-01-20 09:38:24,118 - WARNING - CaseID: 3122 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 十二个月
+2026-01-20 09:38:24,118 - WARNING - CaseID: 3122 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 能耗变化","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,118 - WARNING - CaseID: 3122 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,118 - ERROR - CaseID: 3122
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,119 - ERROR - CaseID: 3124
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u5e74"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4eca\u5e74"}
+2026-01-20 09:38:24,120 - ERROR - CaseID: 3126
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e94\u5929\u524d"}
+2026-01-20 09:38:24,121 - ERROR - CaseID: 3129
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u56db\u5929\u524d"}
+2026-01-20 09:38:24,122 - ERROR - CaseID: 3132
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e0a\u5468"}
+2026-01-20 09:38:24,122 - ERROR - CaseID: 3134
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e24\u5929\u524d"}
+2026-01-20 09:38:24,123 - WARNING - CaseID: 3136 - 参数解析失败: Unterminated string starting at: line 1 column 31 (char 30), 原始数据: {"query":"车辆如何查看能耗数据变化","tag":"车辆
+2026-01-20 09:38:24,123 - WARNING - CaseID: 3136 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 能耗数据
+2026-01-20 09:38:24,123 - WARNING - CaseID: 3136 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 查看","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,123 - WARNING - CaseID: 3136 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,123 - ERROR - CaseID: 3136
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,124 - ERROR - CaseID: 3137
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u6628\u5929"}
+2026-01-20 09:38:24,124 - ERROR - CaseID: 3139
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u516d\u4e2a\u6708\u524d"}
+2026-01-20 09:38:24,125 - ERROR - CaseID: 3142
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e94\u4e2a\u6708\u524d"}
+2026-01-20 09:38:24,125 - ERROR - CaseID: 3143
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e00\u5929"}
+2026-01-20 09:38:24,127 - ERROR - CaseID: 3148
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e94\u5929\u524d"}
+2026-01-20 09:38:24,128 - ERROR - CaseID: 3150
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u672c\u6708"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ENERGY_CONSUMPTION", "range": "\u4e09\u4e2a\u6708\u524d"}
+2026-01-20 09:38:24,159 - ERROR - CaseID: 3256
+结果数量不匹配: 预期1个，实际2个
+2026-01-20 09:38:24,159 - WARNING - CaseID: 3257 - 参数解析失败: Unterminated string starting at: line 1 column 32 (char 31), 原始数据: {"query":"开启电动车侧面的充电接口盖","tag":"电动车
+2026-01-20 09:38:24,159 - WARNING - CaseID: 3257 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 侧面
+2026-01-20 09:38:24,159 - WARNING - CaseID: 3257 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 充电接口盖
+2026-01-20 09:38:24,159 - WARNING - CaseID: 3257 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 开启","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,160 - WARNING - CaseID: 3257 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,160 - ERROR - CaseID: 3257
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,163 - ERROR - CaseID: 3268
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "RECHARGEABLE_CAP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,176 - ERROR - CaseID: 3313
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "RECHARGEABLE_CAP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "RECHARGEABLE_CAP", "position": "WHOLE"}
+2026-01-20 09:38:24,180 - ERROR - CaseID: 3327
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "RECHARGEABLE_CAP"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,190 - WARNING - CaseID: 3362 - 参数解析失败: Unterminated string starting at: line 1 column 26 (char 25), 原始数据: {"query":"后视镜打开操作","tag":"后视镜
+2026-01-20 09:38:24,190 - WARNING - CaseID: 3362 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 打开
+2026-01-20 09:38:24,190 - WARNING - CaseID: 3362 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 操作","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,190 - WARNING - CaseID: 3362 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,190 - ERROR - CaseID: 3362
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,210 - WARNING - CaseID: 3431 - 参数解析失败: Unterminated string starting at: line 1 column 26 (char 25), 原始数据: {"query":"后视镜关闭操作","tag":"后视镜
+2026-01-20 09:38:24,210 - WARNING - CaseID: 3431 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,210 - WARNING - CaseID: 3431 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,210 - ERROR - CaseID: 3431
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,212 - ERROR - CaseID: 3437
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REARVIEW_MIRROR"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,860 - WARNING - CaseID: 3559 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"后视镜加热功能关闭操作","tag":"后视镜加热功能
+2026-01-20 09:38:24,860 - WARNING - CaseID: 3559 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,860 - WARNING - CaseID: 3559 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,860 - ERROR - CaseID: 3559
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,875 - WARNING - CaseID: 3609 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"执行后视镜加热关闭操作","tag":"后视镜加热
+2026-01-20 09:38:24,875 - WARNING - CaseID: 3609 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:24,875 - WARNING - CaseID: 3609 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:24,875 - ERROR - CaseID: 3609
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:24,898 - ERROR - CaseID: 3686
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE", "position": "REAR"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE"}
+2026-01-20 09:38:24,908 - ERROR - CaseID: 3716
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE", "position": "FRONT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SUNSHADE", "position": "FRONT"}
+2026-01-20 09:38:24,909 - ERROR - CaseID: 3720
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE", "position": "WHOLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE"}
+2026-01-20 09:38:24,951 - ERROR - CaseID: 3853
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,955 - ERROR - CaseID: 3864
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "AUTHORIZATION_DRIVING"}
+2026-01-20 09:38:24,955 - ERROR - CaseID: 3866
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,957 - ERROR - CaseID: 3873
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,958 - ERROR - CaseID: 3875
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,970 - ERROR - CaseID: 3914
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+2026-01-20 09:38:24,972 - ERROR - CaseID: 3923
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "HOLDING_POWER_WHEN_LEAVING"}
+2026-01-20 09:38:24,995 - ERROR - CaseID: 4000
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAMPING_MODE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-20 09:38:24,995 - INFO - 已处理 4000 行数据
+2026-01-20 09:38:25,647 - ERROR - CaseID: 4123
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:25,687 - ERROR - CaseID: 4264
+实际结果缺少以下预期项：
+  名称: global_control, 参数: {"action": "cancel"}
+实际结果多出以下非预期项：
+  名称: global_control, 参数: {"action": "confirm"}
+2026-01-20 09:38:25,716 - ERROR - CaseID: 4366
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:25,719 - ERROR - CaseID: 4374
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:26,345 - ERROR - CaseID: 4525
+实际结果缺少以下预期项：
+  名称: global_control, 参数: {"action": "cancel"}
+实际结果多出以下非预期项：
+  名称: global_control, 参数: {"action": "confirm"}
+2026-01-20 09:38:26,353 - ERROR - CaseID: 4552
+实际结果缺少以下预期项：
+  名称: global_control, 参数: {"action": "cancel"}
+实际结果多出以下非预期项：
+  名称: global_control, 参数: {"action": "confirm"}
+2026-01-20 09:38:26,455 - ERROR - CaseID: 4898
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SLIDING_DOOR", "position": "RIGHT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "RIGHT"}
+2026-01-20 09:38:26,461 - ERROR - CaseID: 4915
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SLIDING_DOOR", "position": "LEFT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "LEFT"}
+2026-01-20 09:38:26,462 - ERROR - CaseID: 4918
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SLIDING_DOOR", "position": "LEFT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "LEFT"}
+2026-01-20 09:38:26,464 - ERROR - CaseID: 4927
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SLIDING_DOOR", "position": "LEFT"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "LEFT"}
+2026-01-20 09:38:26,466 - ERROR - CaseID: 4933
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SLIDING_DOOR", "position": "BOTH_SIDES"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-01-20 09:38:26,466 - ERROR - CaseID: 4934
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SLIDING_DOOR", "position": "BOTH_SIDES"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-01-20 09:38:26,486 - INFO - 已处理 5000 行数据
+2026-01-20 09:38:27,104 - ERROR - CaseID: 5086
+实际结果缺少以下预期项：
+  名称: global_control, 参数: {"action": "cancel"}
+实际结果多出以下非预期项：
+  名称: global_control, 参数: {"action": "confirm"}
+2026-01-20 09:38:27,138 - ERROR - CaseID: 5181
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:27,144 - ERROR - CaseID: 5199
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:27,150 - ERROR - CaseID: 5223
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:27,159 - ERROR - CaseID: 5256
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:27,956 - ERROR - CaseID: 5606
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "+"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "+0.5\u7c73"}
+2026-01-20 09:38:27,957 - ERROR - CaseID: 5607
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-0.5\u7c73"}
+2026-01-20 09:38:27,970 - ERROR - CaseID: 5648
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "+2\u7c73"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "+"}
+2026-01-20 09:38:27,971 - ERROR - CaseID: 5649
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-2\u7c73"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-"}
+2026-01-20 09:38:27,979 - WARNING - CaseID: 5671 - 参数解析失败: Unterminated string starting at: line 1 column 34 (char 33), 原始数据: {"query":"介绍手机APP启动直线召唤后移","tag":"手机app
+2026-01-20 09:38:27,979 - WARNING - CaseID: 5671 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 启动
+2026-01-20 09:38:27,979 - WARNING - CaseID: 5671 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 直线召唤
+2026-01-20 09:38:27,979 - WARNING - CaseID: 5671 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 后移","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:27,979 - WARNING - CaseID: 5671 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:27,979 - ERROR - CaseID: 5671
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:27,982 - ERROR - CaseID: 5679
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "+1\u7c73"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "+"}
+2026-01-20 09:38:27,982 - ERROR - CaseID: 5680
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-1\u7c73"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-"}
+2026-01-20 09:38:27,983 - ERROR - CaseID: 5682
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "STRAIGHTLINE_VLA", "range": "-"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "STRAIGHTLINE_VLA"}
+2026-01-20 09:38:28,001 - ERROR - CaseID: 5745
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN", "function_option": "SPARK_PLUG"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN", "poi": "\u94c2\u91d1\u70b9"}
+2026-01-20 09:38:28,009 - ERROR - CaseID: 5772
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN", "function_option": "SPARK_PLUG"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,010 - ERROR - CaseID: 5774
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN", "function_option": "SPARK_PLUG"}
+实际结果多出以下非预期项：
+  名称: note_retrieve, 参数: {"query": "\u4e0b\u4e00\u6b21\u5bb6\u7528\u6c7d\u8f66\u6253\u706b\u5668\u4fdd\u517b\u4ec0\u4e48\u65f6\u95f4"}
+2026-01-20 09:38:28,094 - INFO - 已处理 6000 行数据
+2026-01-20 09:38:28,652 - ERROR - CaseID: 6122
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u672c\u6708\u6700\u540e\u4e00\u5929\u4e0a\u53488\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "0800", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER", "poi": "\u5927\u540c\u5e97"}
+2026-01-20 09:38:28,652 - ERROR - CaseID: 6123
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u672c\u6708\u6700\u540e\u4e00\u5929\u4e0b\u53484\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "2025\u5e7412\u670831\u65e5\u4e0b\u53484\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,656 - ERROR - CaseID: 6136
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67082\u65e5\u4e0a\u53489\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67082\u65e5\u4e0a\u53489\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,657 - ERROR - CaseID: 6137
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67082\u65e5\u4e0b\u53484\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67082\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,657 - ERROR - CaseID: 6138
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67087\u65e5\u4e0a\u534810\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67087\u65e5\u4e0a\u534810\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,657 - ERROR - CaseID: 6139
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67087\u65e5\u4e0b\u53483\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u67087\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,658 - ERROR - CaseID: 6140
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670814\u65e5\u4e0a\u53488\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670814\u65e5\u4e0a\u53488\u70b9\u534a", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,658 - ERROR - CaseID: 6141
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670814\u65e5\u4e0b\u53482\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "1400", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,659 - ERROR - CaseID: 6142
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670821\u65e5\u4e0a\u53489\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670821\u65e5\u4e0a\u53489\u70b9\u534a", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,659 - ERROR - CaseID: 6143
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670821\u65e5\u4e0b\u53484\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670821\u65e54\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,659 - ERROR - CaseID: 6144
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670828\u65e5\u4e0a\u534811\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670828\u65e5\u4e0a\u534811\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,660 - ERROR - CaseID: 6145
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "10\u670828\u65e5\u4e0b\u53483\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u4e0b\u53483\u70b9\u534a", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,660 - ERROR - CaseID: 6146
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u67084\u65e5\u4e0a\u53488\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u4e0a\u53488\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER", "poi": "\u9ad8\u901f\u670d\u52a1\u533a"}
+2026-01-20 09:38:28,661 - ERROR - CaseID: 6147
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u67084\u65e5\u4e0b\u53482\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "1400", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,661 - ERROR - CaseID: 6148
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670811\u65e5\u4e0a\u53489\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670811\u65e5\u4e0a\u53489\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,662 - ERROR - CaseID: 6149
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670811\u65e5\u4e0b\u53485\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670811\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,662 - ERROR - CaseID: 6150
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670818\u65e5\u4e0a\u534810\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670818\u65e5\u4e0a\u534810\u70b9\u534a", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,662 - ERROR - CaseID: 6151
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670818\u65e5\u4e0b\u53483\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670818\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,663 - ERROR - CaseID: 6152
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670825\u65e5\u4e0a\u53488\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u4e0a\u53488\u70b9\u534a", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER", "poi": "\u95e8\u5e97"}
+2026-01-20 09:38:28,663 - ERROR - CaseID: 6153
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670825\u65e5\u4e0b\u53484\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "11\u670825\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,664 - ERROR - CaseID: 6155
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u67082\u65e5\u4e0b\u53482\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "1200-1500", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,664 - ERROR - CaseID: 6156
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u67089\u65e5\u4e0a\u534811\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u67089\u65e5\u4e0a\u534811\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,665 - ERROR - CaseID: 6157
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u67089\u65e5\u4e0b\u53483\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u4e0b\u53483\u70b9\u534a", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,665 - ERROR - CaseID: 6158
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670816\u65e5\u4e0a\u53488\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "\u4e0a\u53488\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER", "poi": "\u95e8\u5e97"}
+2026-01-20 09:38:28,666 - ERROR - CaseID: 6159
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670816\u65e5\u4e0b\u53484\u70b9\u534a", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670816\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:28,666 - ERROR - CaseID: 6160
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670823\u65e5\u4e0a\u534810\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670823\u65e5\u4e0a\u534810\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,666 - ERROR - CaseID: 6161
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670823\u65e5\u4e0b\u53482\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670823\u65e52\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,667 - ERROR - CaseID: 6162
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670830\u65e5\u4e0a\u53489\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670830\u65e5\u4e0a\u53489\u70b9", "entity": "CAR_MAINTAIN", "function_option": "RANGE_EXTENDER"}
+2026-01-20 09:38:28,667 - ERROR - CaseID: 6163
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670830\u65e5\u4e0b\u53485\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "appointment_time": "12\u670830\u65e5", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:29,510 - ERROR - CaseID: 6599
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "update", "entity": "ACCOUNT_INFO", "function_option": "NICK_NAME"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "NICK_NAME"}
+2026-01-20 09:38:29,518 - ERROR - CaseID: 6626
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:29,518 - ERROR - CaseID: 6627
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:29,519 - ERROR - CaseID: 6631
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:29,520 - ERROR - CaseID: 6633
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:29,520 - ERROR - CaseID: 6634
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+实际结果多出以下非预期项：
+  名称: note_retrieve, 参数: {"query": "\u6211\u7684\u8f66\u5b50\u767b\u8bb0\u8f66\u724c\u53f7\u662f\u4ec0\u4e48"}
+2026-01-20 09:38:29,521 - ERROR - CaseID: 6636
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+实际结果多出以下非预期项：
+  名称: note_retrieve, 参数: {"query": "\u6211\u7684\u8f66\u8f86\u8f66\u724c\u53f7"}
+2026-01-20 09:38:29,529 - ERROR - CaseID: 6662
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "VIN"}
+实际结果多出以下非预期项：
+  名称: note_retrieve, 参数: {"query": "\u6211\u7684\u8f66\u8f86\u8f66\u67b6\u53f7"}
+2026-01-20 09:38:29,536 - WARNING - CaseID: 6687 - 参数解析失败: Unterminated string starting at: line 1 column 32 (char 31), 原始数据: {"query":"当前整车软件版本是否为最新","tag":"当前
+2026-01-20 09:38:29,536 - WARNING - CaseID: 6687 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 整车软件版本
+2026-01-20 09:38:29,536 - WARNING - CaseID: 6687 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 最新","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:29,536 - WARNING - CaseID: 6687 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:29,536 - ERROR - CaseID: 6687
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:29,553 - ERROR - CaseID: 6741
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "book", "entity": "OTA"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "OTA"}
+2026-01-20 09:38:29,555 - ERROR - CaseID: 6750
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "book", "entity": "OTA"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "OTA"}
+2026-01-20 09:38:29,585 - ERROR - CaseID: 6850
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "appointment_time": "8\u70b9", "entity": "SEAT", "function_option": "TEMPERATURE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "book", "appointment_time": "8\u70b9", "entity": "SEAT", "function_option": "TEMPERATURE"}
+2026-01-20 09:38:29,649 - INFO - 已处理 7000 行数据
+2026-01-20 09:38:30,283 - ERROR - CaseID: 7220
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,055 - ERROR - CaseID: 7609
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "book", "appointment_time": "\u660e\u59298\u70b9", "entity": "CAR_MAINTAIN"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "book", "appointment_time": "\u660e\u59298\u70b9", "entity": "REFRIGERATOR"}
+2026-01-20 09:38:31,057 - ERROR - CaseID: 7613
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "book", "appointment_time": "\u660e\u59298\u70b9", "entity": "REFRIGERATOR"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "appointment_time": "\u660e\u59298\u70b9", "entity": "REFRIGERATOR", "range": "5\u5ea6"}
+2026-01-20 09:38:31,074 - ERROR - CaseID: 7672
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,092 - ERROR - CaseID: 7732
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "DEPART_ON_TIME"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "DEPART_ON_TIME"}
+2026-01-20 09:38:31,111 - WARNING - CaseID: 7795 - 参数解析失败: Unterminated string starting at: line 1 column 28 (char 27), 原始数据: {"query":"诊断前碰撞预警系统","tag":"前碰撞预警系统
+2026-01-20 09:38:31,111 - WARNING - CaseID: 7795 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 诊断","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:31,111 - WARNING - CaseID: 7795 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:31,111 - ERROR - CaseID: 7795
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,189 - INFO - 已处理 8000 行数据
+2026-01-20 09:38:31,760 - ERROR - CaseID: 8086
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,791 - ERROR - CaseID: 8194
+结果数量不匹配: 预期1个，实际2个
+2026-01-20 09:38:31,808 - ERROR - CaseID: 8249
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,816 - ERROR - CaseID: 8276
+结果数量不匹配: 预期1个，实际2个
+2026-01-20 09:38:31,817 - ERROR - CaseID: 8280
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,880 - ERROR - CaseID: 8500
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,885 - ERROR - CaseID: 8516
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REFRIGERATOR", "function_option": "TEMPERATURE"}
+2026-01-20 09:38:31,885 - ERROR - CaseID: 8517
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REFRIGERATOR", "function_option": "TEMPERATURE"}
+2026-01-20 09:38:31,886 - ERROR - CaseID: 8520
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,887 - ERROR - CaseID: 8521
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: mediasearch, 参数: {"category": "\u65e9\u95f4", "mediatype": "\u65b0\u95fb", "query": "\u64ad\u653e\u65e9\u95f4\u65b0\u95fb", "starttime": "{\"norm\":{\"daytime\":\"\u65e9\u6668\"},\"raw\":\"\u65e9\u95f4\"}"}
+2026-01-20 09:38:31,891 - ERROR - CaseID: 8535
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:31,891 - ERROR - CaseID: 8536
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,101 - INFO - 已处理 9000 行数据
+2026-01-20 09:38:33,853 - WARNING - CaseID: 9179 - 参数解析失败: Unterminated string starting at: line 1 column 23 (char 22), 原始数据: {"query":"轮胎温度","tag":"轮胎
+2026-01-20 09:38:33,853 - WARNING - CaseID: 9179 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 温度","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:33,853 - WARNING - CaseID: 9179 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:33,853 - ERROR - CaseID: 9179
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,854 - ERROR - CaseID: 9183
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,863 - ERROR - CaseID: 9212
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,863 - ERROR - CaseID: 9215
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,864 - ERROR - CaseID: 9217
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,871 - ERROR - CaseID: 9240
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: volume_control, 参数: {"action": "adjust", "range": "MIN", "type": "NOTIFICATION"}
+2026-01-20 09:38:33,876 - ERROR - CaseID: 9258
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: phone_call, 参数: {"action": "call", "contacts": "\u5f00\u5173\u95ed\u84dd\u7259"}
+2026-01-20 09:38:33,927 - ERROR - CaseID: 9434
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,931 - ERROR - CaseID: 9448
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,938 - ERROR - CaseID: 9475
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,941 - ERROR - CaseID: 9485
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,947 - ERROR - CaseID: 9505
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,949 - ERROR - CaseID: 9511
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:33,964 - ERROR - CaseID: 9562
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,482 - ERROR - CaseID: 9565
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,484 - ERROR - CaseID: 9572
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,486 - ERROR - CaseID: 9576
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,488 - ERROR - CaseID: 9583
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: mediasearch, 参数: {"mediatype": "\u65b0\u95fb", "query": "\u64ad\u4e00\u4e0b\u65b0\u95fb"}
+2026-01-20 09:38:34,489 - WARNING - CaseID: 9585 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"普洱市附近有什么好吃的","tag":"普洱市
+2026-01-20 09:38:34,489 - WARNING - CaseID: 9585 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 附近
+2026-01-20 09:38:34,489 - WARNING - CaseID: 9585 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 特色美食","category":"出游美食"}
+2026-01-20 09:38:34,489 - WARNING - CaseID: 9585 - name和args数量不匹配（name:2个, args:1个），跳过该组对比
+2026-01-20 09:38:34,489 - ERROR - CaseID: 9585
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,499 - ERROR - CaseID: 9618
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,503 - WARNING - CaseID: 9632 - 参数解析失败: Unterminated string starting at: line 1 column 33 (char 32), 原始数据: {"query":"最近的服务区叫什么距离有多远","tag":"服务区
+2026-01-20 09:38:34,503 - WARNING - CaseID: 9632 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 名称
+2026-01-20 09:38:34,504 - WARNING - CaseID: 9632 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 距离","category":"产品知识"}
+2026-01-20 09:38:34,504 - WARNING - CaseID: 9632 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:34,504 - ERROR - CaseID: 9632
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,505 - ERROR - CaseID: 9635
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,529 - ERROR - CaseID: 9716
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,529 - ERROR - CaseID: 9717
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,531 - ERROR - CaseID: 9725
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: light_control, 参数: {"action": "adjust", "entity": "BRIGHTNESS", "mode": "AUTO"}
+2026-01-20 09:38:34,548 - ERROR - CaseID: 9785
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,552 - ERROR - CaseID: 9798
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: global_control, 参数: {"action": "quit"}
+2026-01-20 09:38:34,553 - ERROR - CaseID: 9799
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,556 - ERROR - CaseID: 9811
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,557 - ERROR - CaseID: 9814
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,563 - WARNING - CaseID: 9835 - 参数解析失败: Unterminated string starting at: line 1 column 27 (char 26), 原始数据: {"query":"如何配对蓝牙音箱","tag":"蓝牙音箱
+2026-01-20 09:38:34,563 - WARNING - CaseID: 9835 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 配对","category":"功能使用"}
+2026-01-20 09:38:34,563 - WARNING - CaseID: 9835 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:34,563 - ERROR - CaseID: 9835
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,572 - ERROR - CaseID: 9864
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: volume_control, 参数: {"action": "adjust", "range": "-"}
+2026-01-20 09:38:34,589 - ERROR - CaseID: 9924
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,605 - ERROR - CaseID: 9979
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,605 - ERROR - CaseID: 9980
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,607 - ERROR - CaseID: 9986
+结果数量不匹配: 预期1个，实际2个
+2026-01-20 09:38:34,609 - ERROR - CaseID: 9993
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,614 - ERROR - CaseID: 10009
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,617 - ERROR - CaseID: 10019
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: volume_control, 参数: {"action": "adjust", "range": "MIDDLE"}
+2026-01-20 09:38:34,620 - ERROR - CaseID: 10032
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,626 - ERROR - CaseID: 10050
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:34,630 - INFO - 已处理 10000 行数据
+2026-01-20 09:38:35,248 - ERROR - CaseID: 10069
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,252 - ERROR - CaseID: 10079
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,253 - ERROR - CaseID: 10083
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,258 - ERROR - CaseID: 10099
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,261 - ERROR - CaseID: 10109
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,262 - WARNING - CaseID: 10113 - 参数解析失败: Unterminated string starting at: line 1 column 29 (char 28), 原始数据: {"query":"如何关闭看我回家功能","tag":"看我回家
+2026-01-20 09:38:35,262 - WARNING - CaseID: 10113 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,262 - WARNING - CaseID: 10113 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,262 - ERROR - CaseID: 10113
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,263 - ERROR - CaseID: 10116
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,264 - ERROR - CaseID: 10119
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: skill_search, 参数: {"query": "\u4f60\u80fd\u5426\u5e2e\u6211\u8bbe\u7f6e\u4e00\u4e0b\u8d26\u53f7"}
+2026-01-20 09:38:35,266 - ERROR - CaseID: 10124
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,270 - ERROR - CaseID: 10140
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,272 - ERROR - CaseID: 10144
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,273 - WARNING - CaseID: 10147 - 参数解析失败: Unterminated string starting at: line 1 column 28 (char 27), 原始数据: {"query":"如何关闭数字后视镜","tag":"数字后视镜
+2026-01-20 09:38:35,273 - WARNING - CaseID: 10147 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,273 - WARNING - CaseID: 10147 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,273 - ERROR - CaseID: 10147
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,277 - WARNING - CaseID: 10162 - 参数解析失败: Unterminated string starting at: line 1 column 29 (char 28), 原始数据: {"query":"如何关闭偏离路线提示","tag":"偏离路线提示
+2026-01-20 09:38:35,277 - WARNING - CaseID: 10162 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,277 - WARNING - CaseID: 10162 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,277 - ERROR - CaseID: 10162
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,278 - ERROR - CaseID: 10165
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,284 - ERROR - CaseID: 10185
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,288 - ERROR - CaseID: 10200
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,294 - ERROR - CaseID: 10219
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,297 - ERROR - CaseID: 10229
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "FUEL_TANK_CAP"}
+2026-01-20 09:38:35,297 - ERROR - CaseID: 10230
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,299 - ERROR - CaseID: 10234
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,300 - ERROR - CaseID: 10240
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,305 - ERROR - CaseID: 10255
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,309 - ERROR - CaseID: 10270
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,317 - ERROR - CaseID: 10299
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,318 - WARNING - CaseID: 10300 - 参数解析失败: Unterminated string starting at: line 1 column 27 (char 26), 原始数据: {"query":"如何调节躺椅角度","tag":"躺椅角度
+2026-01-20 09:38:35,318 - WARNING - CaseID: 10300 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 调节方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,318 - WARNING - CaseID: 10300 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,318 - ERROR - CaseID: 10300
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,323 - WARNING - CaseID: 10317 - 参数解析失败: Unterminated string starting at: line 1 column 31 (char 30), 原始数据: {"query":"如何关闭手势语音融合功能","tag":"手势语音融合功能
+2026-01-20 09:38:35,323 - WARNING - CaseID: 10317 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"功能使用"}
+2026-01-20 09:38:35,323 - WARNING - CaseID: 10317 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,323 - ERROR - CaseID: 10317
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,326 - ERROR - CaseID: 10326
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,327 - ERROR - CaseID: 10331
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,335 - ERROR - CaseID: 10359
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: skill_search, 参数: {"query": "\u4f60\u662f\u5426\u53ef\u4ee5\u5e2e\u6211\u8bbe\u7f6e\u9b54\u6bef\u5ea7\u6905"}
+2026-01-20 09:38:35,345 - ERROR - CaseID: 10395
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,347 - ERROR - CaseID: 10400
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,352 - ERROR - CaseID: 10416
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,352 - ERROR - CaseID: 10417
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,353 - ERROR - CaseID: 10420
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,354 - ERROR - CaseID: 10423
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: autosearch, 参数: {"category": "\u6c7d\u8f66", "device": "vehicle", "query": "\u5982\u4f55\u5173\u95ed\u8f6c\u5f2f\u706f", "tag": "\u5982\u4f55\u5173\u95ed\u8f6c\u5f2f\u706f"}
+2026-01-20 09:38:35,355 - ERROR - CaseID: 10429
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: autosearch, 参数: {"category": "\u6c7d\u8f66", "device": "vehicle", "query": "\u5982\u4f55\u8bbe\u7f6e\u96e8\u522e\u5668\u81ea\u52a8\u6a21\u5f0f", "tag": "\u5982\u4f55\u8bbe\u7f6e\u96e8\u522e\u5668\u81ea\u52a8\u6a21\u5f0f"}
+2026-01-20 09:38:35,356 - ERROR - CaseID: 10430
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,357 - ERROR - CaseID: 10435
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,364 - ERROR - CaseID: 10457
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "WINDOW"}
+2026-01-20 09:38:35,365 - WARNING - CaseID: 10461 - 参数解析失败: Unterminated string starting at: line 1 column 29 (char 28), 原始数据: {"query":"如何关闭开门预警功能","tag":"开门预警功能
+2026-01-20 09:38:35,365 - WARNING - CaseID: 10461 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 关闭方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,365 - WARNING - CaseID: 10461 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,365 - ERROR - CaseID: 10461
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,365 - ERROR - CaseID: 10462
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,367 - ERROR - CaseID: 10467
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,369 - WARNING - CaseID: 10475 - 参数解析失败: Unterminated string starting at: line 1 column 29 (char 28), 原始数据: {"query":"电子后视镜的调节方法","tag":"电子后视镜
+2026-01-20 09:38:35,369 - WARNING - CaseID: 10475 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 调节方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,369 - WARNING - CaseID: 10475 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,369 - ERROR - CaseID: 10475
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,370 - ERROR - CaseID: 10479
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: skill_search, 参数: {"query": "\u4f60\u662f\u5426\u53ef\u4ee5\u5e2e\u6211\u5173\u6389\u7cfb\u7edf\u66f4\u65b0"}
+2026-01-20 09:38:35,372 - ERROR - CaseID: 10485
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN"}
+2026-01-20 09:38:35,373 - WARNING - CaseID: 10486 - 参数解析失败: Unterminated string starting at: line 1 column 27 (char 26), 原始数据: {"query":"如何设置保养提醒","tag":"保养提醒
+2026-01-20 09:38:35,373 - WARNING - CaseID: 10486 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 设置方法","category":"汽车","device":"vehicle"}
+2026-01-20 09:38:35,373 - WARNING - CaseID: 10486 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:35,373 - ERROR - CaseID: 10486
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,373 - ERROR - CaseID: 10487
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,378 - ERROR - CaseID: 10504
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,387 - ERROR - CaseID: 10535
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,393 - ERROR - CaseID: 10557
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:35,395 - ERROR - CaseID: 10562
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:36,027 - ERROR - CaseID: 10567
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:36,031 - ERROR - CaseID: 10577
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: skill_search, 参数: {"query": "\u4f60\u662f\u5426\u53ef\u4ee5\u5e2e\u6211\u91cd\u7f6e\u8f66\u8f86\u7684\u6240\u6709\u8bbe\u7f6e"}
+2026-01-20 09:38:36,033 - ERROR - CaseID: 10582
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:36,038 - ERROR - CaseID: 10600
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+实际结果多出以下非预期项：
+  名称: volume_control, 参数: {"action": "adjust", "range": "-"}
+2026-01-20 09:38:36,042 - ERROR - CaseID: 10612
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:36,043 - ERROR - CaseID: 10616
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:36,048 - WARNING - CaseID: 10632 - 参数解析失败: Unterminated string starting at: line 1 column 27 (char 26), 原始数据: {"query":"如何关闭操作系统","tag":"关闭
+2026-01-20 09:38:36,048 - WARNING - CaseID: 10632 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 操作系统","category":"功能使用"}
+2026-01-20 09:38:36,048 - WARNING - CaseID: 10632 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-20 09:38:36,048 - ERROR - CaseID: 10632
+结果数量不匹配: 预期1个，实际0个
+2026-01-20 09:38:36,049 - INFO - 开始分片写入 10572 条结果，每片 2000 条
+2026-01-20 09:38:41,480 - INFO - 已写入第 1-2000 行结果
+2026-01-20 09:38:44,091 - INFO - 已写入第 2001-4000 行结果
+2026-01-20 09:38:45,137 - INFO - 已写入第 4001-6000 行结果
+2026-01-20 09:38:46,198 - INFO - 已写入第 6001-8000 行结果
+2026-01-20 09:38:47,265 - INFO - 已写入第 8001-10000 行结果
+2026-01-20 09:38:48,110 - INFO - 已写入第 10001-10572 行结果
+2026-01-20 09:38:48,613 - INFO - === 4o_vehicle_control 流程完成，耗时: 31.19秒 ===
