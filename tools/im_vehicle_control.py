@@ -229,7 +229,7 @@ def main():
 
     # 对比数据 - 核心修改3：彻底删除所有跳过逻辑，所有行全部执行对比+写入
     results_with_indices = []
-    for idx, row in enumerate(sheet.iterrows()):
+    for idx, row in sheet.iterrows():
         # 原有逻辑读取空单元格会初始化为空字符串
         # 这里我保持同样的逻辑
         for k, _ in row.items():
@@ -259,4 +259,6 @@ CASE_ID_COLUMN_NAME = "CaseID"
 # =========================================
 
 if __name__ == "__main__":
+    from dotenv import load_dotenv
+    load_dotenv()
     main()

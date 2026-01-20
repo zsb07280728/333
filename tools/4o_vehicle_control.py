@@ -260,7 +260,7 @@ def main():
 
     # 对比数据 - 核心修改3：彻底删除所有跳过逻辑，所有行全部执行对比+写入
     results_with_indices = []
-    for idx, row in enumerate(sheet.iterrows()):
+    for idx, row in sheet.iterrows():
         # 原有逻辑读取空单元格会初始化为空字符串
         # 这里我保持同样的逻辑
         for k, _ in row.items():
@@ -282,14 +282,16 @@ def main():
 
 
 # ================= 配置项 =================
-FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/A3ZIsbOdkhTKaxtdqvbcsOXfn8G?sheet=HWFW2B'  # 具体Sheet链接
+FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/A3ZIsbOdkhTKaxtdqvbcsOXfn8G?sheet=0e2e88'  # 具体Sheet链接
 EXPECTED_NAME_COLUMN = "name"  # 预期name列名
 EXPECTED_ARGS_COLUMN = "arguments"  # 预期arguments列名
 ACTUAL_RNAME_COLUMN = "rname"  # 实际rname列名
 ACTUAL_RARGS_COLUMN = "rarguments"  # 实际rarguments列名
-RESULT_COLUMN_NAME = "APIINFO测试结果12345"  # 结果写入列名
+RESULT_COLUMN_NAME = "APIINFO测试结果666555666555"  # 结果写入列名
 CASE_ID_COLUMN_NAME = "CaseID"  # CaseID列名
 # =========================================
 
 if __name__ == "__main__":
+    from dotenv import load_dotenv
+    load_dotenv()
     main()
