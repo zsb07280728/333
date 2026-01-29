@@ -1,0 +1,7 @@
+cat > .gitignore << 'EOF'
+.idea/
+vehicle_control_tools.egg-info/
+*.pyc
+__pycache__/
+.DS_Store
+EOF

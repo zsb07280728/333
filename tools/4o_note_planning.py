@@ -363,7 +363,7 @@ def main(feishu_doc_url: str = None):
             logger.info(f"已处理 {idx + 1} 行数据")
 
     # 分片写入结果
-    result_column = "APIINFO测试结果666"  # 4O链路结果列
+    result_column = "APIINFO测试结果322323"  # 4O链路结果列
     write_results_in_chunks(sheet, result_column, results_with_indices)
 
     # 统计结果

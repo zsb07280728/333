@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dda0d8-cf1d-412a-9c4f-b04d1091daed" name="Changes" comment="记事本和车控的规划代码">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INSTALL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/4o_vehicle_control.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/im_vehicle_control.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_control_tools.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_control_tools.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_control_tools.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_control_tools.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_control_tools.egg-info/top_level.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="e1dda0d8-cf1d-412a-9c4f-b04d1091daed" name="Changes" comment="记事本和车控的规划代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/plan_tools" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
@@ -66,7 +52,7 @@
       <recent name="$PROJECT_DIR$/tools/log" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4o_vehicle_control (1)">
+  <component name="RunManager" selected="Python.4o_note_planning">
     <configuration name="4o_note_planning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="vehicle_control_tools" />
       <option name="ENV_FILES" value="" />
@@ -184,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4o_vehicle_control (1)" />
         <item itemvalue="Python.4o_note_planning" />
+        <item itemvalue="Python.4o_vehicle_control (1)" />
         <item itemvalue="Python.im_vehicle_control (1)" />
         <item itemvalue="Python.4o_vehicle_control" />
         <item itemvalue="Python.im_vehicle_control" />
@@ -213,7 +199,7 @@
       <workItem from="1768872221917" duration="31338000" />
       <workItem from="1769563997842" duration="251000" />
       <workItem from="1769564267540" duration="648000" />
-      <workItem from="1769572685073" duration="9924000" />
+      <workItem from="1769572685073" duration="13095000" />
     </task>
     <task id="LOCAL-00001" summary="记事本和车控的规划代码">
       <option name="closed" value="true" />
@@ -261,10 +247,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/vehicle_control_tools$4o_note_planning.coverage" NAME="4o_note_planning Coverage Results" MODIFIED="1769650929860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan_tools/tools" />
+    <SUITE FILE_PATH="coverage/vehicle_control_tools$4o_note_planning.coverage" NAME="4o_note_planning Coverage Results" MODIFIED="1769655995240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan_tools/tools" />
     <SUITE FILE_PATH="coverage/vehicle_control_tools$im_vehicle.coverage" NAME="im_vehicle Coverage Results" MODIFIED="1768814872912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/vehicle_control_tools$im_vehicle_control__1_.coverage" NAME="im_vehicle_control (1) Coverage Results" MODIFIED="1769649929753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan_tools/tools" />
-    <SUITE FILE_PATH="coverage/vehicle_control_tools$4o_vehicle_control__1_.coverage" NAME="4o_vehicle_control (1) Coverage Results" MODIFIED="1769651324036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan_tools/tools" />
+    <SUITE FILE_PATH="coverage/vehicle_control_tools$4o_vehicle_control__1_.coverage" NAME="4o_vehicle_control (1) Coverage Results" MODIFIED="1769655357884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan_tools/tools" />
     <SUITE FILE_PATH="coverage/vehicle_control_tools$4o_vehicle_control.coverage" NAME="4o_vehicle_control Coverage Results" MODIFIED="1769493606381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/vehicle_control_tools$im_vehicle_control.coverage" NAME="im_vehicle_control Coverage Results" MODIFIED="1769165473625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/vehicle_control_tools$4o_vehicle.coverage" NAME="4o_vehicle_control Coverage Results" MODIFIED="1768819837993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
