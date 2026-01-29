@@ -3,5 +3,6 @@ cat > .gitignore << 'EOF'
 vehicle_control_tools.egg-info/
 *.pyc
 __pycache__/
-.DS_Store
+*.DS_Store
 EOF
+tools/log/note_planning_4o_log/
