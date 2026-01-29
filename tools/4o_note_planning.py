@@ -115,10 +115,19 @@ def call_llm(prompt: str) -> str:
             response = requests.post(LLM_CONFIG['url'], headers=headers, json=request_data, timeout=90)
             response.raise_for_status()
             return response.json()['choices'][0]['message']['content'].strip()
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 429:  # Too Many Requests
+                logger_instance = logging.getLogger(__name__)
+                logger_instance.error(
+                    f"API限流错误（{retries + 1}/{LLM_CONFIG['max_retries']}）：{str(e)}，等待更长时间重试...")
+                time.sleep(10)  # 429错误时等待更长时间
+                retries += 1
+            else:
+                raise e
         except Exception as e:
             logger_instance = logging.getLogger(__name__)
             logger_instance.error(f"4o模型调用异常（{retries + 1}/{LLM_CONFIG['max_retries']}）：{str(e)}")
-            time.sleep(3)
+            time.sleep(5)  # 增加等待时间
             retries += 1
     return ""
 
@@ -427,7 +436,7 @@ def main(feishu_doc_url: str = None):
             logger.info(f"已处理 {idx + 1} 行数据")
 
     # 分片写入结果和错误原因
-    result_column = "APIINFO测试结果88899998"  # 4O链路结果列
+    result_column = "APIINFO测试结果8889999"  # 4O链路结果列
     error_reason_column = "对比错误原因"  # 错误原因列
 
     write_results_in_chunks(sheet, result_column, results_with_indices)
