@@ -1,0 +1,289 @@
+2026-01-29 10:55:59,069 - INFO - === 4o_vehicle_control API对比工具启动 ===
+2026-01-29 10:56:02,190 - ERROR - CaseID: 12
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L8"}
+2026-01-29 10:56:02,191 - ERROR - CaseID: 16
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+2026-01-29 10:56:02,191 - ERROR - CaseID: 19
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,191 - ERROR - CaseID: 22
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+2026-01-29 10:56:02,191 - ERROR - CaseID: 25
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,192 - ERROR - CaseID: 29
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+2026-01-29 10:56:02,192 - ERROR - CaseID: 31
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,192 - ERROR - CaseID: 35
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,192 - ERROR - CaseID: 37
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,192 - ERROR - CaseID: 38
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,192 - ERROR - CaseID: 39
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,192 - ERROR - CaseID: 41
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,193 - ERROR - CaseID: 44
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,193 - ERROR - CaseID: 45
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,193 - ERROR - CaseID: 52
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,193 - ERROR - CaseID: 53
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,193 - ERROR - CaseID: 55
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,194 - ERROR - CaseID: 60
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,194 - ERROR - CaseID: 63
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,194 - ERROR - CaseID: 68
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,195 - ERROR - CaseID: 74
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,195 - ERROR - CaseID: 77
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L9"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L98"}
+2026-01-29 10:56:02,195 - ERROR - CaseID: 81
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,195 - ERROR - CaseID: 86
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,196 - ERROR - CaseID: 92
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L9 Pro"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L9"}
+2026-01-29 10:56:02,196 - ERROR - CaseID: 97
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,196 - ERROR - CaseID: 101
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L8"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L8"}
+2026-01-29 10:56:02,197 - ERROR - CaseID: 105
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,197 - ERROR - CaseID: 106
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,197 - ERROR - CaseID: 111
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L8 Pro"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L8"}
+2026-01-29 10:56:02,197 - ERROR - CaseID: 113
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,197 - ERROR - CaseID: 114
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L8 Max"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "LiDAR Max"}
+2026-01-29 10:56:02,197 - ERROR - CaseID: 117
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L8 Air"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-01-29 10:56:02,198 - ERROR - CaseID: 118
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L8 Air"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "Lair"}
+2026-01-29 10:56:02,198 - ERROR - CaseID: 119
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,198 - ERROR - CaseID: 129
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,198 - ERROR - CaseID: 131
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,198 - ERROR - CaseID: 133
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,198 - ERROR - CaseID: 134
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,199 - ERROR - CaseID: 137
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,199 - ERROR - CaseID: 141
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,199 - ERROR - CaseID: 148
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L6"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L6"}
+2026-01-29 10:56:02,199 - ERROR - CaseID: 150
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L6 Pro"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L6 Pro"}
+2026-01-29 10:56:02,200 - ERROR - CaseID: 155
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "L6 Max"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L6 Max"}
+2026-01-29 10:56:02,200 - ERROR - CaseID: 159
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "i8"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "i8"}
+2026-01-29 10:56:02,200 - ERROR - CaseID: 163
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "i6"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "i6"}
+2026-01-29 10:56:02,200 - ERROR - CaseID: 167
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,201 - ERROR - CaseID: 170
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "MEGA Home"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "MEGA Home"}
+2026-01-29 10:56:02,201 - ERROR - CaseID: 174
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,201 - ERROR - CaseID: 178
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,202 - ERROR - CaseID: 193
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,202 - ERROR - CaseID: 195
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Model YL"}
+2026-01-29 10:56:02,202 - ERROR - CaseID: 196
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,202 - ERROR - CaseID: 197
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Cybertruck"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Cyber Truck"}
+2026-01-29 10:56:02,202 - ERROR - CaseID: 199
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,203 - ERROR - CaseID: 213
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "ModelY"}
+2026-01-29 10:56:02,203 - ERROR - CaseID: 214
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model YL"}
+2026-01-29 10:56:02,203 - ERROR - CaseID: 215
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,203 - ERROR - CaseID: 216
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y L"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Model Y"}
+2026-01-29 10:56:02,204 - ERROR - CaseID: 222
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Cybertruck"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "tesla", "vehicle_model": "Cyber Truck"}
+2026-01-29 10:56:02,204 - ERROR - CaseID: 223
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Cybertruck"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Cyber truck"}
+2026-01-29 10:56:02,204 - ERROR - CaseID: 224
+预期name+arguments均为纯空白无任何内容，但是实际rname+rarguments有值，判定为错误
+2026-01-29 10:56:02,205 - ERROR - CaseID: 235
+结果数量不匹配: 预期1个，实际2个
+2026-01-29 10:56:02,205 - ERROR - CaseID: 239
+预期name+arguments均为纯空白无任何内容，但是实际rname+rarguments有值，判定为错误
+2026-01-29 10:56:02,205 - ERROR - CaseID: 240
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Cybertruck"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Cybertruck"}
+2026-01-29 10:56:02,205 - ERROR - CaseID: 241
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_model": "Cybertruck"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7279\u65af\u62c9", "vehicle_model": "Cyber truck"}
+2026-01-29 10:56:02,206 - ERROR - CaseID: 249
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L9 Pro"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "switch", "vehicle_brand": "\u7406\u60f3", "vehicle_model": "L9"}
+2026-01-29 10:56:02,208 - ERROR - CaseID: 299
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,208 - WARNING - CaseID: 301 - 参数解析失败: Unterminated string starting at: line 1 column 32 (char 31), 原始数据: {"query":"帮我看看语音控制对应的车辆","tag":"语音控制
+2026-01-29 10:56:02,208 - WARNING - CaseID: 301 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 车辆","category":"汽车","device":"vehicle"}
+2026-01-29 10:56:02,208 - WARNING - CaseID: 301 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-29 10:56:02,208 - ERROR - CaseID: 301
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,209 - ERROR - CaseID: 307
+预期name+arguments均为纯空白无任何内容，但是实际rname+rarguments有值，判定为错误
+2026-01-29 10:56:02,209 - ERROR - CaseID: 308
+预期name+arguments均为纯空白无任何内容，但是实际rname+rarguments有值，判定为错误
+2026-01-29 10:56:02,209 - ERROR - CaseID: 314
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,209 - WARNING - CaseID: 318 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"语音控车现在使用的车辆","tag":"语音控车
+2026-01-29 10:56:02,209 - WARNING - CaseID: 318 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 现在
+2026-01-29 10:56:02,209 - WARNING - CaseID: 318 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 车辆","category":"汽车","device":"vehicle"}
+2026-01-29 10:56:02,209 - WARNING - CaseID: 318 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-29 10:56:02,209 - ERROR - CaseID: 318
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,209 - ERROR - CaseID: 322
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+实际结果多出以下非预期项：
+  名称: note_retrieve, 参数: {"query": "\u6211\u7684\u8bed\u97f3\u8f66\u63a7\u73b0\u5728\u7528\u7684\u8f66\u662f\u5565\u6765\u7740"}
+2026-01-29 10:56:02,210 - WARNING - CaseID: 325 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"语音控制当前使用的车辆","tag":"语音控制
+2026-01-29 10:56:02,210 - WARNING - CaseID: 325 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 当前车辆","category":"汽车","device":"vehicle"}
+2026-01-29 10:56:02,210 - WARNING - CaseID: 325 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-29 10:56:02,210 - ERROR - CaseID: 325
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,210 - ERROR - CaseID: 329
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_LOCATION"}
+2026-01-29 10:56:02,210 - WARNING - CaseID: 331 - 参数解析失败: Unterminated string starting at: line 1 column 30 (char 29), 原始数据: {"query":"语音车控现在使用的车辆","tag":"语音车控
+2026-01-29 10:56:02,210 - WARNING - CaseID: 331 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 现在
+2026-01-29 10:56:02,210 - WARNING - CaseID: 331 - 参数解析失败: Expecting value: line 1 column 1 (char 0), 原始数据: 车辆","category":"汽车","device":"vehicle"}
+2026-01-29 10:56:02,210 - WARNING - CaseID: 331 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-01-29 10:56:02,210 - ERROR - CaseID: 331
+结果数量不匹配: 预期1个，实际0个
+2026-01-29 10:56:02,210 - INFO - 开始分片写入 331 条结果，每片 2000 条
+2026-01-29 10:56:02,626 - INFO - 已写入第 1-331 行结果
+2026-01-29 10:56:03,131 - INFO - === 4o_vehicle_control 流程完成，耗时: 4.06秒 ===
