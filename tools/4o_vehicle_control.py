@@ -59,6 +59,28 @@ def deep_sort_dict(d):
         return d
 
 
+def is_vehicle_brand_model_match(vehicle_brand, vehicle_model):
+    """判断车辆品牌和车系是否匹配"""
+    # 定义品牌和车系的对应关系（使用Unicode字符以匹配JSON解析结果）
+    brand_models = {
+        "\u7406\u60f3": [  # "理想"
+            "one", "MEGA", "MEGA Home", "MEGA Ultra", "L9", "L9 Ultra", "L9 Pro", "L9 Max",
+            "L8", "L8 Ultra", "L8 Pro", "L8 Max", "L8 Air", "L7", "L7 Ultra", "L7 Pro",
+            "L7 Max", "L7 Air", "L6", "L6 Pro", "L6 Max", "i8", "i6"
+        ],
+        "\u7279\u65af\u62c9": [  # "特斯拉"
+            "Model 3", "Model Y", "Model Y L", "Model S", "Model X", "Cybertruck"
+        ]
+    }
+
+    # 检查品牌是否存在
+    if vehicle_brand not in brand_models:
+        return False
+
+    # 检查车系是否属于该品牌
+    return vehicle_model.lower() in [model.lower() for model in brand_models[vehicle_brand]]
+
+
 def parse_arguments(raw_str, case_id="???"):
     if not raw_str:
         return {}
@@ -79,18 +101,53 @@ def compare_dicts(expected, actual, case_id):
     expected_keys = set(expected.keys())
     actual_keys = set(actual.keys())
 
+    # 正确逻辑：expected是标准答案（arguments），actual是模型输出（rarguments）
+    # 检查是否为特殊情况：标准答案只有vehicle_model，模型输出额外提供了vehicle_brand且匹配
+    is_special_case = (
+            'action' in expected and expected['action'] == 'switch' and
+            'vehicle_model' in expected and
+            'vehicle_brand' not in expected and  # 标准答案没有vehicle_brand
+            'vehicle_brand' in actual and  # 模型输出有vehicle_brand
+            'vehicle_model' in actual
+    )
+
+    if is_special_case:
+        # 检查模型补充的品牌是否与车系匹配
+        if is_vehicle_brand_model_match(actual['vehicle_brand'], expected['vehicle_model']):
+            # 模型正确补充了品牌字段 → 从actual中临时移除vehicle_brand进行后续比较
+            actual_for_comparison = {k: v for k, v in actual.items() if k != 'vehicle_brand'}
+            # 用移除brand后的actual与expected比较
+            actual_keys = set(actual_for_comparison.keys())
+        else:
+            errors.append(
+                f"模型补充的品牌与车系不匹配: 标准车系='{expected['vehicle_model']}', 模型品牌='{actual['vehicle_brand']}'")
+            return errors  # 立即返回错误
+    else:
+        # 非特殊情况，直接使用原始actual
+        actual_for_comparison = actual
+
+    # 检查缺少的字段（模型输出比标准答案少字段）
     missing_keys = expected_keys - actual_keys
     if missing_keys:
         errors.append(f"缺少预期字段: {', '.join(missing_keys)}")
 
+    # 检查额外的字段（模型输出比标准答案多字段）
     extra_keys = actual_keys - expected_keys
     if extra_keys:
-        errors.append(f"存在额外字段: {', '.join(extra_keys)}")
+        # 特殊处理：如果不是特殊情况且额外字段包含vehicle_brand，则报错
+        if not is_special_case and 'vehicle_brand' in extra_keys:
+            errors.append(f"存在额外字段: vehicle_brand")
+        else:
+            # 其他额外字段直接报错
+            extra_non_brand = extra_keys - {'vehicle_brand'}
+            if extra_non_brand:
+                errors.append(f"存在额外字段: {', '.join(extra_non_brand)}")
 
+    # 比较公共字段的值
     common_keys = expected_keys & actual_keys
     for key in common_keys:
         expected_val = expected[key]
-        actual_val = actual[key]
+        actual_val = actual_for_comparison[key]  # 使用处理后的actual
 
         if isinstance(expected_val, dict) and isinstance(actual_val, dict):
             sub_errors = compare_dicts(expected_val, actual_val, case_id)
@@ -167,6 +224,29 @@ def parse_multi_results(name_str, args_str, case_id):
 
 def result_to_key(result):
     """将结果转换为可哈希的键（用于无序集合对比）"""
+    # 特殊处理：车辆控制相关的数据，只允许特定情况下的vehicle_brand字段
+    args = result["args"]
+
+    # 如果是车辆控制相关数据
+    if ('action' in args and args['action'] == 'switch' and
+            'vehicle_model' in args):
+
+        # 关键修正：只有当标准答案（预期）没有vehicle_brand，而实际结果有vehicle_brand且匹配时，才忽略vehicle_brand
+        # 但在result_to_key函数中我们无法直接知道这是预期还是实际，所以需要在调用处处理
+        # 因此，这里保持原有逻辑，但依赖compare_multi_api_fields中的逻辑来确保正确性
+
+        # 检查是否有vehicle_brand字段
+        if 'vehicle_brand' in args:
+            # 验证vehicle_brand是否与vehicle_model匹配
+            if is_vehicle_brand_model_match(args['vehicle_brand'], args['vehicle_model']):
+                # 创建键时忽略vehicle_brand字段（仅用于特殊情况）
+                args_for_key = {k: v for k, v in args.items() if k != 'vehicle_brand'}
+                return (
+                    result["name"].lower(),
+                    json.dumps(args_for_key, sort_keys=True)
+                )
+
+    # 默认行为
     return (
         result["name"].lower(),  # name不区分大小写
         json.dumps(result["args"], sort_keys=True)  # args无序对比（排序后序列化）
@@ -227,6 +307,28 @@ def compare_multi_api_fields(expected_name_str, expected_args_str, actual_rname_
         logger.error("\n".join(error_details))
         return "FAILED"
 
+    # 6. 额外验证：对每个匹配的函数对进行详细字段比较
+    # 如果数量匹配且集合匹配，但仍需确保字段级正确
+    if len(expected_results) == len(actual_results) and expected_keys == actual_keys:
+        for i in range(len(expected_results)):
+            expected_func = expected_results[i]
+            actual_func = actual_results[i]
+            # 检查是否为车辆控制相关函数
+            if ('action' in expected_func["args"] and
+                    expected_func["args"]["action"] == 'switch' and
+                    'vehicle_model' in expected_func["args"]):
+
+                # 详细比较字段
+                field_errors = compare_dicts(expected_func["args"], actual_func["args"], case_id)
+                if field_errors:
+                    error_details.extend([f"字段级比较错误: {e}" for e in field_errors])
+                    is_passed = False
+                    break
+
+    if not is_passed:
+        logger.error("\n".join(error_details))
+        return "FAILED"
+
     return "PASS"
 
 
@@ -282,7 +384,7 @@ def main():
 
 
 # ================= 配置项 =================
-FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/A3ZIsbOdkhTKaxtdqvbcsOXfn8G'  # 具体Sheet链接
+FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/BiJTsozjFhTURAts5DecfaMLnQg?sheet=8qjVBv'  # 具体Sheet链接
 EXPECTED_NAME_COLUMN = "name"  # 预期name列名
 EXPECTED_ARGS_COLUMN = "arguments"  # 预期arguments列名
 ACTUAL_RNAME_COLUMN = "rname"  # 实际rname列名
@@ -293,5 +395,6 @@ CASE_ID_COLUMN_NAME = "CaseID"  # CaseID列名
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
+
     load_dotenv()
     main()

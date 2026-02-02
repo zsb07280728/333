@@ -67,8 +67,8 @@ def parse_single_function(func_data):
     return parsed
 
 
-def clean_json_str(raw_str):
-    """清理JSON字符串：移除所有换行符、制表符、多余空格（仅保留JSON语法必需的空格）"""
+def clean_json_str_for_single_object(raw_str):
+    """清理JSON字符串（仅用于单个JSON对象）：移除换行符、制表符、多余空格（仅保留JSON语法必需的空格）"""
     if not raw_str:
         return ""
     # 1. 移除所有换行符、制表符
@@ -92,7 +92,7 @@ def parse_planning_data(raw_str):
 
     try:
         # 关键修改：清理所有换行、空格后再解析
-        cleaned_str = clean_json_str(raw_str)
+        cleaned_str = clean_json_str_for_single_object(raw_str)
         json_data = json.loads(cleaned_str)
 
         # 处理数组格式（多个函数）
@@ -113,29 +113,157 @@ def parse_planning_data(raw_str):
 
 
 def parse_expected_data(raw_str):
-    """解析预期列数据（支持换行分割的多个函数）- 忽略所有换行和空格"""
+    """解析预期列数据（支持换行分割的多个函数）- 保留换行以区分多个JSON对象"""
     functions = []
     if not raw_str:
         return functions
 
     try:
-        # 关键修改1：先按换行分割（兼容多条函数），再分别清理
-        raw_lines = [line.strip() for line in raw_str.split('\n') if line.strip()]
-        for line in raw_lines:
-            # 关键修改2：清理当前行的所有多余空白字符
-            cleaned_str = clean_json_str(line)
+        # 关键修改：支持单个JSON对象、数组格式，以及换行分隔的多个JSON对象
+        # 首先尝试解析为单个JSON对象或数组
+        try:
+            # 清理空格但保留换行符，以便能够区分多个JSON对象
+            cleaned_str = raw_str.strip()
             json_data = json.loads(cleaned_str)
-            parsed_func = parse_single_function(json_data)
-            if parsed_func["name"]:  # 只保留有名称的有效函数
-                functions.append(parsed_func)
-    except json.JSONDecodeError as e:
+
+            # 处理单个对象格式
+            if isinstance(json_data, dict):
+                parsed_func = parse_single_function(json_data)
+                if parsed_func["name"]:
+                    functions.append(parsed_func)
+            # 处理数组格式
+            elif isinstance(json_data, list):
+                for item in json_data:
+                    parsed_func = parse_single_function(item)
+                    if parsed_func["name"]:
+                        functions.append(parsed_func)
+        except json.JSONDecodeError:
+            # 如果不是单个对象或数组，尝试按换行分割处理多个JSON对象
+            # 在这种情况下，我们需要清理每一行的前后空格，但保留换行作为分隔符
+            lines = [line.strip() for line in raw_str.split('\n') if line.strip()]
+            for line in lines:
+                if line:  # 确保不是空行
+                    try:
+                        # 对每一行单独清理空格和格式
+                        cleaned_line = clean_json_str_for_single_object(line)
+                        json_obj = json.loads(cleaned_line)
+                        parsed_func = parse_single_function(json_obj)
+                        if parsed_func["name"]:
+                            functions.append(parsed_func)
+                    except json.JSONDecodeError as e:
+                        logger.warning(f"单行JSON解析失败（原始字符串：{line[:100]}...）: {str(e)}")
+                        continue
+    except Exception as e:
         logger.warning(f"预期数据JSON解析失败（原始字符串：{raw_str[:100]}...）: {str(e)}")
     return functions
 
 
+def is_vehicle_brand_model_match(vehicle_brand, vehicle_model):
+    """判断车辆品牌和车系是否匹配"""
+    # 定义品牌和车系的对应关系（使用Unicode字符以匹配JSON解析结果）
+    brand_models = {
+        "\u7406\u60f3": [  # "理想"
+            "one", "MEGA", "MEGA Home", "MEGA Ultra", "L9", "L9 Ultra", "L9 Pro", "L9 Max",
+            "L8", "L8 Ultra", "L8 Pro", "L8 Max", "L8 Air", "L7", "L7 Ultra", "L7 Pro",
+            "L7 Max", "L7 Air", "L6", "L6 Pro", "L6 Max", "i8", "i6"
+        ],
+        "\u7279\u65af\u62c9": [  # "特斯拉"
+            "Model 3", "Model Y", "Model Y L", "Model S", "Model X", "Cybertruck"
+        ]
+    }
+
+    # 检查品牌是否存在
+    if vehicle_brand not in brand_models:
+        return False
+
+    # 检查车系是否属于该品牌
+    return vehicle_model.lower() in [model.lower() for model in brand_models[vehicle_brand]]
+
+
+def compare_dicts(expected, actual, case_id):
+    """对比字典参数，处理车辆控制特殊情况"""
+    errors = []
+
+    # 字符串标准化：去除空格、统一大小写
+    def normalize_value(val):
+        if isinstance(val, str):
+            return val.strip().lower()
+        return val
+
+    # 标准化expected和actual的值
+    expected_norm = {k: normalize_value(v) for k, v in expected.items()}
+    actual_norm = {k: normalize_value(v) for k, v in actual.items()}
+
+    expected_keys = set(expected_norm.keys())
+    actual_keys = set(actual_norm.keys())
+
+    # 检查是否为特殊情况：标准答案只有vehicle_model，模型输出额外提供了vehicle_brand且匹配
+    # 注意：expected是标准答案（预期APIINFO），actual是模型输出（第一步-规划）
+    is_special_case = (
+            'action' in expected_norm and expected_norm['action'] == 'switch' and
+            'vehicle_model' in expected_norm and
+            'vehicle_brand' not in expected_norm and  # 标准答案没有vehicle_brand
+            'vehicle_brand' in actual_norm and  # 模型输出有vehicle_brand
+            'vehicle_model' in actual_norm
+    )
+
+    if is_special_case:
+        # 检查模型补充的品牌是否与车系匹配
+        if is_vehicle_brand_model_match(actual_norm['vehicle_brand'], expected_norm['vehicle_model']):
+            # 模型正确补充了品牌字段 → 从actual中临时移除vehicle_brand进行后续比较
+            actual_for_comparison = {k: v for k, v in actual_norm.items() if k != 'vehicle_brand'}
+            # 用移除brand后的actual与expected比较
+            actual_keys = set(actual_for_comparison.keys())
+        else:
+            errors.append(
+                f"模型补充的品牌与车系不匹配: 标准车系='{expected_norm['vehicle_model']}', 模型品牌='{actual_norm['vehicle_brand']}'")
+            return errors  # 立即返回错误
+    else:
+        # 非特殊情况，直接使用原始actual
+        actual_for_comparison = actual_norm
+
+    # 检查缺少的字段（模型输出比标准答案少字段）
+    missing_keys = expected_keys - actual_keys
+    if missing_keys:
+        errors.append(f"缺少预期字段: {', '.join(missing_keys)}")
+
+    # 检查额外的字段（模型输出比标准答案多字段）
+    extra_keys = actual_keys - expected_keys
+    if extra_keys:
+        # 特殊处理：如果不是特殊情况且额外字段包含vehicle_brand，则报错
+        if not is_special_case and 'vehicle_brand' in extra_keys:
+            errors.append(f"存在额外字段: vehicle_brand")
+        else:
+            # 其他额外字段直接报错
+            extra_non_brand = extra_keys - {'vehicle_brand'}
+            if extra_non_brand:
+                errors.append(f"存在额外字段: {', '.join(extra_non_brand)}")
+
+    # 比较公共字段的值
+    common_keys = expected_keys & actual_keys
+    for key in common_keys:
+        expected_val = expected_norm[key]
+        actual_val = actual_for_comparison[key]  # 使用处理后的actual
+
+        if isinstance(expected_val, dict) and isinstance(actual_val, dict):
+            sub_errors = compare_dicts(expected_val, actual_val, case_id)
+            if sub_errors:
+                errors.extend([f"在字段'{key}'中: {e}" for e in sub_errors])
+        elif isinstance(expected_val, list) and isinstance(actual_val, list):
+            if sorted(expected_val) != sorted(actual_val):
+                errors.append(f"列表字段'{key}'值不匹配: 预期={expected_val}, 实际={actual_val}")
+        else:
+            if expected_val != actual_val:
+                errors.append(f"字段'{key}'值不匹配: 预期='{expected_val}', 实际='{actual_val}'")
+
+    return errors
+
+
 def function_to_key(func):
     """将函数转换为可哈希的键（用于集合对比）"""
-    # 名称小写化，参数排序后转为字符串
+    # 键生成保持原始参数，不做特殊处理
+    # 特殊处理应在比较阶段进行，而不是键生成阶段
+    # 使用排序键确保相同内容的字典产生相同的字符串表示
     return (
         func["name"].lower(),
         json.dumps(func["arguments"], sort_keys=True)
@@ -161,16 +289,60 @@ def compare_api_info(planning_raw, expected_raw, case_id):
         return "FAILED"
     # ============ 核心规则【唯一】- 严格匹配你的要求 结束 ============
 
-    # 1. 转换为可对比的集合（忽略顺序）
-    plan_keys = set(function_to_key(func) for func in plan_functions)
-    expect_keys = set(function_to_key(func) for func in expect_functions)
+    # 特殊处理：车辆控制场景 - 允许"预期无vehicle_brand，实际有vehicle_brand且匹配"的情况
+    # 需要在函数匹配前就处理这种特殊情况
+    processed_plan_functions = []
+    for plan_func in plan_functions:
+        # 如果是车辆控制函数，检查是否为特殊情况
+        if ('action' in plan_func['arguments'] and
+                plan_func['arguments']['action'] == 'switch' and
+                'vehicle_brand' in plan_func['arguments'] and
+                'vehicle_model' in plan_func['arguments']):
 
-    # 2. 校验函数数量一致性
-    if len(plan_functions) != len(expect_functions):
-        error_details.append(f"函数数量不匹配：预期{len(expect_functions)}个，规划{len(plan_functions)}个")
+            # 查找是否有一个对应的预期函数符合特殊情况
+            matched = False
+            for exp_func in expect_functions:
+                if ('action' in exp_func['arguments'] and
+                        exp_func['arguments']['action'] == 'switch' and
+                        'vehicle_model' in exp_func['arguments'] and
+                        'vehicle_brand' not in exp_func['arguments']):
+
+                    # 检查车系是否相同
+                    if exp_func['arguments']['vehicle_model'] == plan_func['arguments']['vehicle_model']:
+                        # 检查品牌车系是否匹配
+                        if is_vehicle_brand_model_match(
+                                plan_func['arguments']['vehicle_brand'],
+                                plan_func['arguments']['vehicle_model']
+                        ):
+                            # 这是特殊情况，创建一个临时标准化版本用于键比较
+                            temp_args = {k: v for k, v in plan_func['arguments'].items() if k != 'vehicle_brand'}
+                            temp_func = {
+                                "name": plan_func["name"],
+                                "arguments": temp_args
+                            }
+                            processed_plan_functions.append(temp_func)
+                            matched = True
+                            break
+
+            if not matched:
+                processed_plan_functions.append(plan_func)
+        else:
+            processed_plan_functions.append(plan_func)
+
+    # 使用处理后的函数列表进行比较
+    normalized_expect = expect_functions
+    normalized_plan = processed_plan_functions
+
+    # 2. 转换为可对比的集合（忽略顺序）
+    plan_keys = set(function_to_key(func) for func in normalized_plan)
+    expect_keys = set(function_to_key(func) for func in normalized_expect)
+
+    # 3. 校验函数数量一致性
+    if len(normalized_plan) != len(normalized_expect):
+        error_details.append(f"函数数量不匹配：预期{len(normalized_expect)}个，规划{len(normalized_plan)}个")
         is_passed = False
     else:
-        # 3. 对比集合差异（缺失和多余的函数）
+        # 4. 对比集合差异（缺失和多余的函数）
         missing = expect_keys - plan_keys  # 预期有但规划没有的函数
         extra = plan_keys - expect_keys  # 规划有但预期没有的函数
 
@@ -186,12 +358,39 @@ def compare_api_info(planning_raw, expected_raw, case_id):
                 error_details.append(f"  名称: {name}, 参数: {args}")
             is_passed = False
 
-    # 4. 处理无有效函数的特殊情况
-    if not plan_functions:
+    # 5. 处理无有效函数的特殊情况
+    if not normalized_plan:
         error_details.append("规划列无有效函数")
         is_passed = False
 
-    # 5. 记录错误日志并返回结果
+    # 6. 关键补充：对每个匹配的函数对进行严格的字段级检查
+    # 确保当预期有vehicle_brand而模型输出没有时，能正确识别为缺少字段
+    if len(normalized_expect) == len(normalized_plan) and expect_keys == plan_keys:
+        # 使用函数名和参数作为键来精确匹配对应的函数对
+        expected_map = {function_to_key(func): func for func in normalized_expect}
+        actual_map = {function_to_key(func): func for func in normalized_plan}
+
+        for key in expected_map.keys():
+            if key in actual_map:
+                expected_func = expected_map[key]
+                actual_func = actual_map[key]
+
+                # 检查是否为车辆控制相关函数
+                if ('action' in expected_func["arguments"] and
+                        expected_func["arguments"]["action"] == 'switch'):
+
+                    # 特殊处理已在函数匹配前完成，这里只需进行标准字段比较
+                    field_errors = compare_dicts(expected_func["arguments"], actual_func["arguments"], case_id)
+                    if field_errors:
+                        error_details.extend([f"字段级比较错误: {e}" for e in field_errors])
+                        is_passed = False
+                        break
+
+                    # 调试信息：打印预期和实际参数
+                    logger.info(f"CaseID: {case_id} - 预期参数: {expected_func['arguments']}")
+                    logger.info(f"CaseID: {case_id} - 实际参数: {actual_func['arguments']}")
+
+    # 7. 记录错误日志并返回结果
     if not is_passed:
         logger.error("\n".join(error_details))
         return "FAILED"
@@ -203,19 +402,19 @@ def write_results_in_chunks(sheet, column_name, results, chunk_size=2000):
     """分片写入结果以避免API限制"""
     total_results = len(results)
     logger.info(f"开始分片写入 {total_results} 条结果，每片 {chunk_size} 条")
-    
+
     for i in range(0, total_results, chunk_size):
         chunk = results[i:i + chunk_size]
         try:
             # 写入当前分片，从适当的行开始
             start_row = i + 2  # 从第2行开始写入（第1行是表头）
             sheet.write_column(column_name, chunk, start_row=start_row)
-            logger.info(f"已写入第 {i+1}-{min(i+chunk_size, total_results)} 行结果")
-            
+            logger.info(f"已写入第 {i + 1}-{min(i + chunk_size, total_results)} 行结果")
+
             # 避免API频率限制
             time.sleep(0.5)
         except Exception as e:
-            logger.error(f"写入第 {i+1}-{min(i+chunk_size, total_results)} 行结果时发生错误: {str(e)}")
+            logger.error(f"写入第 {i + 1}-{min(i + chunk_size, total_results)} 行结果时发生错误: {str(e)}")
             # 可能需要重试逻辑或其他错误处理
             raise e
 
@@ -239,7 +438,7 @@ def main():
         # ============ 彻底删除了 continue 跳过代码，无任何行被忽略 ============
         result = compare_api_info(row['第一步-规划'], row['预期APIINFO'], row['CaseID'])
         results_with_indices.append(result)
-        
+
         # 每处理1000行报告一次进度
         if (idx + 1) % 1000 == 0:
             logger.info(f"已处理 {idx + 1} 行数据")
@@ -251,14 +450,15 @@ def main():
 
 
 # ================= 配置项 =================
-FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/HWdTsatumhZ4yntLvgNcjeLsnUh'
+FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/BiJTsozjFhTURAts5DecfaMLnQg?sheet=LZa2ah'
 EXPECTED_COLUMN_NAME = "预期APIINFO"
 PLANNING_COLUMN_NAME = "第一步-规划"
-RESULT_COLUMN_NAME = "APIINFO测试结果000"
+RESULT_COLUMN_NAME = "APIINFO测试结果111"
 CASE_ID_COLUMN_NAME = "CaseID"
 # =========================================
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
+
     load_dotenv()
     main()

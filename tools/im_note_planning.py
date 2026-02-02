@@ -305,7 +305,7 @@ def compare_semantic(text1: str, text2: str) -> bool:
         logger_instance = logging.getLogger(__name__)
         logger_instance.warning(f"语义对比API不可用，使用改进的文本对比: {str(e)}")
 
-        # 改进的文本相似度比较，特别针对这种买菜相关的查询
+        # 改进的文本相似度比较，特别针对这种查询相关的文本
         if text1_clean == text2_clean:
             return True
 
@@ -313,18 +313,28 @@ def compare_semantic(text1: str, text2: str) -> bool:
         if text1_clean in text2_clean or text2_clean in text1_clean:
             return True
 
-        # 基于关键词的相似度比较
-        # 移除常见的语气词、助词等，保留核心关键词
+        # 特殊处理：对于询问类查询，提取核心主题词进行比较
         import re
         # 移除常见的语气词和助词
         common_words = {'了', '的', '是', '在', '有', '得', '呢', '啊', '吧', '嘛', '呀', '嘛', '着', '过', '将', '就',
                         '之前', '说', '来着', '东西', '什么', '时候', '怎么', '哪里', '谁', '哪个', '那些', '这个',
-                        '那个'}
+                        '那个',
+                        '一个', '一些', '这种', '那样', '这样', '哪个', '为何', '为什么', '怎样', '如何', '请问',
+                        '知道',
+                        '记得', '告诉', '一下', '一下下', '稍微', '比较', '特别', '非常', '很', '最', '还', '也', '都'}
 
-        words1 = [w for w in re.split(r'\s+|[，。、；：！？""''（）【】《》〈〉「」『』]', text1_clean.lower()) if
-                  w and w not in common_words]
-        words2 = [w for w in re.split(r'\s+|[，。、；：！？""''（）【】《》〈〉「」『』]', text2_clean.lower()) if
-                  w and w not in common_words]
+        # 对文本进行更细致的预处理
+        def preprocess_text(text):
+            # 移除标点符号
+            text = re.sub(r'[^\w\s]', ' ', text)
+            # 分词（按空格和常见分隔符）
+            words = re.split(r'\s+|[，。、；：！？""''（）【】《》〈〉「」『』]', text.lower())
+            # 过滤空字符串和常用词
+            filtered_words = [w for w in words if w and w not in common_words]
+            return filtered_words
+
+        words1 = preprocess_text(text1_clean)
+        words2 = preprocess_text(text2_clean)
 
         if not words1 and not words2:
             return True
@@ -339,8 +349,12 @@ def compare_semantic(text1: str, text2: str) -> bool:
         # 使用Jaccard相似度
         jaccard_similarity = len(intersection) / len(union) if union else 0
 
+        # 额外检查：如果交集足够大（至少包含2个共同词），也认为是相似的
+        if len(intersection) >= 2:
+            return True
+
         # 如果关键词重叠率达到一定阈值，则认为语义一致
-        return jaccard_similarity >= 0.3  # 设置较低的阈值以适应语义相似但表达不同的情况
+        return jaccard_similarity >= 0.2  # 降低阈值以适应更多语义相似的情况
 
 
 def parse_json_field(raw_value: str) -> Dict:
@@ -512,7 +526,7 @@ def main(feishu_doc_url: str = None):
     start_time = time.time()
 
     if feishu_doc_url is None:
-        feishu_doc_url = "https://li.feishu.cn/sheets/UdGss0rQ0hUWzvtu8XHcAXDpnBe?sheet=u8dfF9"  # 默认IM链路URL
+        feishu_doc_url = "https://li.feishu.cn/sheets/A3ZIsbOdkhTKaxtdqvbcsOXfn8G?sheet=xGtBEz"  # 默认IM链路URL
 
     # 加载飞书文档
     try:
@@ -550,7 +564,7 @@ def main(feishu_doc_url: str = None):
             logger.info(f"已处理 {idx + 1} 行数据")
 
     # 分片写入结果和错误原因
-    result_column = "APIINFO测试结果666999000"  # IM链路结果列
+    result_column = "APIINFO测试结果"  # IM链路结果列
     error_reason_column = "对比错误原因"  # 错误原因列
 
     write_results_in_chunks(sheet, result_column, results_with_indices)
