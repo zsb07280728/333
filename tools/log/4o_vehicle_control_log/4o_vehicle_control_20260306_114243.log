@@ -1,0 +1,249 @@
+2026-03-06 11:42:43,787 - INFO - === 4o_vehicle_control API对比工具启动 ===
+2026-03-06 11:42:48,473 - ERROR - CaseID: 2
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,473 - ERROR - CaseID: 1
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,473 - ERROR - CaseID: 3
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,474 - ERROR - CaseID: 4
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,474 - ERROR - CaseID: 5
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,474 - ERROR - CaseID: 6
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,474 - ERROR - CaseID: 7
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,474 - ERROR - CaseID: 8
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,475 - ERROR - CaseID: 9
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,475 - ERROR - CaseID: 10
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,475 - ERROR - CaseID: 11
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,475 - ERROR - CaseID: 12
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,476 - ERROR - CaseID: 13
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,476 - ERROR - CaseID: 14
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,476 - ERROR - CaseID: 15
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,476 - ERROR - CaseID: 16
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,476 - ERROR - CaseID: 17
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,477 - ERROR - CaseID: 18
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,477 - ERROR - CaseID: 19
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,477 - ERROR - CaseID: 20
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,477 - ERROR - CaseID: 22
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,477 - ERROR - CaseID: 21
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,478 - ERROR - CaseID: 23
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,478 - ERROR - CaseID: 24
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,478 - ERROR - CaseID: 25
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,478 - ERROR - CaseID: 26
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,478 - ERROR - CaseID: 27
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,479 - ERROR - CaseID: 28
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,479 - ERROR - CaseID: 29
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,479 - ERROR - CaseID: 30
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,479 - ERROR - CaseID: 31
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,479 - ERROR - CaseID: 32
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,480 - ERROR - CaseID: 33
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,480 - ERROR - CaseID: 34
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,480 - ERROR - CaseID: 36
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,480 - ERROR - CaseID: 35
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,480 - ERROR - CaseID: 37
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,481 - ERROR - CaseID: 38
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,481 - ERROR - CaseID: 39
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,481 - ERROR - CaseID: 40
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,481 - ERROR - CaseID: 42
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,481 - ERROR - CaseID: 41
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,482 - ERROR - CaseID: 43
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,482 - ERROR - CaseID: 44
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,482 - ERROR - CaseID: 45
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,482 - ERROR - CaseID: 46
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,482 - ERROR - CaseID: 47
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,483 - ERROR - CaseID: 48
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,483 - ERROR - CaseID: 49
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:42:48,483 - INFO - 开始分片写入 49 条结果，每片 2000 条
+2026-03-06 11:42:51,813 - INFO - 已写入第 1-49 行结果
+2026-03-06 11:42:52,314 - INFO - === 4o_vehicle_control 流程完成，耗时: 8.53秒 ===

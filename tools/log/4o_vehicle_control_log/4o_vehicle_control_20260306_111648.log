@@ -1,0 +1,9 @@
+2026-03-06 11:16:48,481 - INFO - === 4o_vehicle_control API对比工具启动 ===
+2026-03-06 11:16:50,254 - ERROR - CaseID: 1012
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:16:50,255 - INFO - 开始分片写入 19 条结果，每片 2000 条
+2026-03-06 11:16:54,073 - INFO - 已写入第 1-19 行结果
+2026-03-06 11:16:54,577 - INFO - === 4o_vehicle_control 流程完成，耗时: 6.10秒 ===

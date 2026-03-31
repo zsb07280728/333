@@ -1,0 +1,24 @@
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"park_in","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"point_desc":{"parking_space":"车位"},"action":"park_in"}'
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - expected_results: [{'name': 'vla_control', 'args': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - actual_results: [{'name': 'vla_control', 'args': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - expected_keys: {('vla_control', '{"action": "park_in", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 11 - actual_keys: {('vla_control', '{"action": "park_in", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"navigate","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"point_desc":{"parking_space":"车位"},"action":"navigate"}'
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - expected_results: [{'name': 'vla_control', 'args': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - actual_results: [{'name': 'vla_control', 'args': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - expected_keys: {('vla_control', '{"action": "navigate", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 12 - actual_keys: {('vla_control', '{"action": "navigate", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"park"}'
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"park"}'
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - expected_results: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - actual_results: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - expected_keys: {('vla_control', '{"action": "park"}')}
+2026-03-23 09:41:08,704 - DEBUG - CaseID: 13 - actual_keys: {('vla_control', '{"action": "park"}')}

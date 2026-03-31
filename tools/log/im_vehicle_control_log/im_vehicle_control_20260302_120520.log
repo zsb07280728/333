@@ -1,0 +1,219 @@
+2026-03-02 12:05:20,445 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-02 12:05:23,094 - ERROR - CaseID: 1
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 2
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 3
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 4
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 5
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 6
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 7
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK", "position_reference": "\u73b0\u5728"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 8
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 9
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,095 - ERROR - CaseID: 10
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK", "position_reference": "\u73b0\u5728"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 14
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_MAINTAIN"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 15
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 19
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "NICK_NAME"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 21
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 22
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 23
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,096 - ERROR - CaseID: 24
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "AUTHORIZATION_DRIVING"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 25
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 26
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 27
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 28
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 29
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 30
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 34
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "NICK_NAME"}
+2026-03-02 12:05:23,097 - ERROR - CaseID: 35
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 39
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 43
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 44
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 45
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 46
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 49
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "NICK_NAME"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 50
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR_LOCK"}
+2026-03-02 12:05:23,098 - ERROR - CaseID: 55
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,099 - ERROR - CaseID: 59
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,099 - ERROR - CaseID: 63
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR"}
+2026-03-02 12:05:23,099 - ERROR - CaseID: 64
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "CAR_DOOR"}
+2026-03-02 12:05:23,099 - ERROR - CaseID: 65
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,099 - ERROR - CaseID: 69
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,099 - ERROR - CaseID: 70
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "AUTHORIZATION_DRIVING"}
+2026-03-02 12:05:23,100 - ERROR - CaseID: 73
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,100 - ERROR - CaseID: 74
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "NICK_NAME"}
+2026-03-02 12:05:23,100 - ERROR - CaseID: 75
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,100 - ERROR - CaseID: 79
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "DEFAULT_VEHICLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "ACCOUNT_INFO", "function_option": "PLATE_NUMBER"}
+2026-03-02 12:05:23,100 - INFO - 开始分片写入 80 条结果，每片 2000 条
+2026-03-02 12:05:23,451 - INFO - 已写入第 1-80 行结果
+2026-03-02 12:05:23,951 - INFO - === IM_vehicle_control 流程完成，耗时: 3.51秒 ===

@@ -1,0 +1,23 @@
+2026-02-26 21:21:58,153 - INFO - CaseID:ROW_2 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:21:58,153 - INFO - CaseID:ROW_2 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:22:00,875 - INFO - CaseID:ROW_2 - TAG字段：双方均为空，判定通过
+2026-02-26 21:22:00,875 - INFO - CaseID:ROW_2 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的车辆品牌和型号]，实际[这车卖多少钱]
+2026-02-26 21:22:00,875 - INFO - CaseID:ROW_3 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:22:00,877 - INFO - CaseID:ROW_3 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:22:03,944 - INFO - CaseID:ROW_3 - TAG字段：双方均为空，判定通过
+2026-02-26 21:22:03,944 - INFO - CaseID:ROW_3 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物体或生物]，实际[这是中国本土的品种吗]
+2026-02-26 21:22:03,944 - INFO - CaseID:ROW_4 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:22:03,944 - INFO - CaseID:ROW_4 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:22:05,644 - INFO - CaseID:ROW_4 - QUERY字段：基础语义匹配通过（预期[分析当前摄像头画面中这只猫的行为和表情，推测它可能的心理活动]，实际[这只猫心里在琢磨什么]）
+2026-02-26 21:22:05,644 - INFO - CaseID:ROW_4 - TAG字段：双方均为空，判定通过
+2026-02-26 21:22:05,645 - INFO - CaseID:ROW_4 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 21:22:05,645 - INFO - CaseID:ROW_5 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:22:05,645 - INFO - CaseID:ROW_5 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:22:08,833 - INFO - CaseID:ROW_5 - TAG字段：双方均为空，判定通过
+2026-02-26 21:22:08,833 - INFO - CaseID:ROW_5 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的植物或生物]，实际[这个好养吗]
+2026-02-26 21:22:08,833 - INFO - CaseID:ROW_6 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:22:08,833 - INFO - CaseID:ROW_6 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:22:12,241 - INFO - CaseID:ROW_6 - TAG字段：双方均为空，判定通过
+2026-02-26 21:22:12,241 - INFO - CaseID:ROW_6 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的车辆品牌和型号]，实际[这个车的轴距和奔驰S450比谁的更好一点]
+2026-02-26 21:22:12,241 - INFO - CaseID:ROW_7 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:22:12,241 - INFO - CaseID:ROW_7 - CATEGORY字段：双方均为空，判定通过

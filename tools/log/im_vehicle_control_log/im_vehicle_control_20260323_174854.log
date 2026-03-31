@@ -1,0 +1,21 @@
+2026-03-23 17:48:54,142 - DEBUG - parse_planning_data - 清理前: '[\n\t{\n\t\t""function"":{\n\t\t\t""name"":""vla_control"",\n\t\t\t""arguments"":{\n\t\t\t\t""point_desc"":{\n\t\t\t\t\t""pa'
+2026-03-23 17:48:54,142 - DEBUG - parse_planning_data - 清理后: '[{""function"":{""name"":""vla_control"",""arguments"":{""point_desc"":{""parking_space"":""车位""},""'
+2026-03-23 17:48:54,142 - ERROR - 规划数据JSON解析失败!
+2026-03-23 17:48:54,142 - ERROR -   错误信息: Expecting ':' delimiter: line 1 column 5 (char 4)
+2026-03-23 17:48:54,142 - ERROR -   原始字符串: '[\n\t{\n\t\t""function"":{\n\t\t\t""name"":""vla_control"",\n\t\t\t""arguments"":{\n\t\t\t\t""point_desc"":{\n\t\t\t\t\t""parking_space"":""车位""\n\t\t\t\t},\n\t\t\t\t""action"":""pause_park"",\n\t\t\t\t""position"":""中""\n\t\t\t}\n\t\t},\n\t\t""id""'
+2026-03-23 17:48:54,142 - ERROR -   清理后字符串: '[{""function"":{""name"":""vla_control"",""arguments"":{""point_desc"":{""parking_space"":""车位""},""action"":""pause_park"",""position"":""中""}},""id"":""call_3BClUZi20i2yMSZWOrtKfEbMb4l"",""type"":""'
+2026-03-23 17:48:54,142 - ERROR -   问题字符: 'f' (Unicode: U+0066)
+2026-03-23 17:48:54,142 - DEBUG - parse_planning_data - 清理前: '[\n\t{\n\t\t""function"":{\n\t\t\t""name"":""vla_control"",\n\t\t\t""arguments"":{\n\t\t\t\t""point_desc"":{\n\t\t\t\t\t""pa'
+2026-03-23 17:48:54,142 - DEBUG - parse_planning_data - 清理后: '[{""function"":{""name"":""vla_control"",""arguments"":{""point_desc"":{""parking_space"":""车位""},""'
+2026-03-23 17:48:54,142 - ERROR - 规划数据JSON解析失败!
+2026-03-23 17:48:54,143 - ERROR -   错误信息: Expecting ':' delimiter: line 1 column 5 (char 4)
+2026-03-23 17:48:54,143 - ERROR -   原始字符串: '[\n\t{\n\t\t""function"":{\n\t\t\t""name"":""vla_control"",\n\t\t\t""arguments"":{\n\t\t\t\t""point_desc"":{\n\t\t\t\t\t""parking_space"":""车位""\n\t\t\t\t},\n\t\t\t\t""action"":""pause_park"",\n\t\t\t\t""position"":""中""\n\t\t\t}\n\t\t},\n\t\t""id""'
+2026-03-23 17:48:54,143 - ERROR -   清理后字符串: '[{""function"":{""name"":""vla_control"",""arguments"":{""point_desc"":{""parking_space"":""车位""},""action"":""pause_park"",""position"":""中""}},""id"":""call_3BClUZi20i2yMSZWOrtKfEbMb4l"",""type"":""'
+2026-03-23 17:48:54,143 - ERROR -   问题字符: 'f' (Unicode: U+0066)
+2026-03-23 17:48:54,143 - DEBUG - CaseID: test_double_quotes - plan_functions: []
+2026-03-23 17:48:54,143 - DEBUG - CaseID: test_double_quotes - expect_functions: [{'name': 'vla_control', 'arguments': {'action': 'pause_park', 'position': '中', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 17:48:54,143 - DEBUG - CaseID: test_double_quotes - plan_keys: set()
+2026-03-23 17:48:54,143 - DEBUG - CaseID: test_double_quotes - expect_keys: {('vla_control', '{"action": "pause_park", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}, "position": "\\u4e2d"}')}
+2026-03-23 17:48:54,143 - ERROR - CaseID: test_double_quotes
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数

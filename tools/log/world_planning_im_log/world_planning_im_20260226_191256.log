@@ -1,0 +1,1097 @@
+2026-02-26 19:12:56,033 - INFO - === 看世界规划对比工具（新旧用例双轨适配版）启动 ===
+2026-02-26 19:12:56,173 - INFO - 成功加载飞书表格
+2026-02-26 19:13:02,026 - INFO - CaseID:ROW_2 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:02,027 - INFO - CaseID:ROW_2 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:06,734 - INFO - CaseID:ROW_3 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:06,734 - INFO - CaseID:ROW_3 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:10,762 - INFO - CaseID:ROW_4 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:10,764 - INFO - CaseID:ROW_4 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:14,935 - INFO - CaseID:ROW_5 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的车辆品牌和型号]，实际[这车卖多少钱]
+2026-02-26 19:13:19,239 - INFO - CaseID:ROW_6 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:19,240 - INFO - CaseID:ROW_6 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:23,946 - INFO - CaseID:ROW_7 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:23,947 - INFO - CaseID:ROW_7 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:28,177 - INFO - CaseID:ROW_8 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:28,177 - INFO - CaseID:ROW_8 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:32,140 - INFO - CaseID:ROW_9 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物体或生物]，实际[这是中国本土的品种吗]
+2026-02-26 19:13:36,440 - INFO - CaseID:ROW_10 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中这只猫的行为和表情，推测它可能的心理活动]，实际[这只猫心里在琢磨什么]
+2026-02-26 19:13:40,498 - INFO - CaseID:ROW_11 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:40,499 - INFO - CaseID:ROW_11 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:44,044 - INFO - CaseID:ROW_12 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:44,045 - INFO - CaseID:ROW_12 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:47,915 - INFO - CaseID:ROW_13 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:47,916 - INFO - CaseID:ROW_13 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:52,107 - INFO - CaseID:ROW_14 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:52,108 - INFO - CaseID:ROW_14 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:13:55,935 - INFO - CaseID:ROW_15 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:13:55,936 - INFO - CaseID:ROW_15 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:00,025 - INFO - CaseID:ROW_16 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的植物或生物]，实际[这个好养吗]
+2026-02-26 19:14:04,294 - INFO - CaseID:ROW_17 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:04,295 - INFO - CaseID:ROW_17 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:08,093 - INFO - CaseID:ROW_18 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:08,093 - INFO - CaseID:ROW_18 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:12,086 - INFO - CaseID:ROW_19 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:12,087 - INFO - CaseID:ROW_19 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:15,830 - INFO - CaseID:ROW_20 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:15,830 - INFO - CaseID:ROW_20 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:19,858 - INFO - CaseID:ROW_21 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:19,859 - INFO - CaseID:ROW_21 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:23,750 - INFO - CaseID:ROW_22 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:23,750 - INFO - CaseID:ROW_22 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:27,643 - INFO - CaseID:ROW_23 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:27,644 - INFO - CaseID:ROW_23 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:31,385 - INFO - CaseID:ROW_24 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:31,386 - INFO - CaseID:ROW_24 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:35,511 - INFO - CaseID:ROW_25 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:35,511 - INFO - CaseID:ROW_25 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:39,314 - INFO - CaseID:ROW_26 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:39,315 - INFO - CaseID:ROW_26 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:41,303 - INFO - CaseID:ROW_27 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:14:41,304 - INFO - CaseID:ROW_27 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:45,570 - INFO - CaseID:ROW_28 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:45,570 - INFO - CaseID:ROW_28 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:49,413 - INFO - CaseID:ROW_29 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:49,414 - INFO - CaseID:ROW_29 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:53,652 - INFO - CaseID:ROW_30 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:53,653 - INFO - CaseID:ROW_30 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:14:57,378 - INFO - CaseID:ROW_31 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:14:57,378 - INFO - CaseID:ROW_31 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:01,433 - INFO - CaseID:ROW_32 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:01,433 - INFO - CaseID:ROW_32 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:05,585 - INFO - CaseID:ROW_33 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:05,585 - INFO - CaseID:ROW_33 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:09,584 - INFO - CaseID:ROW_34 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:09,584 - INFO - CaseID:ROW_34 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:13,930 - INFO - CaseID:ROW_35 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:13,930 - INFO - CaseID:ROW_35 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:17,723 - INFO - CaseID:ROW_36 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:17,724 - INFO - CaseID:ROW_36 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:21,916 - INFO - CaseID:ROW_37 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:21,916 - INFO - CaseID:ROW_37 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:26,625 - INFO - CaseID:ROW_38 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:26,625 - INFO - CaseID:ROW_38 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:30,661 - INFO - CaseID:ROW_39 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:30,661 - INFO - CaseID:ROW_39 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:35,022 - INFO - CaseID:ROW_40 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:35,023 - INFO - CaseID:ROW_40 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:39,118 - INFO - CaseID:ROW_41 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:39,118 - INFO - CaseID:ROW_41 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:42,901 - INFO - CaseID:ROW_42 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的车辆品牌和型号]，实际[这个车的轴距和奔驰S450比谁的更好一点]
+2026-02-26 19:15:46,904 - INFO - CaseID:ROW_43 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:46,905 - INFO - CaseID:ROW_43 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:51,203 - INFO - CaseID:ROW_44 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:51,204 - INFO - CaseID:ROW_44 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:53,659 - INFO - CaseID:ROW_45 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:15:53,660 - INFO - CaseID:ROW_45 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:15:57,392 - INFO - CaseID:ROW_46 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:15:57,393 - INFO - CaseID:ROW_46 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:01,393 - INFO - CaseID:ROW_47 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:01,393 - INFO - CaseID:ROW_47 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:05,225 - INFO - CaseID:ROW_48 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:05,226 - INFO - CaseID:ROW_48 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:07,281 - INFO - CaseID:ROW_49 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:16:07,282 - INFO - CaseID:ROW_49 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:11,069 - INFO - CaseID:ROW_50 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:11,070 - INFO - CaseID:ROW_50 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:15,055 - INFO - CaseID:ROW_51 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:15,055 - INFO - CaseID:ROW_51 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:18,748 - INFO - CaseID:ROW_52 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:18,750 - INFO - CaseID:ROW_52 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:22,381 - INFO - CaseID:ROW_53 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:22,381 - INFO - CaseID:ROW_53 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:26,385 - INFO - CaseID:ROW_54 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:26,386 - INFO - CaseID:ROW_54 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:30,526 - INFO - CaseID:ROW_55 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:30,526 - INFO - CaseID:ROW_55 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:34,826 - INFO - CaseID:ROW_56 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:34,827 - INFO - CaseID:ROW_56 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:38,537 - INFO - CaseID:ROW_57 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:38,537 - INFO - CaseID:ROW_57 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:42,975 - INFO - CaseID:ROW_58 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:42,976 - INFO - CaseID:ROW_58 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:46,552 - INFO - CaseID:ROW_59 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:46,552 - INFO - CaseID:ROW_59 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:50,755 - INFO - CaseID:ROW_60 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:50,755 - INFO - CaseID:ROW_60 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:54,235 - INFO - CaseID:ROW_61 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:54,235 - INFO - CaseID:ROW_61 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:16:59,380 - INFO - CaseID:ROW_62 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:16:59,381 - INFO - CaseID:ROW_62 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:03,501 - INFO - CaseID:ROW_63 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:03,501 - INFO - CaseID:ROW_63 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:07,362 - INFO - CaseID:ROW_64 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:07,362 - INFO - CaseID:ROW_64 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:11,282 - INFO - CaseID:ROW_65 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:11,282 - INFO - CaseID:ROW_65 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:15,255 - INFO - CaseID:ROW_66 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:15,256 - INFO - CaseID:ROW_66 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:19,268 - INFO - CaseID:ROW_67 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:19,269 - INFO - CaseID:ROW_67 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:23,773 - INFO - CaseID:ROW_68 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:23,774 - INFO - CaseID:ROW_68 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:28,485 - INFO - CaseID:ROW_69 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:28,486 - INFO - CaseID:ROW_69 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:32,157 - INFO - CaseID:ROW_70 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:32,158 - INFO - CaseID:ROW_70 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:36,269 - INFO - CaseID:ROW_71 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:36,269 - INFO - CaseID:ROW_71 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:40,241 - INFO - CaseID:ROW_72 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:40,242 - INFO - CaseID:ROW_72 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:44,049 - INFO - CaseID:ROW_73 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个没有毛摸着手感咋样]
+2026-02-26 19:17:47,891 - INFO - CaseID:ROW_74 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:47,891 - INFO - CaseID:ROW_74 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:52,038 - INFO - CaseID:ROW_75 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:52,039 - INFO - CaseID:ROW_75 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:55,929 - INFO - CaseID:ROW_76 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:55,931 - INFO - CaseID:ROW_76 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:17:59,822 - INFO - CaseID:ROW_77 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:17:59,823 - INFO - CaseID:ROW_77 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:03,915 - INFO - CaseID:ROW_78 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:03,916 - INFO - CaseID:ROW_78 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:08,121 - INFO - CaseID:ROW_79 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:08,122 - INFO - CaseID:ROW_79 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:12,025 - INFO - CaseID:ROW_80 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:12,026 - INFO - CaseID:ROW_80 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:16,167 - INFO - CaseID:ROW_81 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:16,168 - INFO - CaseID:ROW_81 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:20,096 - INFO - CaseID:ROW_82 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:20,098 - INFO - CaseID:ROW_82 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:24,601 - INFO - CaseID:ROW_83 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的花卉种类]，实际[这个花一般种下多久可以开花]
+2026-02-26 19:18:28,495 - INFO - CaseID:ROW_84 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:28,496 - INFO - CaseID:ROW_84 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:32,793 - INFO - CaseID:ROW_85 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:32,793 - INFO - CaseID:ROW_85 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:37,806 - INFO - CaseID:ROW_86 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:37,807 - INFO - CaseID:ROW_86 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:42,235 - INFO - CaseID:ROW_87 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这棵树的种类是什么？]，实际[这棵树能活多久呢]
+2026-02-26 19:18:46,740 - INFO - CaseID:ROW_88 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:46,741 - INFO - CaseID:ROW_88 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:50,938 - INFO - CaseID:ROW_89 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:50,939 - INFO - CaseID:ROW_89 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:18:56,007 - INFO - CaseID:ROW_90 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:18:56,007 - INFO - CaseID:ROW_90 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:00,183 - INFO - CaseID:ROW_91 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:00,184 - INFO - CaseID:ROW_91 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:03,925 - INFO - CaseID:ROW_92 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:03,926 - INFO - CaseID:ROW_92 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:08,014 - INFO - CaseID:ROW_93 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:08,014 - INFO - CaseID:ROW_93 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:11,678 - INFO - CaseID:ROW_94 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:11,679 - INFO - CaseID:ROW_94 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:16,007 - INFO - CaseID:ROW_95 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:16,007 - INFO - CaseID:ROW_95 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:20,341 - INFO - CaseID:ROW_96 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:20,343 - INFO - CaseID:ROW_96 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:24,407 - INFO - CaseID:ROW_97 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:24,407 - INFO - CaseID:ROW_97 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:28,099 - INFO - CaseID:ROW_98 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:28,100 - INFO - CaseID:ROW_98 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:32,289 - INFO - CaseID:ROW_99 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:32,291 - INFO - CaseID:ROW_99 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:36,284 - INFO - CaseID:ROW_100 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:36,285 - INFO - CaseID:ROW_100 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:36,285 - INFO - 已处理100行，休眠5秒降低压力...
+2026-02-26 19:19:45,091 - INFO - CaseID:ROW_101 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:45,092 - INFO - CaseID:ROW_101 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:49,093 - INFO - CaseID:ROW_102 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:49,095 - INFO - CaseID:ROW_102 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:53,125 - INFO - CaseID:ROW_103 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:53,125 - INFO - CaseID:ROW_103 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:19:58,122 - INFO - CaseID:ROW_104 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:19:58,122 - INFO - CaseID:ROW_104 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:02,089 - INFO - CaseID:ROW_105 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:02,090 - INFO - CaseID:ROW_105 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:06,186 - INFO - CaseID:ROW_106 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:06,187 - INFO - CaseID:ROW_106 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:10,998 - INFO - CaseID:ROW_107 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:10,999 - INFO - CaseID:ROW_107 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:14,641 - INFO - CaseID:ROW_108 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:14,641 - INFO - CaseID:ROW_108 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:19,407 - INFO - CaseID:ROW_109 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:19,408 - INFO - CaseID:ROW_109 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:23,594 - INFO - CaseID:ROW_110 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:23,595 - INFO - CaseID:ROW_110 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:28,097 - INFO - CaseID:ROW_111 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:28,097 - INFO - CaseID:ROW_111 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:31,960 - INFO - CaseID:ROW_112 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:31,961 - INFO - CaseID:ROW_112 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:36,297 - INFO - CaseID:ROW_113 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:36,298 - INFO - CaseID:ROW_113 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:40,966 - INFO - CaseID:ROW_114 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:40,967 - INFO - CaseID:ROW_114 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:44,661 - INFO - CaseID:ROW_115 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:44,661 - INFO - CaseID:ROW_115 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:48,684 - INFO - CaseID:ROW_116 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:48,684 - INFO - CaseID:ROW_116 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:53,245 - INFO - CaseID:ROW_117 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:53,245 - INFO - CaseID:ROW_117 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:20:57,143 - INFO - CaseID:ROW_118 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:20:57,144 - INFO - CaseID:ROW_118 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:00,781 - INFO - CaseID:ROW_119 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:00,781 - INFO - CaseID:ROW_119 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:05,380 - INFO - CaseID:ROW_120 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:05,381 - INFO - CaseID:ROW_120 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:09,382 - INFO - CaseID:ROW_121 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:09,382 - INFO - CaseID:ROW_121 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:13,007 - INFO - CaseID:ROW_122 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:13,008 - INFO - CaseID:ROW_122 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:16,638 - INFO - CaseID:ROW_123 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:16,639 - INFO - CaseID:ROW_123 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:21,012 - INFO - CaseID:ROW_124 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:21,013 - INFO - CaseID:ROW_124 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:25,001 - INFO - CaseID:ROW_125 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:25,002 - INFO - CaseID:ROW_125 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:28,926 - INFO - CaseID:ROW_126 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:28,926 - INFO - CaseID:ROW_126 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:33,433 - INFO - CaseID:ROW_127 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:33,433 - INFO - CaseID:ROW_127 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:35,403 - INFO - CaseID:ROW_128 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:21:35,403 - INFO - CaseID:ROW_128 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:40,481 - INFO - CaseID:ROW_129 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的性格特征]，实际[她是什么性格的]
+2026-02-26 19:21:44,697 - INFO - CaseID:ROW_130 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:44,697 - INFO - CaseID:ROW_130 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:49,139 - INFO - CaseID:ROW_131 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:49,139 - INFO - CaseID:ROW_131 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:53,400 - INFO - CaseID:ROW_132 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:53,401 - INFO - CaseID:ROW_132 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:21:58,051 - INFO - CaseID:ROW_133 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:21:58,052 - INFO - CaseID:ROW_133 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:02,516 - INFO - CaseID:ROW_134 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:02,517 - INFO - CaseID:ROW_134 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:07,008 - INFO - CaseID:ROW_135 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:07,009 - INFO - CaseID:ROW_135 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:11,321 - INFO - CaseID:ROW_136 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的书籍名称或ISBN]，实际[这个书在哪里能买到呀]
+2026-02-26 19:22:15,008 - INFO - CaseID:ROW_137 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:15,008 - INFO - CaseID:ROW_137 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:19,258 - INFO - CaseID:ROW_138 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:19,258 - INFO - CaseID:ROW_138 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:23,200 - INFO - CaseID:ROW_139 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:23,200 - INFO - CaseID:ROW_139 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:27,081 - INFO - CaseID:ROW_140 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:27,082 - INFO - CaseID:ROW_140 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:30,858 - INFO - CaseID:ROW_141 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:30,859 - INFO - CaseID:ROW_141 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:35,077 - INFO - CaseID:ROW_142 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:35,078 - INFO - CaseID:ROW_142 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:39,175 - INFO - CaseID:ROW_143 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:39,176 - INFO - CaseID:ROW_143 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:42,974 - INFO - CaseID:ROW_144 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:42,974 - INFO - CaseID:ROW_144 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:47,369 - INFO - CaseID:ROW_145 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:47,370 - INFO - CaseID:ROW_145 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:51,465 - INFO - CaseID:ROW_146 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:51,465 - INFO - CaseID:ROW_146 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:55,149 - INFO - CaseID:ROW_147 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:55,150 - INFO - CaseID:ROW_147 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:22:59,567 - INFO - CaseID:ROW_148 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:22:59,568 - INFO - CaseID:ROW_148 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:03,957 - INFO - CaseID:ROW_149 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:03,958 - INFO - CaseID:ROW_149 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:08,871 - INFO - CaseID:ROW_150 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:08,872 - INFO - CaseID:ROW_150 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:12,557 - INFO - CaseID:ROW_151 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:12,558 - INFO - CaseID:ROW_151 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:16,671 - INFO - CaseID:ROW_152 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:16,671 - INFO - CaseID:ROW_152 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:20,634 - INFO - CaseID:ROW_153 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:20,634 - INFO - CaseID:ROW_153 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:24,640 - INFO - CaseID:ROW_154 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这件衣服的颜色和你的肤色对比是否显白？]，实际[这件衣服的颜色和款式是否显白？]
+2026-02-26 19:23:28,556 - INFO - CaseID:ROW_155 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:28,557 - INFO - CaseID:ROW_155 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:32,831 - INFO - CaseID:ROW_156 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析用户当前穿着的衣服款式、颜色搭配等视觉信息]，实际[这件衣服我穿着好看吗]
+2026-02-26 19:23:36,928 - INFO - CaseID:ROW_157 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你喜欢这个电影吗]，实际[当前画面中是否有电影相关的信息？]
+2026-02-26 19:23:41,437 - INFO - CaseID:ROW_158 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:41,438 - INFO - CaseID:ROW_158 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:45,680 - INFO - CaseID:ROW_159 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:45,680 - INFO - CaseID:ROW_159 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:50,241 - INFO - CaseID:ROW_160 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:50,241 - INFO - CaseID:ROW_160 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:54,133 - INFO - CaseID:ROW_161 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:54,134 - INFO - CaseID:ROW_161 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:23:58,921 - INFO - CaseID:ROW_162 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:23:58,921 - INFO - CaseID:ROW_162 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:02,677 - INFO - CaseID:ROW_163 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:02,677 - INFO - CaseID:ROW_163 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:06,423 - INFO - CaseID:ROW_164 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:06,424 - INFO - CaseID:ROW_164 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:10,107 - INFO - CaseID:ROW_165 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:10,107 - INFO - CaseID:ROW_165 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:14,209 - INFO - CaseID:ROW_166 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:14,210 - INFO - CaseID:ROW_166 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:16,247 - INFO - CaseID:ROW_167 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:24:16,247 - INFO - CaseID:ROW_167 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:21,380 - INFO - CaseID:ROW_168 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:21,381 - INFO - CaseID:ROW_168 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:25,262 - INFO - CaseID:ROW_169 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:25,263 - INFO - CaseID:ROW_169 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:28,988 - INFO - CaseID:ROW_170 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的面部表情、肢体语言等非语言特征，判断其性格是否内向]，实际[分析当前摄像头画面中人物的性格是否内向]
+2026-02-26 19:24:32,840 - INFO - CaseID:ROW_171 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:32,841 - INFO - CaseID:ROW_171 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:36,995 - INFO - CaseID:ROW_172 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的面部表情、肢体语言和互动方式，判断其性格是否和蔼]，实际[她的性格是不是很和蔼]
+2026-02-26 19:24:41,261 - INFO - CaseID:ROW_173 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:41,261 - INFO - CaseID:ROW_173 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:45,132 - INFO - CaseID:ROW_174 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:45,132 - INFO - CaseID:ROW_174 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:49,225 - INFO - CaseID:ROW_175 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:49,225 - INFO - CaseID:ROW_175 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:24:53,528 - INFO - CaseID:ROW_176 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中女性的体型、肤色、风格等特征，以推荐适合的服装]，实际[她适合穿啥样的衣服呀]
+2026-02-26 19:24:57,489 - INFO - CaseID:ROW_177 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:24:57,490 - INFO - CaseID:ROW_177 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:01,522 - INFO - CaseID:ROW_178 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:01,522 - INFO - CaseID:ROW_178 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:05,128 - INFO - CaseID:ROW_179 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别用户当前穿着的衣服款式、颜色、材质等特征]，实际[我这衣服适合什么季节穿]
+2026-02-26 19:25:08,931 - INFO - CaseID:ROW_180 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:08,932 - INFO - CaseID:ROW_180 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:13,288 - INFO - CaseID:ROW_181 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:13,289 - INFO - CaseID:ROW_181 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:17,095 - INFO - CaseID:ROW_182 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:17,096 - INFO - CaseID:ROW_182 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:21,169 - INFO - CaseID:ROW_183 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:21,169 - INFO - CaseID:ROW_183 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:24,034 - INFO - CaseID:ROW_184 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:25:24,035 - INFO - CaseID:ROW_184 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:28,532 - INFO - CaseID:ROW_185 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:28,532 - INFO - CaseID:ROW_185 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:32,629 - INFO - CaseID:ROW_186 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:32,629 - INFO - CaseID:ROW_186 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:36,928 - INFO - CaseID:ROW_187 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:36,928 - INFO - CaseID:ROW_187 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:41,090 - INFO - CaseID:ROW_188 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:41,091 - INFO - CaseID:ROW_188 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:45,142 - INFO - CaseID:ROW_189 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:45,143 - INFO - CaseID:ROW_189 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:49,195 - INFO - CaseID:ROW_190 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:49,196 - INFO - CaseID:ROW_190 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:53,778 - INFO - CaseID:ROW_191 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:53,779 - INFO - CaseID:ROW_191 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:25:58,430 - INFO - CaseID:ROW_192 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:25:58,431 - INFO - CaseID:ROW_192 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:02,285 - INFO - CaseID:ROW_193 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:02,285 - INFO - CaseID:ROW_193 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:06,991 - INFO - CaseID:ROW_194 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:06,993 - INFO - CaseID:ROW_194 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:11,126 - INFO - CaseID:ROW_195 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这书好啊正能量满满]，实际[这是什么书？]
+2026-02-26 19:26:15,124 - INFO - CaseID:ROW_196 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:15,125 - INFO - CaseID:ROW_196 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:18,908 - INFO - CaseID:ROW_197 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个东西得多少钱]
+2026-02-26 19:26:23,829 - INFO - CaseID:ROW_198 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:23,830 - INFO - CaseID:ROW_198 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:27,832 - INFO - CaseID:ROW_199 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的手表品牌和型号]，实际[这个手表的大概价格你知道不]
+2026-02-26 19:26:31,692 - INFO - CaseID:ROW_200 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:31,693 - INFO - CaseID:ROW_200 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:31,694 - INFO - 已处理200行，休眠5秒降低压力...
+2026-02-26 19:26:37,547 - INFO - CaseID:ROW_201 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:26:37,548 - INFO - CaseID:ROW_201 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:37,548 - INFO - 已处理200条用例，当前通过数：180
+2026-02-26 19:26:41,846 - INFO - CaseID:ROW_202 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:41,847 - INFO - CaseID:ROW_202 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:45,711 - INFO - CaseID:ROW_203 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:45,713 - INFO - CaseID:ROW_203 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:49,530 - INFO - CaseID:ROW_204 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:49,530 - INFO - CaseID:ROW_204 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:26:53,156 - INFO - CaseID:ROW_205 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的耳机品牌和型号]，实际[这个耳机可以在电脑上使用吗]
+2026-02-26 19:26:57,619 - INFO - CaseID:ROW_206 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:26:57,620 - INFO - CaseID:ROW_206 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:01,508 - INFO - CaseID:ROW_207 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:01,508 - INFO - CaseID:ROW_207 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:05,038 - INFO - CaseID:ROW_208 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:05,038 - INFO - CaseID:ROW_208 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:08,883 - INFO - CaseID:ROW_209 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:08,884 - INFO - CaseID:ROW_209 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:13,519 - INFO - CaseID:ROW_210 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:13,519 - INFO - CaseID:ROW_210 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:17,483 - INFO - CaseID:ROW_211 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:17,483 - INFO - CaseID:ROW_211 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:21,764 - INFO - CaseID:ROW_212 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:21,764 - INFO - CaseID:ROW_212 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:26,085 - INFO - CaseID:ROW_213 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个在哪里可以买到]
+2026-02-26 19:27:30,554 - INFO - CaseID:ROW_214 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的设备（如打印机）型号或品牌]，实际[它可以打印彩色文档吗]
+2026-02-26 19:27:34,687 - INFO - CaseID:ROW_215 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的设备或物品]，实际[这个可以远程使用吗]
+2026-02-26 19:27:38,693 - INFO - CaseID:ROW_216 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:38,693 - INFO - CaseID:ROW_216 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:42,879 - INFO - CaseID:ROW_217 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:42,879 - INFO - CaseID:ROW_217 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:46,772 - INFO - CaseID:ROW_218 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:46,773 - INFO - CaseID:ROW_218 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:50,663 - INFO - CaseID:ROW_219 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:50,663 - INFO - CaseID:ROW_219 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:54,457 - INFO - CaseID:ROW_220 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:27:54,458 - INFO - CaseID:ROW_220 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:27:58,445 - INFO - CaseID:ROW_221 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你觉得这个写得好不好]，实际[请展示需要评价的文本内容]
+2026-02-26 19:28:02,016 - INFO - CaseID:ROW_222 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这写得怎么样啊]，实际[请展示当前需要评价的文本内容]
+2026-02-26 19:28:06,363 - INFO - CaseID:ROW_223 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这篇写得如何]，实际[请展示需要评价的文本内容]
+2026-02-26 19:28:10,213 - INFO - CaseID:ROW_224 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段内容写得怎么样]，实际[请展示需要评价的文本内容]
+2026-02-26 19:28:14,873 - INFO - CaseID:ROW_225 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:28:14,873 - INFO - CaseID:ROW_225 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:28:18,719 - INFO - CaseID:ROW_226 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:28:18,721 - INFO - CaseID:ROW_226 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:28:23,019 - INFO - CaseID:ROW_227 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段写得可圈可点吗]，实际[请提供需要评价的文本内容]
+2026-02-26 19:28:27,146 - INFO - CaseID:ROW_228 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:28:27,147 - INFO - CaseID:ROW_228 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:28:30,907 - INFO - CaseID:ROW_229 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这写得是不是挺不错]，实际[请展示需要评价的文本或相关内容]
+2026-02-26 19:28:34,902 - INFO - CaseID:ROW_230 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这写得你觉得行不行]，实际[请展示当前需要评价的文本内容]
+2026-02-26 19:28:39,057 - INFO - CaseID:ROW_231 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段你觉得写得好吗]，实际[请提供需要评价的文本内容]
+2026-02-26 19:28:43,500 - INFO - CaseID:ROW_232 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段写得还好吗]，实际[请展示需要评价的文本内容]
+2026-02-26 19:28:47,187 - INFO - CaseID:ROW_233 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[文章整体写得怎么样]，实际[请展示需要评价的文章内容]
+2026-02-26 19:28:50,954 - INFO - CaseID:ROW_234 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:28:50,954 - INFO - CaseID:ROW_234 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:28:54,970 - INFO - CaseID:ROW_235 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:28:54,971 - INFO - CaseID:ROW_235 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:28:58,656 - INFO - CaseID:ROW_236 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:28:58,657 - INFO - CaseID:ROW_236 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:02,957 - INFO - CaseID:ROW_237 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:02,958 - INFO - CaseID:ROW_237 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:06,774 - INFO - CaseID:ROW_238 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:06,775 - INFO - CaseID:ROW_238 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:11,357 - INFO - CaseID:ROW_239 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:11,358 - INFO - CaseID:ROW_239 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:15,041 - INFO - CaseID:ROW_240 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:15,042 - INFO - CaseID:ROW_240 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:19,345 - INFO - CaseID:ROW_241 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:19,345 - INFO - CaseID:ROW_241 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:23,436 - INFO - CaseID:ROW_242 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:23,437 - INFO - CaseID:ROW_242 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:27,945 - INFO - CaseID:ROW_243 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:27,946 - INFO - CaseID:ROW_243 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:32,312 - INFO - CaseID:ROW_244 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:32,313 - INFO - CaseID:ROW_244 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:37,571 - INFO - CaseID:ROW_245 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:37,572 - INFO - CaseID:ROW_245 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:41,597 - INFO - CaseID:ROW_246 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:41,598 - INFO - CaseID:ROW_246 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:45,761 - INFO - CaseID:ROW_247 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:45,761 - INFO - CaseID:ROW_247 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:50,409 - INFO - CaseID:ROW_248 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:50,409 - INFO - CaseID:ROW_248 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:54,348 - INFO - CaseID:ROW_249 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:54,348 - INFO - CaseID:ROW_249 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:29:58,254 - INFO - CaseID:ROW_250 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:29:58,254 - INFO - CaseID:ROW_250 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:02,966 - INFO - CaseID:ROW_251 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这画得如何还不错吗]，实际[这幅画的评价如何？]
+2026-02-26 19:30:07,884 - INFO - CaseID:ROW_252 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这幅画中的动物是什么？]，实际[用一个成语来形容下这幅画里面的动物]
+2026-02-26 19:30:12,963 - INFO - CaseID:ROW_253 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[啥感觉这个画的还行吗]，实际[这幅画的风格和内容是什么？]
+2026-02-26 19:30:16,645 - INFO - CaseID:ROW_254 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:16,646 - INFO - CaseID:ROW_254 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:20,578 - INFO - CaseID:ROW_255 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:20,579 - INFO - CaseID:ROW_255 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:24,377 - INFO - CaseID:ROW_256 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:24,378 - INFO - CaseID:ROW_256 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:28,435 - INFO - CaseID:ROW_257 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:28,435 - INFO - CaseID:ROW_257 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:32,596 - INFO - CaseID:ROW_258 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:32,596 - INFO - CaseID:ROW_258 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:36,453 - INFO - CaseID:ROW_259 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:36,453 - INFO - CaseID:ROW_259 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:40,283 - INFO - CaseID:ROW_260 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[看看我画的这个还行吧]，实际[评价用户画作的质量和风格]
+2026-02-26 19:30:44,158 - INFO - CaseID:ROW_261 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:44,158 - INFO - CaseID:ROW_261 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:48,098 - INFO - CaseID:ROW_262 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:48,099 - INFO - CaseID:ROW_262 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:52,278 - INFO - CaseID:ROW_263 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这幅画的水平如何？请分析其构图、色彩、技法等艺术表现力。]，实际[这幅画的水平如何？]
+2026-02-26 19:30:55,806 - INFO - CaseID:ROW_264 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:55,806 - INFO - CaseID:ROW_264 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:30:59,851 - INFO - CaseID:ROW_265 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:30:59,851 - INFO - CaseID:ROW_265 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:03,718 - INFO - CaseID:ROW_266 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:03,719 - INFO - CaseID:ROW_266 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:07,981 - INFO - CaseID:ROW_267 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:07,981 - INFO - CaseID:ROW_267 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:09,718 - INFO - CaseID:ROW_268 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:31:09,719 - INFO - CaseID:ROW_268 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:13,435 - INFO - CaseID:ROW_269 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:13,436 - INFO - CaseID:ROW_269 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:17,343 - INFO - CaseID:ROW_270 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:17,343 - INFO - CaseID:ROW_270 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:21,232 - INFO - CaseID:ROW_271 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你觉得还行吗]，实际[当前摄像头捕捉到的内容是什么？]
+2026-02-26 19:31:25,236 - INFO - CaseID:ROW_272 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:25,237 - INFO - CaseID:ROW_272 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:29,334 - INFO - CaseID:ROW_273 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:29,335 - INFO - CaseID:ROW_273 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:33,693 - INFO - CaseID:ROW_274 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的饮品是什么]，实际[这个好喝还是特仑苏好喝]
+2026-02-26 19:31:37,526 - INFO - CaseID:ROW_275 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:37,526 - INFO - CaseID:ROW_275 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:41,710 - INFO - CaseID:ROW_276 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:41,710 - INFO - CaseID:ROW_276 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:46,157 - INFO - CaseID:ROW_277 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:46,157 - INFO - CaseID:ROW_277 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:50,077 - INFO - CaseID:ROW_278 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:50,078 - INFO - CaseID:ROW_278 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:53,968 - INFO - CaseID:ROW_279 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:53,968 - INFO - CaseID:ROW_279 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:31:58,120 - INFO - CaseID:ROW_280 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:31:58,121 - INFO - CaseID:ROW_280 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:02,008 - INFO - CaseID:ROW_281 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:02,009 - INFO - CaseID:ROW_281 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:05,642 - INFO - CaseID:ROW_282 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[帮我把它翻译成中文呗]，实际[请识别摄像头捕捉到的内容]
+2026-02-26 19:32:09,884 - INFO - CaseID:ROW_283 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:09,884 - INFO - CaseID:ROW_283 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:14,244 - INFO - CaseID:ROW_284 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:14,245 - INFO - CaseID:ROW_284 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:18,356 - INFO - CaseID:ROW_285 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:18,356 - INFO - CaseID:ROW_285 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:24,484 - INFO - CaseID:ROW_286 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:24,485 - INFO - CaseID:ROW_286 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:29,503 - INFO - CaseID:ROW_287 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:29,503 - INFO - CaseID:ROW_287 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:33,497 - INFO - CaseID:ROW_288 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:33,498 - INFO - CaseID:ROW_288 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:37,774 - INFO - CaseID:ROW_289 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:37,775 - INFO - CaseID:ROW_289 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:41,893 - INFO - CaseID:ROW_290 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:41,893 - INFO - CaseID:ROW_290 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:46,105 - INFO - CaseID:ROW_291 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:46,106 - INFO - CaseID:ROW_291 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:51,108 - INFO - CaseID:ROW_292 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:51,109 - INFO - CaseID:ROW_292 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:54,929 - INFO - CaseID:ROW_293 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:54,929 - INFO - CaseID:ROW_293 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:32:59,451 - INFO - CaseID:ROW_294 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:32:59,452 - INFO - CaseID:ROW_294 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:04,483 - INFO - CaseID:ROW_295 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:04,484 - INFO - CaseID:ROW_295 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:08,517 - INFO - CaseID:ROW_296 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:08,518 - INFO - CaseID:ROW_296 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:13,637 - INFO - CaseID:ROW_297 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:13,637 - INFO - CaseID:ROW_297 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:17,537 - INFO - CaseID:ROW_298 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:17,538 - INFO - CaseID:ROW_298 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:21,454 - INFO - CaseID:ROW_299 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:21,454 - INFO - CaseID:ROW_299 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:25,725 - INFO - CaseID:ROW_300 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:25,726 - INFO - CaseID:ROW_300 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:25,726 - INFO - 已处理300行，休眠5秒降低压力...
+2026-02-26 19:33:33,502 - INFO - CaseID:ROW_301 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:33,502 - INFO - CaseID:ROW_301 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:37,474 - INFO - CaseID:ROW_302 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:37,474 - INFO - CaseID:ROW_302 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:41,086 - INFO - CaseID:ROW_303 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:41,087 - INFO - CaseID:ROW_303 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:43,553 - INFO - CaseID:ROW_304 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:33:43,553 - INFO - CaseID:ROW_304 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:47,842 - INFO - CaseID:ROW_305 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:47,843 - INFO - CaseID:ROW_305 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:52,349 - INFO - CaseID:ROW_306 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:52,349 - INFO - CaseID:ROW_306 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:33:56,446 - INFO - CaseID:ROW_307 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:33:56,446 - INFO - CaseID:ROW_307 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:00,344 - INFO - CaseID:ROW_308 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:00,346 - INFO - CaseID:ROW_308 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:04,479 - INFO - CaseID:ROW_309 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:04,479 - INFO - CaseID:ROW_309 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:08,605 - INFO - CaseID:ROW_310 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你喜欢这个味道吗]，实际[当前摄像头捕捉到的食物或物品是什么？]
+2026-02-26 19:34:12,148 - INFO - CaseID:ROW_311 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头捕捉到的食物或物品]，实际[吃完这个需要刷牙么]
+2026-02-26 19:34:16,479 - INFO - CaseID:ROW_312 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:16,480 - INFO - CaseID:ROW_312 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:21,223 - INFO - CaseID:ROW_313 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:21,223 - INFO - CaseID:ROW_313 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:24,910 - INFO - CaseID:ROW_314 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:24,910 - INFO - CaseID:ROW_314 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:29,544 - INFO - CaseID:ROW_315 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:29,545 - INFO - CaseID:ROW_315 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:33,714 - INFO - CaseID:ROW_316 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:33,714 - INFO - CaseID:ROW_316 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:37,607 - INFO - CaseID:ROW_317 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:37,607 - INFO - CaseID:ROW_317 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:42,049 - INFO - CaseID:ROW_318 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:42,049 - INFO - CaseID:ROW_318 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:46,003 - INFO - CaseID:ROW_319 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:46,003 - INFO - CaseID:ROW_319 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:50,258 - INFO - CaseID:ROW_320 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:34:50,258 - INFO - CaseID:ROW_320 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:34:53,931 - INFO - CaseID:ROW_321 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品或商品]，实际[这个多少钱呢]
+2026-02-26 19:34:57,584 - INFO - CaseID:ROW_322 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这个粉色的东西是什么？]，实际[这个粉色的东西好吃么]
+2026-02-26 19:35:02,916 - INFO - CaseID:ROW_323 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:02,917 - INFO - CaseID:ROW_323 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:07,682 - INFO - CaseID:ROW_324 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:07,683 - INFO - CaseID:ROW_324 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:11,398 - INFO - CaseID:ROW_325 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:11,398 - INFO - CaseID:ROW_325 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:15,179 - INFO - CaseID:ROW_326 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:15,180 - INFO - CaseID:ROW_326 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:19,132 - INFO - CaseID:ROW_327 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:19,132 - INFO - CaseID:ROW_327 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:23,687 - INFO - CaseID:ROW_328 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:23,687 - INFO - CaseID:ROW_328 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:27,786 - INFO - CaseID:ROW_329 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:27,787 - INFO - CaseID:ROW_329 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:32,084 - INFO - CaseID:ROW_330 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:32,084 - INFO - CaseID:ROW_330 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:37,204 - INFO - CaseID:ROW_331 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:37,205 - INFO - CaseID:ROW_331 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:40,892 - INFO - CaseID:ROW_332 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个东西得花多少钱]
+2026-02-26 19:35:45,601 - INFO - CaseID:ROW_333 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:45,602 - INFO - CaseID:ROW_333 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:49,662 - INFO - CaseID:ROW_334 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:49,662 - INFO - CaseID:ROW_334 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:53,999 - INFO - CaseID:ROW_335 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:54,000 - INFO - CaseID:ROW_335 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:35:57,816 - INFO - CaseID:ROW_336 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:35:57,816 - INFO - CaseID:ROW_336 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:01,576 - INFO - CaseID:ROW_337 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:01,576 - INFO - CaseID:ROW_337 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:05,672 - INFO - CaseID:ROW_338 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:05,672 - INFO - CaseID:ROW_338 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:09,291 - INFO - CaseID:ROW_339 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:09,291 - INFO - CaseID:ROW_339 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:13,954 - INFO - CaseID:ROW_340 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:13,954 - INFO - CaseID:ROW_340 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:17,949 - INFO - CaseID:ROW_341 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:17,950 - INFO - CaseID:ROW_341 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:22,076 - INFO - CaseID:ROW_342 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:22,076 - INFO - CaseID:ROW_342 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:25,988 - INFO - CaseID:ROW_343 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:25,989 - INFO - CaseID:ROW_343 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:30,658 - INFO - CaseID:ROW_344 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:30,658 - INFO - CaseID:ROW_344 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:37,156 - INFO - CaseID:ROW_345 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品或服务]，实际[这个大概要多少钱]
+2026-02-26 19:36:41,001 - INFO - CaseID:ROW_346 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:41,001 - INFO - CaseID:ROW_346 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:44,879 - INFO - CaseID:ROW_347 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:44,879 - INFO - CaseID:ROW_347 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:48,982 - INFO - CaseID:ROW_348 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:48,982 - INFO - CaseID:ROW_348 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:52,954 - INFO - CaseID:ROW_349 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:52,954 - INFO - CaseID:ROW_349 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:36:58,101 - INFO - CaseID:ROW_350 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:36:58,101 - INFO - CaseID:ROW_350 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:04,247 - INFO - CaseID:ROW_351 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:04,247 - INFO - CaseID:ROW_351 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:08,249 - INFO - CaseID:ROW_352 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:08,250 - INFO - CaseID:ROW_352 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:11,905 - INFO - CaseID:ROW_353 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:11,905 - INFO - CaseID:ROW_353 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:16,738 - INFO - CaseID:ROW_354 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:16,738 - INFO - CaseID:ROW_354 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:20,794 - INFO - CaseID:ROW_355 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的面部表情和肢体语言，判断她是否不高兴]，实际[她看起来是不是不高兴]
+2026-02-26 19:37:24,578 - INFO - CaseID:ROW_356 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:24,579 - INFO - CaseID:ROW_356 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:26,615 - INFO - CaseID:ROW_357 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:37:26,615 - INFO - CaseID:ROW_357 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:30,504 - INFO - CaseID:ROW_358 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:30,504 - INFO - CaseID:ROW_358 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:35,191 - INFO - CaseID:ROW_359 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:35,191 - INFO - CaseID:ROW_359 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:38,857 - INFO - CaseID:ROW_360 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:38,859 - INFO - CaseID:ROW_360 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:43,041 - INFO - CaseID:ROW_361 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:43,041 - INFO - CaseID:ROW_361 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:47,049 - INFO - CaseID:ROW_362 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:47,050 - INFO - CaseID:ROW_362 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:51,350 - INFO - CaseID:ROW_363 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:51,350 - INFO - CaseID:ROW_363 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:55,376 - INFO - CaseID:ROW_364 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:55,377 - INFO - CaseID:ROW_364 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:37:59,140 - INFO - CaseID:ROW_365 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:37:59,141 - INFO - CaseID:ROW_365 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:03,135 - INFO - CaseID:ROW_366 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析用户当前穿着的款式、颜色搭配等视觉信息]，实际[我穿这个衣服帅气不]
+2026-02-26 19:38:06,774 - INFO - CaseID:ROW_367 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:06,774 - INFO - CaseID:ROW_367 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:10,494 - INFO - CaseID:ROW_368 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:10,495 - INFO - CaseID:ROW_368 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:15,107 - INFO - CaseID:ROW_369 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:15,107 - INFO - CaseID:ROW_369 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:19,291 - INFO - CaseID:ROW_370 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:19,292 - INFO - CaseID:ROW_370 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:23,032 - INFO - CaseID:ROW_371 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这双鞋的款式、颜色和风格是什么？]，实际[这双鞋搭配什么衣服合适]
+2026-02-26 19:38:26,784 - INFO - CaseID:ROW_372 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:26,785 - INFO - CaseID:ROW_372 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:31,320 - INFO - CaseID:ROW_373 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:31,320 - INFO - CaseID:ROW_373 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:34,876 - INFO - CaseID:ROW_374 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析用户当前穿着的鞋子款式、颜色搭配等视觉信息]，实际[我穿这鞋好看不]
+2026-02-26 19:38:39,088 - INFO - CaseID:ROW_375 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前鞋子的款式、颜色和风格]，实际[这鞋搭配什么一个合适一点]
+2026-02-26 19:38:43,167 - INFO - CaseID:ROW_376 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:43,167 - INFO - CaseID:ROW_376 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:45,054 - INFO - CaseID:ROW_377 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:38:45,054 - INFO - CaseID:ROW_377 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:48,702 - INFO - CaseID:ROW_378 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:48,703 - INFO - CaseID:ROW_378 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:53,815 - INFO - CaseID:ROW_379 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:53,815 - INFO - CaseID:ROW_379 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:38:57,985 - INFO - CaseID:ROW_380 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:38:57,985 - INFO - CaseID:ROW_380 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:02,622 - INFO - CaseID:ROW_381 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:02,622 - INFO - CaseID:ROW_381 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:06,601 - INFO - CaseID:ROW_382 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:06,602 - INFO - CaseID:ROW_382 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:11,167 - INFO - CaseID:ROW_383 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:11,168 - INFO - CaseID:ROW_383 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:15,121 - INFO - CaseID:ROW_384 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:15,121 - INFO - CaseID:ROW_384 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:19,008 - INFO - CaseID:ROW_385 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这鞋质感真不错]，实际[这双鞋的质感如何？]
+2026-02-26 19:39:23,011 - INFO - CaseID:ROW_386 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:23,011 - INFO - CaseID:ROW_386 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:27,813 - INFO - CaseID:ROW_387 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:27,814 - INFO - CaseID:ROW_387 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:31,747 - INFO - CaseID:ROW_388 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:31,748 - INFO - CaseID:ROW_388 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:35,798 - INFO - CaseID:ROW_389 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:35,799 - INFO - CaseID:ROW_389 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:41,124 - INFO - CaseID:ROW_390 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:41,124 - INFO - CaseID:ROW_390 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:46,655 - INFO - CaseID:ROW_391 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:46,656 - INFO - CaseID:ROW_391 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:50,752 - INFO - CaseID:ROW_392 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:50,753 - INFO - CaseID:ROW_392 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:54,664 - INFO - CaseID:ROW_393 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:54,665 - INFO - CaseID:ROW_393 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:39:58,738 - INFO - CaseID:ROW_394 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:39:58,739 - INFO - CaseID:ROW_394 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:02,835 - INFO - CaseID:ROW_395 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:02,836 - INFO - CaseID:ROW_395 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:06,584 - INFO - CaseID:ROW_396 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:06,585 - INFO - CaseID:ROW_396 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:10,822 - INFO - CaseID:ROW_397 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这电脑的品牌和型号是什么？]，实际[这电脑可以在哪里买到]
+2026-02-26 19:40:14,713 - INFO - CaseID:ROW_398 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:14,713 - INFO - CaseID:ROW_398 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:20,276 - INFO - CaseID:ROW_399 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的转接器型号或品牌]，实际[这些转接器都多少钱呢]
+2026-02-26 19:40:24,674 - INFO - CaseID:ROW_400 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的键盘品牌和型号]，实际[这键盘多少钱呀]
+2026-02-26 19:40:24,675 - INFO - 已处理400行，休眠5秒降低压力...
+2026-02-26 19:40:32,709 - INFO - CaseID:ROW_401 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这键盘的品牌和型号是什么]，实际[这键盘可以在网上买得到吗]
+2026-02-26 19:40:32,710 - INFO - 已处理400条用例，当前通过数：342
+2026-02-26 19:40:38,043 - INFO - CaseID:ROW_402 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的鼠标品牌和型号]，实际[这鼠标在哪里可以买得到]
+2026-02-26 19:40:41,828 - INFO - CaseID:ROW_403 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的鼠标品牌和型号]，实际[这个鼠标大概得多少钱]
+2026-02-26 19:40:46,101 - INFO - CaseID:ROW_404 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:46,101 - INFO - CaseID:ROW_404 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:50,016 - INFO - CaseID:ROW_405 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:50,017 - INFO - CaseID:ROW_405 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:54,035 - INFO - CaseID:ROW_406 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:54,035 - INFO - CaseID:ROW_406 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:40:58,676 - INFO - CaseID:ROW_407 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:40:58,677 - INFO - CaseID:ROW_407 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:02,592 - INFO - CaseID:ROW_408 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:02,592 - INFO - CaseID:ROW_408 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:07,250 - INFO - CaseID:ROW_409 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:07,250 - INFO - CaseID:ROW_409 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:11,647 - INFO - CaseID:ROW_410 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:11,648 - INFO - CaseID:ROW_410 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:15,280 - INFO - CaseID:ROW_411 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:15,280 - INFO - CaseID:ROW_411 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:19,972 - INFO - CaseID:ROW_412 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[基于这个写一个爱情故事]，实际[请描述当前摄像头捕捉到的画面内容]
+2026-02-26 19:41:24,140 - INFO - CaseID:ROW_413 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:24,141 - INFO - CaseID:ROW_413 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:28,656 - INFO - CaseID:ROW_414 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:28,657 - INFO - CaseID:ROW_414 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:32,554 - INFO - CaseID:ROW_415 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:32,554 - INFO - CaseID:ROW_415 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:36,286 - INFO - CaseID:ROW_416 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:36,286 - INFO - CaseID:ROW_416 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:39,918 - INFO - CaseID:ROW_417 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:39,918 - INFO - CaseID:ROW_417 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:44,132 - INFO - CaseID:ROW_418 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:44,134 - INFO - CaseID:ROW_418 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:48,923 - INFO - CaseID:ROW_419 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:48,924 - INFO - CaseID:ROW_419 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:52,608 - INFO - CaseID:ROW_420 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:52,609 - INFO - CaseID:ROW_420 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:41:56,362 - INFO - CaseID:ROW_421 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:41:56,362 - INFO - CaseID:ROW_421 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:00,186 - INFO - CaseID:ROW_422 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:00,186 - INFO - CaseID:ROW_422 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:04,079 - INFO - CaseID:ROW_423 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:04,079 - INFO - CaseID:ROW_423 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:08,212 - INFO - CaseID:ROW_424 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:08,214 - INFO - CaseID:ROW_424 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:12,410 - INFO - CaseID:ROW_425 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:12,411 - INFO - CaseID:ROW_425 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:16,466 - INFO - CaseID:ROW_426 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:16,467 - INFO - CaseID:ROW_426 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:20,015 - INFO - CaseID:ROW_427 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:20,015 - INFO - CaseID:ROW_427 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:24,558 - INFO - CaseID:ROW_428 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:24,558 - INFO - CaseID:ROW_428 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:28,506 - INFO - CaseID:ROW_429 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:28,506 - INFO - CaseID:ROW_429 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:32,750 - INFO - CaseID:ROW_430 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:32,751 - INFO - CaseID:ROW_430 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:36,641 - INFO - CaseID:ROW_431 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:36,641 - INFO - CaseID:ROW_431 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:40,904 - INFO - CaseID:ROW_432 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:40,904 - INFO - CaseID:ROW_432 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:44,765 - INFO - CaseID:ROW_433 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:44,766 - INFO - CaseID:ROW_433 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:48,346 - INFO - CaseID:ROW_434 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:48,347 - INFO - CaseID:ROW_434 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:52,077 - INFO - CaseID:ROW_435 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:52,078 - INFO - CaseID:ROW_435 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:42:56,136 - INFO - CaseID:ROW_436 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:42:56,136 - INFO - CaseID:ROW_436 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:00,124 - INFO - CaseID:ROW_437 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:00,125 - INFO - CaseID:ROW_437 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:03,676 - INFO - CaseID:ROW_438 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:03,676 - INFO - CaseID:ROW_438 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:07,954 - INFO - CaseID:ROW_439 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:07,954 - INFO - CaseID:ROW_439 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:11,878 - INFO - CaseID:ROW_440 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:11,879 - INFO - CaseID:ROW_440 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:15,698 - INFO - CaseID:ROW_441 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:15,698 - INFO - CaseID:ROW_441 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:19,938 - INFO - CaseID:ROW_442 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别并翻译当前摄像头画面中的文字内容]，实际[翻译一下这是什么]
+2026-02-26 19:43:25,792 - INFO - CaseID:ROW_443 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:25,793 - INFO - CaseID:ROW_443 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:29,827 - INFO - CaseID:ROW_444 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:29,828 - INFO - CaseID:ROW_444 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:33,431 - INFO - CaseID:ROW_445 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:33,433 - INFO - CaseID:ROW_445 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:37,573 - INFO - CaseID:ROW_446 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:37,573 - INFO - CaseID:ROW_446 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:42,177 - INFO - CaseID:ROW_447 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:42,178 - INFO - CaseID:ROW_447 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:45,863 - INFO - CaseID:ROW_448 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:45,863 - INFO - CaseID:ROW_448 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:49,695 - INFO - CaseID:ROW_449 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:49,696 - INFO - CaseID:ROW_449 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:53,853 - INFO - CaseID:ROW_450 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:53,853 - INFO - CaseID:ROW_450 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:43:57,742 - INFO - CaseID:ROW_451 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:43:57,742 - INFO - CaseID:ROW_451 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:01,435 - INFO - CaseID:ROW_452 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:01,436 - INFO - CaseID:ROW_452 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:05,185 - INFO - CaseID:ROW_453 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:05,186 - INFO - CaseID:ROW_453 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:09,075 - INFO - CaseID:ROW_454 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:09,076 - INFO - CaseID:ROW_454 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:13,922 - INFO - CaseID:ROW_455 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:13,922 - INFO - CaseID:ROW_455 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:18,088 - INFO - CaseID:ROW_456 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:18,088 - INFO - CaseID:ROW_456 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:23,138 - INFO - CaseID:ROW_457 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[用户当前位置附近的电影院]，实际[电影院要怎么走]
+2026-02-26 19:44:27,335 - INFO - CaseID:ROW_458 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[故宫怎么走]，实际[故宫的步行或公共交通路线导航]
+2026-02-26 19:44:31,356 - INFO - CaseID:ROW_459 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:31,356 - INFO - CaseID:ROW_459 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:35,558 - INFO - CaseID:ROW_460 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:35,558 - INFO - CaseID:ROW_460 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:39,522 - INFO - CaseID:ROW_461 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:39,523 - INFO - CaseID:ROW_461 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:43,413 - INFO - CaseID:ROW_462 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前环境中的“17号”位置或方向指示]，实际[17号指的是什么路线（地铁、公交、公路等）？]
+2026-02-26 19:44:49,432 - INFO - CaseID:ROW_463 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:49,433 - INFO - CaseID:ROW_463 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:53,667 - INFO - CaseID:ROW_464 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:53,667 - INFO - CaseID:ROW_464 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:44:57,471 - INFO - CaseID:ROW_465 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:44:57,472 - INFO - CaseID:ROW_465 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:01,652 - INFO - CaseID:ROW_466 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:01,652 - INFO - CaseID:ROW_466 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:05,326 - INFO - CaseID:ROW_467 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[当前摄像头画面中有什么物体或场景？]，实际[放这个的目的是什么]
+2026-02-26 19:45:09,972 - INFO - CaseID:ROW_468 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:09,973 - INFO - CaseID:ROW_468 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:13,568 - INFO - CaseID:ROW_469 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:13,568 - INFO - CaseID:ROW_469 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:17,820 - INFO - CaseID:ROW_470 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:17,821 - INFO - CaseID:ROW_470 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:21,741 - INFO - CaseID:ROW_471 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:21,742 - INFO - CaseID:ROW_471 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:25,646 - INFO - CaseID:ROW_472 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的主体对象]，实际[这个的起源是什么]
+2026-02-26 19:45:29,465 - INFO - CaseID:ROW_473 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:29,466 - INFO - CaseID:ROW_473 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:33,590 - INFO - CaseID:ROW_474 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:33,590 - INFO - CaseID:ROW_474 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:37,891 - INFO - CaseID:ROW_475 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:37,892 - INFO - CaseID:ROW_475 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:42,226 - INFO - CaseID:ROW_476 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:42,227 - INFO - CaseID:ROW_476 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:46,120 - INFO - CaseID:ROW_477 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:46,121 - INFO - CaseID:ROW_477 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:50,574 - INFO - CaseID:ROW_478 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:50,575 - INFO - CaseID:ROW_478 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:45:56,116 - INFO - CaseID:ROW_479 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:45:56,116 - INFO - CaseID:ROW_479 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:00,100 - INFO - CaseID:ROW_480 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:00,101 - INFO - CaseID:ROW_480 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:04,108 - INFO - CaseID:ROW_481 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:04,109 - INFO - CaseID:ROW_481 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:08,103 - INFO - CaseID:ROW_482 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[我这个写的怎样]，实际[请展示当前需要评价的文本或内容]
+2026-02-26 19:46:11,886 - INFO - CaseID:ROW_483 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:11,886 - INFO - CaseID:ROW_483 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:15,779 - INFO - CaseID:ROW_484 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:15,779 - INFO - CaseID:ROW_484 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:20,437 - INFO - CaseID:ROW_485 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:20,437 - INFO - CaseID:ROW_485 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:26,148 - INFO - CaseID:ROW_486 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:26,149 - INFO - CaseID:ROW_486 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:30,124 - INFO - CaseID:ROW_487 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:30,124 - INFO - CaseID:ROW_487 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:34,415 - INFO - CaseID:ROW_488 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:34,415 - INFO - CaseID:ROW_488 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:39,181 - INFO - CaseID:ROW_489 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:39,182 - INFO - CaseID:ROW_489 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:43,019 - INFO - CaseID:ROW_490 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:43,020 - INFO - CaseID:ROW_490 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:46,908 - INFO - CaseID:ROW_491 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:46,909 - INFO - CaseID:ROW_491 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:52,028 - INFO - CaseID:ROW_492 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:52,028 - INFO - CaseID:ROW_492 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:46:56,440 - INFO - CaseID:ROW_493 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:46:56,440 - INFO - CaseID:ROW_493 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:00,181 - INFO - CaseID:ROW_494 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:00,181 - INFO - CaseID:ROW_494 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:04,317 - INFO - CaseID:ROW_495 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:04,317 - INFO - CaseID:ROW_495 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:08,166 - INFO - CaseID:ROW_496 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:08,168 - INFO - CaseID:ROW_496 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:12,069 - INFO - CaseID:ROW_497 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:12,070 - INFO - CaseID:ROW_497 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:16,200 - INFO - CaseID:ROW_498 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:16,201 - INFO - CaseID:ROW_498 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:20,559 - INFO - CaseID:ROW_499 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:20,560 - INFO - CaseID:ROW_499 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:24,608 - INFO - CaseID:ROW_500 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:24,609 - INFO - CaseID:ROW_500 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:24,609 - INFO - 已处理500行，休眠5秒降低压力...
+2026-02-26 19:47:32,211 - INFO - CaseID:ROW_501 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:32,212 - INFO - CaseID:ROW_501 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:36,678 - INFO - CaseID:ROW_502 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:36,679 - INFO - CaseID:ROW_502 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:40,461 - INFO - CaseID:ROW_503 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:40,462 - INFO - CaseID:ROW_503 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:45,426 - INFO - CaseID:ROW_504 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:45,426 - INFO - CaseID:ROW_504 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:52,651 - INFO - CaseID:ROW_505 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:52,652 - INFO - CaseID:ROW_505 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:47:56,952 - INFO - CaseID:ROW_506 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:47:56,953 - INFO - CaseID:ROW_506 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:01,500 - INFO - CaseID:ROW_507 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:01,502 - INFO - CaseID:ROW_507 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:05,758 - INFO - CaseID:ROW_508 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:05,758 - INFO - CaseID:ROW_508 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:10,466 - INFO - CaseID:ROW_509 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:10,466 - INFO - CaseID:ROW_509 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:14,244 - INFO - CaseID:ROW_510 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:14,244 - INFO - CaseID:ROW_510 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:18,476 - INFO - CaseID:ROW_511 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:18,478 - INFO - CaseID:ROW_511 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:23,001 - INFO - CaseID:ROW_512 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:23,002 - INFO - CaseID:ROW_512 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:25,833 - INFO - CaseID:ROW_513 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:48:25,834 - INFO - CaseID:ROW_513 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:30,215 - INFO - CaseID:ROW_514 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:30,216 - INFO - CaseID:ROW_514 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:33,710 - INFO - CaseID:ROW_515 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:33,710 - INFO - CaseID:ROW_515 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:37,983 - INFO - CaseID:ROW_516 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:37,984 - INFO - CaseID:ROW_516 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:42,213 - INFO - CaseID:ROW_517 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:42,214 - INFO - CaseID:ROW_517 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:46,024 - INFO - CaseID:ROW_518 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:46,024 - INFO - CaseID:ROW_518 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:50,312 - INFO - CaseID:ROW_519 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:50,313 - INFO - CaseID:ROW_519 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:54,706 - INFO - CaseID:ROW_520 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:54,707 - INFO - CaseID:ROW_520 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:48:58,805 - INFO - CaseID:ROW_521 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:48:58,806 - INFO - CaseID:ROW_521 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:03,514 - INFO - CaseID:ROW_522 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:03,514 - INFO - CaseID:ROW_522 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:08,834 - INFO - CaseID:ROW_523 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:08,835 - INFO - CaseID:ROW_523 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:12,762 - INFO - CaseID:ROW_524 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:12,763 - INFO - CaseID:ROW_524 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:16,706 - INFO - CaseID:ROW_525 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:16,707 - INFO - CaseID:ROW_525 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:20,921 - INFO - CaseID:ROW_526 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:20,922 - INFO - CaseID:ROW_526 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:25,251 - INFO - CaseID:ROW_527 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:25,252 - INFO - CaseID:ROW_527 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:30,966 - INFO - CaseID:ROW_528 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:30,966 - INFO - CaseID:ROW_528 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:34,848 - INFO - CaseID:ROW_529 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:34,849 - INFO - CaseID:ROW_529 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:39,036 - INFO - CaseID:ROW_530 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:39,037 - INFO - CaseID:ROW_530 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:43,451 - INFO - CaseID:ROW_531 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:43,452 - INFO - CaseID:ROW_531 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:47,766 - INFO - CaseID:ROW_532 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:47,766 - INFO - CaseID:ROW_532 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:51,659 - INFO - CaseID:ROW_533 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:51,660 - INFO - CaseID:ROW_533 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:49:58,148 - INFO - CaseID:ROW_534 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:49:58,149 - INFO - CaseID:ROW_534 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:02,906 - INFO - CaseID:ROW_535 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:02,907 - INFO - CaseID:ROW_535 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:06,966 - INFO - CaseID:ROW_536 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:06,966 - INFO - CaseID:ROW_536 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:11,883 - INFO - CaseID:ROW_537 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:11,883 - INFO - CaseID:ROW_537 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:16,346 - INFO - CaseID:ROW_538 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:16,347 - INFO - CaseID:ROW_538 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:20,252 - INFO - CaseID:ROW_539 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:20,253 - INFO - CaseID:ROW_539 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:24,002 - INFO - CaseID:ROW_540 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:24,002 - INFO - CaseID:ROW_540 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:28,324 - INFO - CaseID:ROW_541 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:28,325 - INFO - CaseID:ROW_541 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:33,218 - INFO - CaseID:ROW_542 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:33,218 - INFO - CaseID:ROW_542 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:37,113 - INFO - CaseID:ROW_543 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:37,113 - INFO - CaseID:ROW_543 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:40,924 - INFO - CaseID:ROW_544 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:40,925 - INFO - CaseID:ROW_544 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:44,966 - INFO - CaseID:ROW_545 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:44,966 - INFO - CaseID:ROW_545 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:49,192 - INFO - CaseID:ROW_546 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:49,194 - INFO - CaseID:ROW_546 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:53,579 - INFO - CaseID:ROW_547 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:53,579 - INFO - CaseID:ROW_547 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:50:57,384 - INFO - CaseID:ROW_548 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:50:57,386 - INFO - CaseID:ROW_548 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:51:01,430 - INFO - CaseID:ROW_549 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:51:01,431 - INFO - CaseID:ROW_549 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:51:05,781 - INFO - CaseID:ROW_550 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:51:05,781 - INFO - CaseID:ROW_550 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:51:09,606 - INFO - CaseID:ROW_551 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过
+2026-02-26 19:51:09,606 - INFO - CaseID:ROW_551 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 19:51:09,607 - INFO - CaseID:ROW_552 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[她背的帆布包是什么品牌的]
+2026-02-26 19:51:09,607 - INFO - CaseID:ROW_553 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这只螃蟹是什么品种的]
+2026-02-26 19:51:09,607 - INFO - CaseID:ROW_554 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这只白色鸽子是什么品种的鸽子]
+2026-02-26 19:51:09,608 - INFO - CaseID:ROW_555 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个小猪佩奇的玩偶的材质是什么]
+2026-02-26 19:51:09,608 - INFO - CaseID:ROW_556 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个猪爸的玩偶是什么颜色的]
+2026-02-26 19:51:09,608 - INFO - CaseID:ROW_557 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这只粉红色的卡通猪玩偶的尺寸]
+2026-02-26 19:51:09,608 - INFO - CaseID:ROW_558 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个小猪玩偶的材质是什么]
+2026-02-26 19:51:09,609 - INFO - CaseID:ROW_559 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个粉红色的卡通猪玩偶是哪部动画片的角色]
+2026-02-26 19:51:09,609 - INFO - CaseID:ROW_560 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这只公仔的衣服是什么颜色的]
+2026-02-26 19:51:09,609 - INFO - CaseID:ROW_561 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个小砾公仔是什么颜色的]
+2026-02-26 19:51:09,609 - INFO - CaseID:ROW_562 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个玩具小狗的材质是什么]
+2026-02-26 19:51:09,609 - INFO - CaseID:ROW_563 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个穿着消防员制服的小狗叫什么名字]
+2026-02-26 19:51:09,610 - INFO - CaseID:ROW_564 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个公仔穿着什么制服]
+2026-02-26 19:51:09,610 - INFO - CaseID:ROW_565 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个无线耳机的充电盒是什么品牌的]
+2026-02-26 19:51:09,610 - INFO - CaseID:ROW_566 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这副无线蓝牙耳机是什么颜色的]
+2026-02-26 19:51:09,610 - INFO - CaseID:ROW_567 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这副华为的无线耳机是白色的吗]
+2026-02-26 19:51:09,610 - INFO - CaseID:ROW_568 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这款空调遥控器的空调品牌是什么？]
+2026-02-26 19:51:09,611 - INFO - CaseID:ROW_569 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个遥控器是什么颜色的]
+2026-02-26 19:51:09,611 - INFO - CaseID:ROW_570 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个麦克风是什么品牌]
+2026-02-26 19:51:09,611 - INFO - CaseID:ROW_571 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个麦克风是什么颜色的]
+2026-02-26 19:51:09,611 - INFO - CaseID:ROW_572 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个发夹是什么颜色的]
+2026-02-26 19:51:09,611 - INFO - CaseID:ROW_573 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个紫色的发夹是什么图案的]
+2026-02-26 19:51:09,611 - INFO - CaseID:ROW_574 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个腰果零食是什么品牌的]
+2026-02-26 19:51:09,613 - INFO - CaseID:ROW_575 - CATEGORY字段：标准答案为「其他问答」，模型输出任意值通过
+2026-02-26 19:51:12,131 - INFO - CaseID:ROW_575 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:51:12,132 - INFO - CaseID:ROW_575 - 整体结果: FAILED | 详情: APINAME不匹配：预期[QASearch]，实际[visual_search]; TAG不匹配：一方为空 - 预期[混合坚果&品牌]，实际[]
+2026-02-26 19:51:12,132 - INFO - CaseID:ROW_576 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这杯星巴克的饮料是中杯的还是大杯的]
+2026-02-26 19:51:12,132 - INFO - CaseID:ROW_577 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个咖啡杯是什么颜色的]
+2026-02-26 19:51:12,132 - INFO - CaseID:ROW_578 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这杯星巴克的饮料杯壁颜色是什么]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_579 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这瓶竹香乌龙茶饮料是什么品牌的]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_580 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这盒牛奶饮品的容量是多少？]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_581 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个牛奶包装盒上面有什么图案]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_582 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这盒牛奶的品牌是什么？]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_583 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这只白色长毛猫的眼睛颜色]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_584 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件黑色T恤的材质是什么]
+2026-02-26 19:51:12,133 - INFO - CaseID:ROW_585 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件T恤的品牌是什么？]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_586 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件衣服的品牌是什么]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_587 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件黑色的衣服上有什么图案]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_588 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件黑色外套的品牌是什么]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_589 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件衣服是什么品牌的]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_590 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件衣服是什么颜色的]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_591 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件灰色和深蓝色的搭配的衣服是国内的品牌吗]
+2026-02-26 19:51:12,134 - INFO - CaseID:ROW_592 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件衣服的材质是什么]
+2026-02-26 19:51:12,135 - INFO - CaseID:ROW_593 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件牛仔夹克的品牌是什么]
+2026-02-26 19:51:12,135 - INFO - CaseID:ROW_594 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这个衣服是什么颜色的]
+2026-02-26 19:51:12,135 - INFO - CaseID:ROW_595 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件衣服适合什么场合]
+2026-02-26 19:51:12,135 - INFO - CaseID:ROW_596 - CATEGORY字段：标准答案为「其他问答」，模型输出任意值通过
+2026-02-26 19:51:14,094 - INFO - CaseID:ROW_596 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 19:51:14,094 - INFO - CaseID:ROW_596 - 整体结果: FAILED | 详情: APINAME不匹配：预期[QASearch]，实际[visual_search]; TAG不匹配：一方为空 - 预期[羽绒服&价格]，实际[]
+2026-02-26 19:51:14,095 - INFO - CaseID:ROW_597 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件浅色羽绒服是短款还是长款]
+2026-02-26 19:51:14,095 - INFO - CaseID:ROW_598 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件羽绒服是什么颜色的]
+2026-02-26 19:51:14,095 - INFO - CaseID:ROW_599 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件衬衫是什么颜色的]
+2026-02-26 19:51:14,095 - INFO - CaseID:ROW_600 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义模糊匹配失败 - 预期[]，实际[这件格子衬衫的款式如何]
+2026-02-26 19:51:19,521 - INFO - 
+=== 执行完成（总耗时：2303.49秒）===
+2026-02-26 19:51:19,522 - INFO - 总用例数：599 | 通过：482（80.47%） | 失败：117

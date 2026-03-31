@@ -1,0 +1,2 @@
+2026-03-06 10:44:49,224 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-06 10:44:50,892 - WARNING - 单行JSON解析失败（原始字符串：{"name":"device_control","arguments":"action":"turnon","entity":"AC","position":"DRIVER"}{"name":"de...）: Expecting ',' delimiter: line 1 column 46 (char 45)

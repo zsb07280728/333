@@ -1,0 +1,24 @@
+2026-03-23 17:31:43,211 - DEBUG - parse_planning_data - 清理前: '{"function": {"name": "vla_control", "arguments": {"action":"park_in","point_desc":{"parking_space":'
+2026-03-23 17:31:43,211 - DEBUG - parse_planning_data - 清理后: '{"function":{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"'
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_1 - plan_functions: [{'name': 'vla_control', 'arguments': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_1 - expect_functions: [{'name': 'vla_control', 'arguments': {'point_desc': {'parking_space': '车位'}, 'action': 'park_in'}}]
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_1 - plan_keys: {('vla_control', '{"action": "park_in", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_1 - expect_keys: {('vla_control', '{"action": "park_in", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 17:31:43,211 - DEBUG - parse_planning_data - 清理前: '{"function": {"name": "vla_control", "arguments": {"point_desc":{"parking_space":"车位"},"action":"nav'
+2026-03-23 17:31:43,211 - DEBUG - parse_planning_data - 清理后: '{"function":{"name":"vla_control","arguments":{"point_desc":{"parking_space":"车位"},"action":"navigat'
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_2 - plan_functions: [{'name': 'vla_control', 'arguments': {'point_desc': {'parking_space': '车位'}, 'action': 'navigate'}}]
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_2 - expect_functions: [{'name': 'vla_control', 'arguments': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_2 - plan_keys: {('vla_control', '{"action": "navigate", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 17:31:43,211 - DEBUG - CaseID: test_2 - expect_keys: {('vla_control', '{"action": "navigate", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 17:31:43,211 - DEBUG - parse_planning_data - 清理前: '{"function": {"name": "vla_control", "arguments": {"action":"park"}}}'
+2026-03-23 17:31:43,211 - DEBUG - parse_planning_data - 清理后: '{"function":{"name":"vla_control","arguments":{"action":"park"}}}'
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_3 - plan_functions: [{'name': 'vla_control', 'arguments': {'action': 'park'}}]
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_3 - expect_functions: [{'name': 'vla_control', 'arguments': {'action': 'park'}}]
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_3 - plan_keys: {('vla_control', '{"action": "park"}')}
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_3 - expect_keys: {('vla_control', '{"action": "park"}')}
+2026-03-23 17:31:43,212 - DEBUG - parse_planning_data - 清理前: '{"function": {"name": "vla_control", "arguments": {"action":"park","point_desc":{"parking_space":"车位'
+2026-03-23 17:31:43,212 - DEBUG - parse_planning_data - 清理后: '{"function":{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}}'
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_4 - plan_functions: [{'name': 'vla_control', 'arguments': {'action': 'park', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_4 - expect_functions: [{'name': 'vla_control', 'arguments': {'point_desc': {'parking_space': '车位'}, 'action': 'park'}}]
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_4 - plan_keys: {('vla_control', '{"action": "park", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}
+2026-03-23 17:31:43,212 - DEBUG - CaseID: test_4 - expect_keys: {('vla_control', '{"action": "park", "point_desc": {"parking_space": "\\u8f66\\u4f4d"}}')}

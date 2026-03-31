@@ -1,0 +1,9 @@
+2026-03-06 11:21:33,270 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-06 11:21:36,744 - ERROR - CaseID: 1335
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WINDOW", "position": "PASSENGER"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "adjust", "entity": "WINDOW", "position": "PASSENGER", "range": "SLIGHTLY"}
+2026-03-06 11:21:36,745 - INFO - 开始分片写入 19 条结果，每片 2000 条
+2026-03-06 11:21:37,419 - INFO - 已写入第 1-19 行结果
+2026-03-06 11:21:37,920 - INFO - === IM_vehicle_control 流程完成，耗时: 4.65秒 ===

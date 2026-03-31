@@ -1,0 +1,40 @@
+2026-03-23 09:40:03,488 - DEBUG - CaseID: 11 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"park_in","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:40:03,488 - DEBUG - CaseID: 11 - 字符串清理前: '{"action":"park_in","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:40:03,488 - DEBUG - CaseID: 11 - 字符串清理后: '{"action":"park_in","point_desc":{"parking_space":"车位"}'
+2026-03-23 09:40:03,488 - ERROR - CaseID: 11 - JSON解析失败!
+2026-03-23 09:40:03,488 - ERROR -   错误信息: Expecting ',' delimiter: line 1 column 56 (char 55)
+2026-03-23 09:40:03,488 - ERROR -   原始字符串: '{"action":"park_in","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:40:03,488 - ERROR -   清理后字符串: '{"action":"park_in","point_desc":{"parking_space":"车位"}'
+2026-03-23 09:40:03,488 - ERROR -   错误位置(col 56): 'ce":"车位"}'
+2026-03-23 09:40:03,488 - WARNING - CaseID: 11 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-03-23 09:40:03,488 - DEBUG - CaseID: 11 - parse_multi_results输出: []
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 11 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"point_desc":{"parking_space":"车位"},"action":"park_in"}'
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 11 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 11 - expected_results: []
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 11 - actual_results: [{'name': 'vla_control', 'args': {'action': 'park_in', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:40:03,489 - ERROR - CaseID: 11
+结果数量不匹配: 预期0个，实际1个
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"navigate","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - 字符串清理前: '{"action":"navigate","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - 字符串清理后: '{"action":"navigate","point_desc":{"parking_space":"车位"}'
+2026-03-23 09:40:03,489 - ERROR - CaseID: 12 - JSON解析失败!
+2026-03-23 09:40:03,489 - ERROR -   错误信息: Expecting ',' delimiter: line 1 column 57 (char 56)
+2026-03-23 09:40:03,489 - ERROR -   原始字符串: '{"action":"navigate","point_desc":{"parking_space":"车位"}}'
+2026-03-23 09:40:03,489 - ERROR -   清理后字符串: '{"action":"navigate","point_desc":{"parking_space":"车位"}'
+2026-03-23 09:40:03,489 - ERROR -   错误位置(col 57): 'ce":"车位"}'
+2026-03-23 09:40:03,489 - WARNING - CaseID: 12 - name和args数量不匹配（name:1个, args:0个），跳过该组对比
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - parse_multi_results输出: []
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"point_desc":{"parking_space":"车位"},"action":"navigate"}'
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - expected_results: []
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 12 - actual_results: [{'name': 'vla_control', 'args': {'action': 'navigate', 'point_desc': {'parking_space': '车位'}}}]
+2026-03-23 09:40:03,489 - ERROR - CaseID: 12
+结果数量不匹配: 预期0个，实际1个
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"park"}'
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - parse_multi_results输入 - name_str: 'vla_control', args_str: '{"action":"park"}'
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - parse_multi_results输出: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - expected_results: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - actual_results: [{'name': 'vla_control', 'args': {'action': 'park'}}]
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - expected_keys: {('vla_control', '{"action": "park"}')}
+2026-03-23 09:40:03,489 - DEBUG - CaseID: 13 - actual_keys: {('vla_control', '{"action": "park"}')}

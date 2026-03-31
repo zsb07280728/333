@@ -1,0 +1,24 @@
+2026-03-06 10:12:02,121 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-06 10:12:06,443 - WARNING - 规划数据JSON解析失败（原始字符串：
+			"name":"device_control",
+			"arguments":{
+				"action":"turnon",
+				"position":"SECOND_ROW",
+		...）: Extra data: line 1 column 7 (char 6)
+2026-03-06 10:12:06,443 - WARNING - 单行JSON解析失败（原始字符串：{"name":"device_control","arguments":"action":"turnon","entity":"AC","position":"DRIVER"}{"name":"de...）: Expecting ',' delimiter: line 1 column 46 (char 45)
+2026-03-06 10:12:06,443 - ERROR - CaseID: 1335
+规划列无有效函数
+2026-03-06 10:12:06,443 - WARNING - 单行JSON解析失败（原始字符串："name":"device_control",...）: Extra data: line 1 column 7 (char 6)
+2026-03-06 10:12:06,443 - WARNING - 单行JSON解析失败（原始字符串："arguments":{...）: Extra data: line 1 column 12 (char 11)
+2026-03-06 10:12:06,444 - WARNING - 单行JSON解析失败（原始字符串："action":"turnon",...）: Extra data: line 1 column 9 (char 8)
+2026-03-06 10:12:06,444 - WARNING - 单行JSON解析失败（原始字符串："position":"SECOND_ROW",...）: Extra data: line 1 column 11 (char 10)
+2026-03-06 10:12:06,444 - WARNING - 单行JSON解析失败（原始字符串："entity":"WINDOW"...）: Extra data: line 1 column 9 (char 8)
+2026-03-06 10:12:06,444 - WARNING - 单行JSON解析失败（原始字符串：}...）: Expecting value: line 1 column 1 (char 0)
+2026-03-06 10:12:06,444 - ERROR - CaseID: 
+规划列无有效函数
+2026-03-06 10:12:06,444 - WARNING - 单行JSON解析失败（原始字符串：{"name":"device_control","arguments":"action":"turnon","entity":"WINDOW","position":"SECOND_ROW"}...）: Expecting ',' delimiter: line 1 column 46 (char 45)
+2026-03-06 10:12:06,444 - ERROR - CaseID: 
+规划列无有效函数
+2026-03-06 10:12:06,444 - INFO - 开始分片写入 19 条结果，每片 2000 条
+2026-03-06 10:12:07,198 - INFO - 已写入第 1-19 行结果
+2026-03-06 10:12:07,702 - INFO - === IM_vehicle_control 流程完成，耗时: 5.58秒 ===

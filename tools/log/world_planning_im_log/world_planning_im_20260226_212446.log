@@ -1,0 +1,913 @@
+2026-02-26 21:24:46,579 - INFO - === 看世界规划对比工具（修复版）启动 ===
+2026-02-26 21:24:46,799 - INFO - 成功加载飞书表格：https://li.feishu.cn/sheets/LxPqsM1O6hWhMltGtVJcqHfknae?sheet=FVb6K5
+2026-02-26 21:24:47,992 - INFO - CaseID:ROW_2 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:24:47,992 - INFO - CaseID:ROW_2 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:24:50,822 - INFO - CaseID:ROW_2 - TAG字段：双方均为空，判定通过
+2026-02-26 21:24:50,822 - INFO - CaseID:ROW_2 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的车辆品牌和型号]，实际[这车卖多少钱]
+2026-02-26 21:24:50,823 - INFO - CaseID:ROW_3 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:24:50,823 - INFO - CaseID:ROW_3 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:24:54,288 - INFO - CaseID:ROW_3 - TAG字段：双方均为空，判定通过
+2026-02-26 21:24:54,289 - INFO - CaseID:ROW_3 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物体或生物]，实际[这是中国本土的品种吗]
+2026-02-26 21:24:54,289 - INFO - CaseID:ROW_4 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:24:54,289 - INFO - CaseID:ROW_4 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:24:57,674 - INFO - CaseID:ROW_4 - TAG字段：双方均为空，判定通过
+2026-02-26 21:24:57,674 - INFO - CaseID:ROW_4 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中这只猫的行为和表情，推测它可能的心理活动]，实际[这只猫心里在琢磨什么]
+2026-02-26 21:24:57,674 - INFO - CaseID:ROW_5 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:24:57,674 - INFO - CaseID:ROW_5 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:01,855 - INFO - CaseID:ROW_5 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:01,856 - INFO - CaseID:ROW_5 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的植物或生物]，实际[这个好养吗]
+2026-02-26 21:25:01,856 - INFO - CaseID:ROW_6 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:01,856 - INFO - CaseID:ROW_6 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:05,523 - INFO - CaseID:ROW_6 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:05,523 - INFO - CaseID:ROW_6 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的车辆品牌和型号]，实际[这个车的轴距和奔驰S450比谁的更好一点]
+2026-02-26 21:25:05,524 - INFO - CaseID:ROW_7 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:05,524 - INFO - CaseID:ROW_7 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:09,505 - INFO - CaseID:ROW_7 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:09,506 - INFO - CaseID:ROW_7 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个没有毛摸着手感咋样]
+2026-02-26 21:25:09,506 - INFO - CaseID:ROW_8 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:09,506 - INFO - CaseID:ROW_8 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:13,650 - INFO - CaseID:ROW_8 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:13,651 - INFO - CaseID:ROW_8 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的花卉种类]，实际[这个花一般种下多久可以开花]
+2026-02-26 21:25:13,651 - INFO - CaseID:ROW_9 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:13,651 - INFO - CaseID:ROW_9 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:17,271 - INFO - CaseID:ROW_9 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:17,271 - INFO - CaseID:ROW_9 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这棵树的种类是什么？]，实际[这棵树能活多久呢]
+2026-02-26 21:25:17,272 - INFO - CaseID:ROW_10 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:17,272 - INFO - CaseID:ROW_10 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:20,727 - INFO - CaseID:ROW_10 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:20,727 - INFO - CaseID:ROW_10 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的性格特征]，实际[她是什么性格的]
+2026-02-26 21:25:20,728 - INFO - CaseID:ROW_11 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:20,728 - INFO - CaseID:ROW_11 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:24,748 - INFO - CaseID:ROW_11 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:24,749 - INFO - CaseID:ROW_11 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的书籍名称或ISBN]，实际[这个书在哪里能买到呀]
+2026-02-26 21:25:24,749 - INFO - CaseID:ROW_12 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:24,749 - INFO - CaseID:ROW_12 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:29,040 - INFO - CaseID:ROW_12 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:29,041 - INFO - CaseID:ROW_12 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这件衣服的颜色和你的肤色对比是否显白？]，实际[这件衣服的颜色和款式是否显白？]
+2026-02-26 21:25:29,042 - INFO - CaseID:ROW_13 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:29,042 - INFO - CaseID:ROW_13 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:32,330 - INFO - CaseID:ROW_13 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:32,330 - INFO - CaseID:ROW_13 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析用户当前穿着的衣服款式、颜色搭配等视觉信息]，实际[这件衣服我穿着好看吗]
+2026-02-26 21:25:32,331 - INFO - CaseID:ROW_14 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:32,331 - INFO - CaseID:ROW_14 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:35,669 - INFO - CaseID:ROW_14 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:35,670 - INFO - CaseID:ROW_14 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你喜欢这个电影吗]，实际[当前画面中是否有电影相关的信息？]
+2026-02-26 21:25:35,670 - INFO - CaseID:ROW_15 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:35,671 - INFO - CaseID:ROW_15 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:41,103 - INFO - CaseID:ROW_15 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:41,104 - INFO - CaseID:ROW_15 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的面部表情、肢体语言等非语言特征，判断其性格是否内向]，实际[分析当前摄像头画面中人物的性格是否内向]
+2026-02-26 21:25:41,104 - INFO - CaseID:ROW_16 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:41,104 - INFO - CaseID:ROW_16 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:44,160 - INFO - CaseID:ROW_16 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:44,161 - INFO - CaseID:ROW_16 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的面部表情、肢体语言和互动方式，判断其性格是否和蔼]，实际[她的性格是不是很和蔼]
+2026-02-26 21:25:44,161 - INFO - CaseID:ROW_17 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:44,161 - INFO - CaseID:ROW_17 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:47,512 - INFO - CaseID:ROW_17 - QUERY字段：语义匹配失败，但visual_search链路意图匹配通过（预期[分析当前摄像头画面中女性的体型、肤色、风格等特征，以推荐适合的服装]，实际[她适合穿啥样的衣服呀]）
+2026-02-26 21:25:47,513 - INFO - CaseID:ROW_17 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:47,513 - INFO - CaseID:ROW_17 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 21:25:47,513 - INFO - CaseID:ROW_18 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:47,513 - INFO - CaseID:ROW_18 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:50,786 - INFO - CaseID:ROW_18 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:50,787 - INFO - CaseID:ROW_18 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别用户当前穿着的衣服款式、颜色、材质等特征]，实际[我这衣服适合什么季节穿]
+2026-02-26 21:25:50,787 - INFO - CaseID:ROW_19 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:50,788 - INFO - CaseID:ROW_19 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:54,153 - INFO - CaseID:ROW_19 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:54,153 - INFO - CaseID:ROW_19 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这书好啊正能量满满]，实际[这是什么书？]
+2026-02-26 21:25:54,154 - INFO - CaseID:ROW_20 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:54,154 - INFO - CaseID:ROW_20 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:25:57,461 - INFO - CaseID:ROW_20 - TAG字段：双方均为空，判定通过
+2026-02-26 21:25:57,461 - INFO - CaseID:ROW_20 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个东西得多少钱]
+2026-02-26 21:25:57,461 - INFO - CaseID:ROW_21 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:25:57,461 - INFO - CaseID:ROW_21 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:00,645 - INFO - CaseID:ROW_21 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:00,645 - INFO - CaseID:ROW_21 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的手表品牌和型号]，实际[这个手表的大概价格你知道不]
+2026-02-26 21:26:00,645 - INFO - CaseID:ROW_22 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:00,645 - INFO - CaseID:ROW_22 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:04,122 - INFO - CaseID:ROW_22 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:04,123 - INFO - CaseID:ROW_22 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的耳机品牌和型号]，实际[这个耳机可以在电脑上使用吗]
+2026-02-26 21:26:04,124 - INFO - CaseID:ROW_23 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:04,124 - INFO - CaseID:ROW_23 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:07,746 - INFO - CaseID:ROW_23 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:07,747 - INFO - CaseID:ROW_23 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个在哪里可以买到]
+2026-02-26 21:26:07,747 - INFO - CaseID:ROW_24 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:07,748 - INFO - CaseID:ROW_24 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:11,551 - INFO - CaseID:ROW_24 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:11,552 - INFO - CaseID:ROW_24 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的设备（如打印机）型号或品牌]，实际[它可以打印彩色文档吗]
+2026-02-26 21:26:11,552 - INFO - CaseID:ROW_25 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:11,552 - INFO - CaseID:ROW_25 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:14,797 - INFO - CaseID:ROW_25 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:14,798 - INFO - CaseID:ROW_25 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的设备或物品]，实际[这个可以远程使用吗]
+2026-02-26 21:26:14,798 - INFO - CaseID:ROW_26 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:14,798 - INFO - CaseID:ROW_26 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:19,257 - INFO - CaseID:ROW_26 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:19,258 - INFO - CaseID:ROW_26 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你觉得这个写得好不好]，实际[请展示需要评价的文本内容]
+2026-02-26 21:26:19,258 - INFO - CaseID:ROW_27 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:19,258 - INFO - CaseID:ROW_27 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:23,098 - INFO - CaseID:ROW_27 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:23,098 - INFO - CaseID:ROW_27 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这写得怎么样啊]，实际[请展示当前需要评价的文本内容]
+2026-02-26 21:26:23,099 - INFO - CaseID:ROW_28 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:23,099 - INFO - CaseID:ROW_28 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:26,381 - INFO - CaseID:ROW_28 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:26,381 - INFO - CaseID:ROW_28 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这篇写得如何]，实际[请展示需要评价的文本内容]
+2026-02-26 21:26:26,381 - INFO - CaseID:ROW_29 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:26,381 - INFO - CaseID:ROW_29 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:30,130 - INFO - CaseID:ROW_29 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:30,130 - INFO - CaseID:ROW_29 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段内容写得怎么样]，实际[请展示需要评价的文本内容]
+2026-02-26 21:26:30,130 - INFO - CaseID:ROW_30 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:30,131 - INFO - CaseID:ROW_30 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:33,454 - INFO - CaseID:ROW_30 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:33,454 - INFO - CaseID:ROW_30 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段写得可圈可点吗]，实际[请提供需要评价的文本内容]
+2026-02-26 21:26:33,455 - INFO - CaseID:ROW_31 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:33,455 - INFO - CaseID:ROW_31 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:38,008 - INFO - CaseID:ROW_31 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:38,009 - INFO - CaseID:ROW_31 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这写得是不是挺不错]，实际[请展示需要评价的文本或相关内容]
+2026-02-26 21:26:38,009 - INFO - CaseID:ROW_32 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:38,009 - INFO - CaseID:ROW_32 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:42,090 - INFO - CaseID:ROW_32 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:42,090 - INFO - CaseID:ROW_32 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这写得你觉得行不行]，实际[请展示当前需要评价的文本内容]
+2026-02-26 21:26:42,090 - INFO - CaseID:ROW_33 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:42,090 - INFO - CaseID:ROW_33 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:45,431 - INFO - CaseID:ROW_33 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:45,431 - INFO - CaseID:ROW_33 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段你觉得写得好吗]，实际[请提供需要评价的文本内容]
+2026-02-26 21:26:45,432 - INFO - CaseID:ROW_34 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:45,432 - INFO - CaseID:ROW_34 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:49,322 - INFO - CaseID:ROW_34 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:49,322 - INFO - CaseID:ROW_34 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这段写得还好吗]，实际[请展示需要评价的文本内容]
+2026-02-26 21:26:49,323 - INFO - CaseID:ROW_35 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:49,323 - INFO - CaseID:ROW_35 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:53,007 - INFO - CaseID:ROW_35 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:53,007 - INFO - CaseID:ROW_35 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[文章整体写得怎么样]，实际[请展示需要评价的文章内容]
+2026-02-26 21:26:53,007 - INFO - CaseID:ROW_36 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:53,007 - INFO - CaseID:ROW_36 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:56,437 - INFO - CaseID:ROW_36 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:56,437 - INFO - CaseID:ROW_36 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这画得如何还不错吗]，实际[这幅画的评价如何？]
+2026-02-26 21:26:56,438 - INFO - CaseID:ROW_37 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:56,438 - INFO - CaseID:ROW_37 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:26:59,765 - INFO - CaseID:ROW_37 - TAG字段：双方均为空，判定通过
+2026-02-26 21:26:59,766 - INFO - CaseID:ROW_37 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这幅画中的动物是什么？]，实际[用一个成语来形容下这幅画里面的动物]
+2026-02-26 21:26:59,766 - INFO - CaseID:ROW_38 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:26:59,766 - INFO - CaseID:ROW_38 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:03,308 - INFO - CaseID:ROW_38 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:03,308 - INFO - CaseID:ROW_38 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[啥感觉这个画的还行吗]，实际[这幅画的风格和内容是什么？]
+2026-02-26 21:27:03,308 - INFO - CaseID:ROW_39 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:03,308 - INFO - CaseID:ROW_39 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:06,830 - INFO - CaseID:ROW_39 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:06,830 - INFO - CaseID:ROW_39 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[看看我画的这个还行吧]，实际[评价用户画作的质量和风格]
+2026-02-26 21:27:06,831 - INFO - CaseID:ROW_40 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:06,831 - INFO - CaseID:ROW_40 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:10,361 - INFO - CaseID:ROW_40 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:10,362 - INFO - CaseID:ROW_40 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这幅画的水平如何？请分析其构图、色彩、技法等艺术表现力。]，实际[这幅画的水平如何？]
+2026-02-26 21:27:10,363 - INFO - CaseID:ROW_41 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:10,363 - INFO - CaseID:ROW_41 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:14,180 - INFO - CaseID:ROW_41 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:14,181 - INFO - CaseID:ROW_41 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你觉得还行吗]，实际[当前摄像头捕捉到的内容是什么？]
+2026-02-26 21:27:14,181 - INFO - CaseID:ROW_42 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:14,181 - INFO - CaseID:ROW_42 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:17,739 - INFO - CaseID:ROW_42 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:17,739 - INFO - CaseID:ROW_42 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的饮品是什么]，实际[这个好喝还是特仑苏好喝]
+2026-02-26 21:27:17,740 - INFO - CaseID:ROW_43 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:17,740 - INFO - CaseID:ROW_43 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:22,216 - INFO - CaseID:ROW_43 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:22,217 - INFO - CaseID:ROW_43 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[帮我把它翻译成中文呗]，实际[请识别摄像头捕捉到的内容]
+2026-02-26 21:27:22,218 - INFO - CaseID:ROW_44 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:22,218 - INFO - CaseID:ROW_44 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:25,786 - INFO - CaseID:ROW_44 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:25,787 - INFO - CaseID:ROW_44 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[你喜欢这个味道吗]，实际[当前摄像头捕捉到的食物或物品是什么？]
+2026-02-26 21:27:25,787 - INFO - CaseID:ROW_45 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:25,787 - INFO - CaseID:ROW_45 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:30,592 - INFO - CaseID:ROW_45 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:30,592 - INFO - CaseID:ROW_45 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头捕捉到的食物或物品]，实际[吃完这个需要刷牙么]
+2026-02-26 21:27:30,593 - INFO - CaseID:ROW_46 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:30,593 - INFO - CaseID:ROW_46 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:34,402 - INFO - CaseID:ROW_46 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:34,403 - INFO - CaseID:ROW_46 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品或商品]，实际[这个多少钱呢]
+2026-02-26 21:27:34,403 - INFO - CaseID:ROW_47 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:34,403 - INFO - CaseID:ROW_47 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:37,831 - INFO - CaseID:ROW_47 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:37,831 - INFO - CaseID:ROW_47 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这个粉色的东西是什么？]，实际[这个粉色的东西好吃么]
+2026-02-26 21:27:37,831 - INFO - CaseID:ROW_48 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:37,832 - INFO - CaseID:ROW_48 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:41,140 - INFO - CaseID:ROW_48 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:41,141 - INFO - CaseID:ROW_48 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品]，实际[这个东西得花多少钱]
+2026-02-26 21:27:41,141 - INFO - CaseID:ROW_49 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:41,141 - INFO - CaseID:ROW_49 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:44,753 - INFO - CaseID:ROW_49 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:44,754 - INFO - CaseID:ROW_49 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的物品或服务]，实际[这个大概要多少钱]
+2026-02-26 21:27:44,754 - INFO - CaseID:ROW_50 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:44,754 - INFO - CaseID:ROW_50 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:48,124 - INFO - CaseID:ROW_50 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:48,125 - INFO - CaseID:ROW_50 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析当前摄像头画面中人物的面部表情和肢体语言，判断她是否不高兴]，实际[她看起来是不是不高兴]
+2026-02-26 21:27:48,125 - INFO - CaseID:ROW_51 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:48,125 - INFO - CaseID:ROW_51 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:51,287 - INFO - CaseID:ROW_51 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:51,288 - INFO - CaseID:ROW_51 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析用户当前穿着的款式、颜色搭配等视觉信息]，实际[我穿这个衣服帅气不]
+2026-02-26 21:27:51,288 - INFO - CaseID:ROW_52 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:51,288 - INFO - CaseID:ROW_52 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:54,481 - INFO - CaseID:ROW_52 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:54,482 - INFO - CaseID:ROW_52 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这双鞋的款式、颜色和风格是什么？]，实际[这双鞋搭配什么衣服合适]
+2026-02-26 21:27:54,482 - INFO - CaseID:ROW_53 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:54,482 - INFO - CaseID:ROW_53 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:27:57,902 - INFO - CaseID:ROW_53 - TAG字段：双方均为空，判定通过
+2026-02-26 21:27:57,902 - INFO - CaseID:ROW_53 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[分析用户当前穿着的鞋子款式、颜色搭配等视觉信息]，实际[我穿这鞋好看不]
+2026-02-26 21:27:57,902 - INFO - CaseID:ROW_54 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:27:57,903 - INFO - CaseID:ROW_54 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:01,206 - INFO - CaseID:ROW_54 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:01,207 - INFO - CaseID:ROW_54 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前鞋子的款式、颜色和风格]，实际[这鞋搭配什么一个合适一点]
+2026-02-26 21:28:01,208 - INFO - CaseID:ROW_55 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:01,208 - INFO - CaseID:ROW_55 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:04,640 - INFO - CaseID:ROW_55 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:04,641 - INFO - CaseID:ROW_55 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这鞋质感真不错]，实际[这双鞋的质感如何？]
+2026-02-26 21:28:04,641 - INFO - CaseID:ROW_56 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:04,641 - INFO - CaseID:ROW_56 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:08,036 - INFO - CaseID:ROW_56 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:08,036 - INFO - CaseID:ROW_56 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这电脑的品牌和型号是什么？]，实际[这电脑可以在哪里买到]
+2026-02-26 21:28:08,036 - INFO - CaseID:ROW_57 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:08,036 - INFO - CaseID:ROW_57 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:11,481 - INFO - CaseID:ROW_57 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:11,482 - INFO - CaseID:ROW_57 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的转接器型号或品牌]，实际[这些转接器都多少钱呢]
+2026-02-26 21:28:11,482 - INFO - CaseID:ROW_58 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:11,482 - INFO - CaseID:ROW_58 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:14,929 - INFO - CaseID:ROW_58 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:14,929 - INFO - CaseID:ROW_58 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的键盘品牌和型号]，实际[这键盘多少钱呀]
+2026-02-26 21:28:14,930 - INFO - CaseID:ROW_59 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:14,930 - INFO - CaseID:ROW_59 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:18,419 - INFO - CaseID:ROW_59 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:18,420 - INFO - CaseID:ROW_59 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[这键盘的品牌和型号是什么]，实际[这键盘可以在网上买得到吗]
+2026-02-26 21:28:18,420 - INFO - CaseID:ROW_60 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:18,420 - INFO - CaseID:ROW_60 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:22,302 - INFO - CaseID:ROW_60 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:22,302 - INFO - CaseID:ROW_60 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的鼠标品牌和型号]，实际[这鼠标在哪里可以买得到]
+2026-02-26 21:28:22,303 - INFO - CaseID:ROW_61 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:22,303 - INFO - CaseID:ROW_61 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:25,827 - INFO - CaseID:ROW_61 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:25,827 - INFO - CaseID:ROW_61 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的鼠标品牌和型号]，实际[这个鼠标大概得多少钱]
+2026-02-26 21:28:25,828 - INFO - CaseID:ROW_62 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:25,828 - INFO - CaseID:ROW_62 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:29,143 - INFO - CaseID:ROW_62 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:29,143 - INFO - CaseID:ROW_62 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[基于这个写一个爱情故事]，实际[请描述当前摄像头捕捉到的画面内容]
+2026-02-26 21:28:29,143 - INFO - CaseID:ROW_63 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:29,144 - INFO - CaseID:ROW_63 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:32,313 - INFO - CaseID:ROW_63 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:32,314 - INFO - CaseID:ROW_63 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别并翻译当前摄像头画面中的文字内容]，实际[翻译一下这是什么]
+2026-02-26 21:28:32,314 - INFO - CaseID:ROW_64 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:32,314 - INFO - CaseID:ROW_64 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:35,652 - INFO - CaseID:ROW_64 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:35,652 - INFO - CaseID:ROW_64 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[用户当前位置附近的电影院]，实际[电影院要怎么走]
+2026-02-26 21:28:35,653 - INFO - CaseID:ROW_65 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:35,653 - INFO - CaseID:ROW_65 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:39,902 - INFO - CaseID:ROW_65 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:39,903 - INFO - CaseID:ROW_65 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[故宫怎么走]，实际[故宫的步行或公共交通路线导航]
+2026-02-26 21:28:39,903 - INFO - CaseID:ROW_66 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:39,903 - INFO - CaseID:ROW_66 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:43,423 - INFO - CaseID:ROW_66 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:43,423 - INFO - CaseID:ROW_66 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前环境中的“17号”位置或方向指示]，实际[17号指的是什么路线（地铁、公交、公路等）？]
+2026-02-26 21:28:43,423 - INFO - CaseID:ROW_67 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:43,424 - INFO - CaseID:ROW_67 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:47,076 - INFO - CaseID:ROW_67 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:47,077 - INFO - CaseID:ROW_67 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[当前摄像头画面中有什么物体或场景？]，实际[放这个的目的是什么]
+2026-02-26 21:28:47,077 - INFO - CaseID:ROW_68 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:47,077 - INFO - CaseID:ROW_68 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:50,603 - INFO - CaseID:ROW_68 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:50,604 - INFO - CaseID:ROW_68 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[识别当前摄像头画面中的主体对象]，实际[这个的起源是什么]
+2026-02-26 21:28:50,604 - INFO - CaseID:ROW_69 - APINAME字段：visual_search完全匹配，判定通过
+2026-02-26 21:28:50,604 - INFO - CaseID:ROW_69 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,304 - INFO - CaseID:ROW_69 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,305 - INFO - CaseID:ROW_69 - 整体结果: FAILED | 详情: QUERY不匹配：语义和visual_search链路意图均不一致 - 预期[我这个写的怎样]，实际[请展示当前需要评价的文本或内容]
+2026-02-26 21:28:54,305 - INFO - CaseID:ROW_70 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,305 - INFO - CaseID:ROW_70 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,305 - INFO - CaseID:ROW_70 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[她背的帆布包是什么品牌的]
+2026-02-26 21:28:54,306 - INFO - CaseID:ROW_71 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,306 - INFO - CaseID:ROW_71 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,306 - INFO - CaseID:ROW_71 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这只螃蟹是什么品种的]
+2026-02-26 21:28:54,306 - INFO - CaseID:ROW_72 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,306 - INFO - CaseID:ROW_72 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_72 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这只白色鸽子是什么品种的鸽子]
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_73 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_73 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_73 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个小猪佩奇的玩偶的材质是什么]
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_74 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_74 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,307 - INFO - CaseID:ROW_74 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个猪爸的玩偶是什么颜色的]
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_75 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_75 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_75 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这只粉红色的卡通猪玩偶的尺寸]
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_76 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_76 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_76 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个小猪玩偶的材质是什么]
+2026-02-26 21:28:54,308 - INFO - CaseID:ROW_77 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_77 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_77 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个粉红色的卡通猪玩偶是哪部动画片的角色]
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_78 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_78 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_78 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这只公仔的衣服是什么颜色的]
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_79 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_79 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_79 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个小砾公仔是什么颜色的]
+2026-02-26 21:28:54,309 - INFO - CaseID:ROW_80 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_80 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_80 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个玩具小狗的材质是什么]
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_81 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_81 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_81 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个穿着消防员制服的小狗叫什么名字]
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_82 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_82 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_82 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个公仔穿着什么制服]
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_83 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,310 - INFO - CaseID:ROW_83 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_83 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个无线耳机的充电盒是什么品牌的]
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_84 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_84 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_84 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这副无线蓝牙耳机是什么颜色的]
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_85 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_85 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_85 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这副华为的无线耳机是白色的吗]
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_86 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,311 - INFO - CaseID:ROW_86 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_86 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这款空调遥控器的空调品牌是什么？]
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_87 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_87 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_87 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个遥控器是什么颜色的]
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_88 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_88 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_88 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个麦克风是什么品牌]
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_89 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_89 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_89 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个麦克风是什么颜色的]
+2026-02-26 21:28:54,312 - INFO - CaseID:ROW_90 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_90 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_90 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个发夹是什么颜色的]
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_91 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_91 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_91 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个紫色的发夹是什么图案的]
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_92 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_92 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_92 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个腰果零食是什么品牌的]
+2026-02-26 21:28:54,313 - INFO - CaseID:ROW_93 - CATEGORY字段：标准答案为「其他问答」，模型输出任意值通过
+2026-02-26 21:28:57,538 - INFO - CaseID:ROW_93 - QUERY字段：基础语义匹配通过（预期[混合坚果的品牌有哪些]，实际[这个罐装混合坚果的品牌有哪些]）
+2026-02-26 21:28:57,538 - INFO - CaseID:ROW_93 - 整体结果: FAILED | 详情: APINAME不匹配：预期[qasearch]，实际[visual_search]; TAG不匹配：一方为空 - 预期[混合坚果&品牌]，实际[]
+2026-02-26 21:28:57,538 - INFO - CaseID:ROW_94 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,539 - INFO - CaseID:ROW_94 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,539 - INFO - CaseID:ROW_94 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这杯星巴克的饮料是中杯的还是大杯的]
+2026-02-26 21:28:57,539 - INFO - CaseID:ROW_95 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,539 - INFO - CaseID:ROW_95 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,539 - INFO - CaseID:ROW_95 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个咖啡杯是什么颜色的]
+2026-02-26 21:28:57,539 - INFO - CaseID:ROW_96 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_96 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_96 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这杯星巴克的饮料杯壁颜色是什么]
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_97 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_97 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_97 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这瓶竹香乌龙茶饮料是什么品牌的]
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_98 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,540 - INFO - CaseID:ROW_98 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_98 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这盒牛奶饮品的容量是多少？]
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_99 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_99 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_99 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个牛奶包装盒上面有什么图案]
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_100 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_100 - TAG字段：双方均为空，判定通过
+2026-02-26 21:28:57,541 - INFO - CaseID:ROW_100 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这盒牛奶的品牌是什么？]
+2026-02-26 21:28:57,541 - INFO - 已处理100行，当前通过数：1（1.00%），休眠5秒...
+2026-02-26 21:29:02,543 - INFO - CaseID:ROW_101 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,543 - INFO - CaseID:ROW_101 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,544 - INFO - CaseID:ROW_101 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这只白色长毛猫的眼睛颜色]
+2026-02-26 21:29:02,544 - INFO - CaseID:ROW_102 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,544 - INFO - CaseID:ROW_102 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,544 - INFO - CaseID:ROW_102 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件黑色T恤的材质是什么]
+2026-02-26 21:29:02,544 - INFO - CaseID:ROW_103 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,545 - INFO - CaseID:ROW_103 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,545 - INFO - CaseID:ROW_103 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件T恤的品牌是什么？]
+2026-02-26 21:29:02,545 - INFO - CaseID:ROW_104 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,545 - INFO - CaseID:ROW_104 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,545 - INFO - CaseID:ROW_104 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件衣服的品牌是什么]
+2026-02-26 21:29:02,545 - INFO - CaseID:ROW_105 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,546 - INFO - CaseID:ROW_105 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,546 - INFO - CaseID:ROW_105 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件黑色的衣服上有什么图案]
+2026-02-26 21:29:02,546 - INFO - CaseID:ROW_106 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,546 - INFO - CaseID:ROW_106 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,546 - INFO - CaseID:ROW_106 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件黑色外套的品牌是什么]
+2026-02-26 21:29:02,546 - INFO - CaseID:ROW_107 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_107 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_107 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件衣服是什么品牌的]
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_108 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_108 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_108 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件衣服是什么颜色的]
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_109 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_109 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,547 - INFO - CaseID:ROW_109 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件灰色和深蓝色的搭配的衣服是国内的品牌吗]
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_110 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_110 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_110 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件衣服的材质是什么]
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_111 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_111 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_111 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件牛仔夹克的品牌是什么]
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_112 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_112 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,548 - INFO - CaseID:ROW_112 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这个衣服是什么颜色的]
+2026-02-26 21:29:02,549 - INFO - CaseID:ROW_113 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:02,549 - INFO - CaseID:ROW_113 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:02,549 - INFO - CaseID:ROW_113 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件衣服适合什么场合]
+2026-02-26 21:29:02,549 - INFO - CaseID:ROW_114 - CATEGORY字段：标准答案为「其他问答」，模型输出任意值通过
+2026-02-26 21:29:03,453 - INFO - CaseID:ROW_114 - QUERY字段：基础语义匹配通过（预期[羽绒服的价格]，实际[这件羽绒服的价格是多少]）
+2026-02-26 21:29:03,453 - INFO - CaseID:ROW_114 - 整体结果: FAILED | 详情: APINAME不匹配：预期[qasearch]，实际[visual_search]; TAG不匹配：一方为空 - 预期[羽绒服&价格]，实际[]
+2026-02-26 21:29:03,454 - INFO - CaseID:ROW_115 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:03,454 - INFO - CaseID:ROW_115 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:03,454 - INFO - CaseID:ROW_115 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件浅色羽绒服是短款还是长款]
+2026-02-26 21:29:03,454 - INFO - CaseID:ROW_116 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:03,454 - INFO - CaseID:ROW_116 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:03,454 - INFO - CaseID:ROW_116 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件羽绒服是什么颜色的]
+2026-02-26 21:29:03,455 - INFO - CaseID:ROW_117 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:03,455 - INFO - CaseID:ROW_117 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:03,455 - INFO - CaseID:ROW_117 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件衬衫是什么颜色的]
+2026-02-26 21:29:03,455 - INFO - CaseID:ROW_118 - CATEGORY字段：双方均为空，判定通过
+2026-02-26 21:29:03,455 - INFO - CaseID:ROW_118 - TAG字段：双方均为空，判定通过
+2026-02-26 21:29:03,455 - INFO - CaseID:ROW_118 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visionqa]，实际[visual_search]; QUERY不匹配：基础语义匹配失败 - 预期[]，实际[这件格子衬衫的款式如何]
+2026-02-26 21:29:03,456 - INFO - CaseID:ROW_119 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,456 - INFO - CaseID:ROW_120 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,456 - INFO - CaseID:ROW_121 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,456 - INFO - CaseID:ROW_122 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,456 - INFO - CaseID:ROW_123 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,456 - INFO - CaseID:ROW_124 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,457 - INFO - CaseID:ROW_125 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,457 - INFO - CaseID:ROW_126 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,457 - INFO - CaseID:ROW_127 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,457 - INFO - CaseID:ROW_128 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,457 - INFO - CaseID:ROW_129 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,457 - INFO - CaseID:ROW_130 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,458 - INFO - CaseID:ROW_131 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,458 - INFO - CaseID:ROW_132 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,458 - INFO - CaseID:ROW_133 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,458 - INFO - CaseID:ROW_134 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,458 - INFO - CaseID:ROW_135 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,458 - INFO - CaseID:ROW_136 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_137 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_138 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_139 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_140 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_141 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_142 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,459 - INFO - CaseID:ROW_143 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_144 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_145 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_146 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_147 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_148 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_149 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_150 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_151 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,460 - INFO - CaseID:ROW_152 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_153 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_154 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_155 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_156 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_157 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_158 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_159 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_160 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_161 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_162 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_163 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_164 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_165 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_166 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_167 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_168 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_169 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_170 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_171 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_172 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_173 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_174 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_175 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_176 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_177 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,461 - INFO - CaseID:ROW_178 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_179 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_180 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_181 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_182 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_183 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_184 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_185 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_186 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_187 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_188 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_189 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_190 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_191 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_192 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_193 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_194 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_195 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_196 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_197 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_198 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_199 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - CaseID:ROW_200 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:03,462 - INFO - 已处理200行，当前通过数：1（0.50%），休眠5秒...
+2026-02-26 21:29:08,466 - INFO - CaseID:ROW_201 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,466 - INFO - CaseID:ROW_202 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,466 - INFO - CaseID:ROW_203 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,467 - INFO - CaseID:ROW_204 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,467 - INFO - CaseID:ROW_205 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,467 - INFO - CaseID:ROW_206 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,467 - INFO - CaseID:ROW_207 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,468 - INFO - CaseID:ROW_208 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,468 - INFO - CaseID:ROW_209 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,468 - INFO - CaseID:ROW_210 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,469 - INFO - CaseID:ROW_211 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,469 - INFO - CaseID:ROW_212 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,469 - INFO - CaseID:ROW_213 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,469 - INFO - CaseID:ROW_214 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,469 - INFO - CaseID:ROW_215 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,470 - INFO - CaseID:ROW_216 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,470 - INFO - CaseID:ROW_217 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,470 - INFO - CaseID:ROW_218 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,470 - INFO - CaseID:ROW_219 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,470 - INFO - CaseID:ROW_220 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,470 - INFO - CaseID:ROW_221 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,471 - INFO - CaseID:ROW_222 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,471 - INFO - CaseID:ROW_223 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,471 - INFO - CaseID:ROW_224 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,471 - INFO - CaseID:ROW_225 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,471 - INFO - CaseID:ROW_226 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,471 - INFO - CaseID:ROW_227 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,472 - INFO - CaseID:ROW_228 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,472 - INFO - CaseID:ROW_229 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,472 - INFO - CaseID:ROW_230 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,472 - INFO - CaseID:ROW_231 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,472 - INFO - CaseID:ROW_232 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_233 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_234 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_235 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_236 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_237 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_238 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_239 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,473 - INFO - CaseID:ROW_240 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_241 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_242 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_243 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_244 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_245 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_246 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,474 - INFO - CaseID:ROW_247 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_248 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_249 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_250 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_251 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_252 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_253 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_254 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_255 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_256 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_257 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_258 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_259 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_260 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_261 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_262 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_263 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_264 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_265 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_266 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_267 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_268 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_269 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,475 - INFO - CaseID:ROW_270 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_271 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_272 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_273 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_274 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_275 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_276 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_277 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_278 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_279 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_280 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_281 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_282 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_283 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_284 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_285 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_286 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_287 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_288 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_289 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_290 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_291 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_292 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_293 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_294 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_295 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_296 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_297 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,476 - INFO - CaseID:ROW_298 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,477 - INFO - CaseID:ROW_299 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,477 - INFO - CaseID:ROW_300 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:08,477 - INFO - 已处理300行，当前通过数：1（0.33%），休眠5秒...
+2026-02-26 21:29:13,480 - INFO - CaseID:ROW_301 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,481 - INFO - CaseID:ROW_302 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,481 - INFO - CaseID:ROW_303 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,481 - INFO - CaseID:ROW_304 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,482 - INFO - CaseID:ROW_305 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,482 - INFO - CaseID:ROW_306 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,482 - INFO - CaseID:ROW_307 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,483 - INFO - CaseID:ROW_308 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,483 - INFO - CaseID:ROW_309 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,483 - INFO - CaseID:ROW_310 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,483 - INFO - CaseID:ROW_311 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,484 - INFO - CaseID:ROW_312 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,484 - INFO - CaseID:ROW_313 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,484 - INFO - CaseID:ROW_314 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,484 - INFO - CaseID:ROW_315 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,485 - INFO - CaseID:ROW_316 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,485 - INFO - CaseID:ROW_317 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,485 - INFO - CaseID:ROW_318 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,485 - INFO - CaseID:ROW_319 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,485 - INFO - CaseID:ROW_320 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,486 - INFO - CaseID:ROW_321 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,486 - INFO - CaseID:ROW_322 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,486 - INFO - CaseID:ROW_323 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,486 - INFO - CaseID:ROW_324 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,486 - INFO - CaseID:ROW_325 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,486 - INFO - CaseID:ROW_326 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_327 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_328 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_329 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_330 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_331 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_332 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,487 - INFO - CaseID:ROW_333 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_334 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_335 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_336 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_337 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_338 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_339 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,488 - INFO - CaseID:ROW_340 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_341 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_342 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_343 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_344 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_345 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_346 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_347 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,489 - INFO - CaseID:ROW_348 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_349 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_350 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_351 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_352 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_353 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_354 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_355 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_356 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_357 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_358 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_359 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_360 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_361 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_362 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_363 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_364 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_365 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,490 - INFO - CaseID:ROW_366 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_367 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_368 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_369 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_370 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_371 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_372 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_373 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_374 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_375 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_376 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_377 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_378 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_379 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_380 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_381 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_382 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_383 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_384 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_385 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_386 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_387 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_388 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_389 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_390 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_391 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,491 - INFO - CaseID:ROW_392 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_393 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_394 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_395 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_396 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_397 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_398 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_399 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - CaseID:ROW_400 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:13,492 - INFO - 已处理400行，当前通过数：1（0.25%），休眠5秒...
+2026-02-26 21:29:18,496 - INFO - CaseID:ROW_401 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,496 - INFO - CaseID:ROW_402 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,497 - INFO - CaseID:ROW_403 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,497 - INFO - CaseID:ROW_404 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,497 - INFO - CaseID:ROW_405 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,498 - INFO - CaseID:ROW_406 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,498 - INFO - CaseID:ROW_407 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,498 - INFO - CaseID:ROW_408 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,498 - INFO - CaseID:ROW_409 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,499 - INFO - CaseID:ROW_410 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,499 - INFO - CaseID:ROW_411 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,499 - INFO - CaseID:ROW_412 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,499 - INFO - CaseID:ROW_413 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,499 - INFO - CaseID:ROW_414 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,500 - INFO - CaseID:ROW_415 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,500 - INFO - CaseID:ROW_416 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,500 - INFO - CaseID:ROW_417 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,500 - INFO - CaseID:ROW_418 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,500 - INFO - CaseID:ROW_419 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,500 - INFO - CaseID:ROW_420 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,501 - INFO - CaseID:ROW_421 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,501 - INFO - CaseID:ROW_422 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,501 - INFO - CaseID:ROW_423 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,501 - INFO - CaseID:ROW_424 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,501 - INFO - CaseID:ROW_425 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,501 - INFO - CaseID:ROW_426 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,502 - INFO - CaseID:ROW_427 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,502 - INFO - CaseID:ROW_428 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,502 - INFO - CaseID:ROW_429 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,502 - INFO - CaseID:ROW_430 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,502 - INFO - CaseID:ROW_431 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,502 - INFO - CaseID:ROW_432 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_433 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_434 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_435 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_436 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_437 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_438 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_439 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,503 - INFO - CaseID:ROW_440 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_441 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_442 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_443 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_444 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_445 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_446 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,504 - INFO - CaseID:ROW_447 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_448 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_449 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_450 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_451 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_452 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_453 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_454 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_455 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_456 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_457 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_458 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_459 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_460 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_461 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_462 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_463 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_464 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_465 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_466 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_467 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_468 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_469 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_470 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_471 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,505 - INFO - CaseID:ROW_472 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_473 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_474 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_475 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_476 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_477 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_478 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_479 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_480 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_481 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_482 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_483 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_484 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_485 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_486 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_487 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_488 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_489 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_490 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_491 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_492 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_493 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_494 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_495 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_496 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_497 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_498 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,506 - INFO - CaseID:ROW_499 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,507 - INFO - CaseID:ROW_500 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:18,507 - INFO - 已处理500行，当前通过数：1（0.20%），休眠5秒...
+2026-02-26 21:29:23,511 - INFO - CaseID:ROW_501 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,885 - INFO - CaseID:ROW_502 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,885 - INFO - CaseID:ROW_503 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,885 - INFO - CaseID:ROW_504 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,885 - INFO - CaseID:ROW_505 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,885 - INFO - CaseID:ROW_506 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_507 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_508 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_509 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_510 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_511 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_512 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_513 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,886 - INFO - CaseID:ROW_514 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_515 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_516 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_517 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_518 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_519 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_520 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,887 - INFO - CaseID:ROW_521 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_522 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_523 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_524 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_525 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_526 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_527 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_528 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_529 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_530 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_531 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_532 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_533 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_534 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_535 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,888 - INFO - CaseID:ROW_536 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_537 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_538 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_539 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_540 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_541 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_542 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_543 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_544 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_545 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_546 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_547 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_548 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_549 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_550 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_551 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_552 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_553 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_554 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_555 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_556 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_557 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_558 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_559 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_560 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_561 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,889 - INFO - CaseID:ROW_562 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_563 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_564 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_565 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_566 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_567 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_568 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_569 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_570 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_571 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_572 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_573 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_574 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_575 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_576 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_577 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_578 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_579 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_580 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_581 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_582 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_583 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_584 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_585 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_586 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_587 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_588 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,890 - INFO - CaseID:ROW_589 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_590 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_591 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_592 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_593 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_594 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_595 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_596 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_597 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_598 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_599 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:23,891 - INFO - CaseID:ROW_600 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 21:29:31,736 - INFO - 
+=== 执行完成（总耗时：285.16秒，平均0.48秒/行）===
+2026-02-26 21:29:31,736 - INFO - 总用例数：599 | 通过：1（0.17%） | 失败：598
+2026-02-26 21:29:31,736 - INFO - === 看世界规划对比工具（修复版）结束 ===

@@ -1,0 +1,181 @@
+2026-02-27 02:37:40,078 - INFO - === 看世界规划控制工具（最终修复版）启动 ===
+2026-02-27 02:37:40,254 - INFO - 成功加载飞书表格
+2026-02-27 02:37:40,255 - INFO - 修复sheet_id大小写：1blthh → 1blthh
+2026-02-27 02:37:40,471 - ERROR - 读取表头失败：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A1
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/server-docs/api-call-guide/generic-error-code
+2026-02-27 02:37:40,472 - INFO - 使用备用表头：['CaseID', '预期APIINFO', 'afterFunction']
+2026-02-27 02:37:40,475 - INFO - 读取到表头：['CaseID', '预期APIINFO', 'afterFunction']...（共3列）
+2026-02-27 02:37:40,684 - WARNING - 读取行2失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A2
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:40,882 - WARNING - 读取行3失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A3
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:41,092 - WARNING - 读取行4失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A4
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:41,270 - WARNING - 读取行5失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A5
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:41,448 - WARNING - 读取行6失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A6
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:41,647 - WARNING - 读取行7失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A7
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:41,825 - WARNING - 读取行8失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A8
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:42,010 - WARNING - 读取行9失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A9
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document/
+2026-02-27 02:37:42,187 - WARNING - 读取行10失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A10
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:42,366 - WARNING - 读取行11失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A11
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:42,560 - WARNING - 读取行12失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A12
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:42,766 - WARNING - 读取行13失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A13
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:42,975 - WARNING - 读取行14失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A14
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:43,163 - WARNING - 读取行15失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A15
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:43,343 - WARNING - 读取行16失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A16
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:43,517 - WARNING - 读取行17失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A17
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:43,662 - WARNING - 读取行18失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A18
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:43,858 - WARNING - 读取行19失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A19
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:44,048 - WARNING - 读取行20失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A20
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:44,243 - WARNING - 读取行21失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A21
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:44,426 - WARNING - 读取行22失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A22
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:44,608 - WARNING - 读取行23失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A23
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:44,794 - WARNING - 读取行24失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A24
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:44,987 - WARNING - 读取行25失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A25
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:45,160 - WARNING - 读取行26失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A26
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:45,316 - WARNING - 读取行27失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A27
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:45,455 - WARNING - 读取行28失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A28
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:45,646 - WARNING - 读取行29失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A29
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:45,833 - WARNING - 读取行30失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A30
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:46,013 - WARNING - 读取行31失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A31
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:46,156 - WARNING - 读取行32失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A32
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:46,321 - WARNING - 读取行33失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A33
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:46,537 - WARNING - 读取行34失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A34
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:46,683 - WARNING - 读取行35失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A35
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:46,870 - WARNING - 读取行36失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A36
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:47,084 - WARNING - 读取行37失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A37
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:47,231 - WARNING - 读取行38失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A38
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:47,374 - WARNING - 读取行39失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A39
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:47,563 - WARNING - 读取行40失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A40
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:47,737 - WARNING - 读取行41失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A41
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:47,892 - WARNING - 读取行42失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A42
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:48,061 - WARNING - 读取行43失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A43
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document
+2026-02-27 02:37:48,235 - WARNING - 读取行44失败，跳过：
+>>>	code: 90202
+>>>	msg: wrong startRange=1BLTHH!A44
+>>>	飞书通用异常情况查看：https://open.feishu.cn/document

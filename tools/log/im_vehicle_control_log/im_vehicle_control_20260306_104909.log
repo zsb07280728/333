@@ -1,0 +1,7 @@
+2026-03-06 10:49:09,125 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-06 10:49:13,626 - WARNING - 单行JSON解析失败（原始字符串：{"name":"device_control","arguments":{"action":"turnon","entity":"AC","position":"DRIVER"}}{"name":"...）: Extra data: line 1 column 92 (char 91)
+2026-03-06 10:49:13,627 - ERROR - CaseID: 1335
+函数数量不匹配：预期0个，规划2个
+2026-03-06 10:49:13,628 - INFO - 开始分片写入 19 条结果，每片 2000 条
+2026-03-06 10:49:14,052 - INFO - 已写入第 1-19 行结果
+2026-03-06 10:49:14,557 - INFO - === IM_vehicle_control 流程完成，耗时: 5.43秒 ===

@@ -1,0 +1,59 @@
+2026-03-23 09:17:19,333 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-23 09:17:21,413 - ERROR - CaseID: 403
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "WHOLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,413 - ERROR - CaseID: 404
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "WHOLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,413 - ERROR - CaseID: 406
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "WHOLE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,415 - ERROR - CaseID: 427
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,415 - ERROR - CaseID: 428
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,415 - ERROR - CaseID: 429
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,415 - ERROR - CaseID: 430
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,416 - ERROR - CaseID: 453
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,416 - ERROR - CaseID: 464
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,417 - ERROR - CaseID: 475
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,418 - ERROR - CaseID: 486
+规划列缺少以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:17:21,418 - INFO - 开始分片写入 490 条结果，每片 2000 条
+2026-03-23 09:17:21,873 - INFO - 已写入第 1-490 行结果
+2026-03-23 09:17:22,377 - INFO - === IM_vehicle_control 流程完成，耗时: 3.04秒 ===

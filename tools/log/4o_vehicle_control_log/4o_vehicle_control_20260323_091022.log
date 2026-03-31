@@ -1,0 +1,79 @@
+2026-03-23 09:10:22,627 - INFO - === 4o_vehicle_control API对比工具启动 ===
+2026-03-23 09:10:24,182 - ERROR - CaseID: 171
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REFRIGERATOR", "function_option": "COSMETIC"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REFRIGERATOR"}
+2026-03-23 09:10:24,182 - ERROR - CaseID: 172
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REFRIGERATOR", "function_option": "COSMETIC"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "REFRIGERATOR", "function_option": "REFRIGERATION"}
+2026-03-23 09:10:24,184 - ERROR - CaseID: 257
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SUNSHADE", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "SUNSHADE", "position": "BOTH_SIDES_OF_SECOND_ROW"}
+2026-03-23 09:10:24,186 - ERROR - CaseID: 297
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "SUNSHADE", "position": "BOTH_SIDES_OF_SECOND_ROW"}
+2026-03-23 09:10:24,188 - ERROR - CaseID: 403
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "WHOLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,189 - ERROR - CaseID: 404
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "WHOLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,189 - ERROR - CaseID: 406
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "WHOLE"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,189 - ERROR - CaseID: 427
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,189 - ERROR - CaseID: 428
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,189 - ERROR - CaseID: 429
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,189 - ERROR - CaseID: 430
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,190 - ERROR - CaseID: 453
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,190 - ERROR - CaseID: 464
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnon", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,191 - ERROR - CaseID: 475
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,191 - ERROR - CaseID: 486
+实际结果缺少以下预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "SECOND_ROW"}
+实际结果多出以下非预期项：
+  名称: device_control, 参数: {"action": "turnoff", "entity": "CAR_DOOR", "position": "BOTH_SIDES"}
+2026-03-23 09:10:24,191 - INFO - 开始分片写入 490 条结果，每片 2000 条
+2026-03-23 09:10:26,796 - INFO - 已写入第 1-490 行结果
+2026-03-23 09:10:27,301 - INFO - === 4o_vehicle_control 流程完成，耗时: 4.67秒 ===

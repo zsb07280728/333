@@ -1,0 +1,426 @@
+2026-03-03 11:44:02,000 - INFO - === 播客规划控制工具（对齐绘画大师逻辑）启动 ===
+2026-03-03 11:44:02,139 - INFO - 成功加载飞书表格
+2026-03-03 11:44:03,302 - INFO - 表格读取完成，共65行有效数据
+2026-03-03 11:44:03,302 - INFO - 开始处理65条播客用例...
+2026-03-03 11:44:03,302 - INFO - CaseID:1 - name字段：完全匹配，判定通过
+2026-03-03 11:44:03,302 - INFO - CaseID:1 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:03,302 - INFO - CaseID:1 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:03,302 - INFO - CaseID:1 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:03,302 - INFO - CaseID:1 - publishtime字段：匹配通过
+2026-03-03 11:44:05,047 - INFO - CaseID:1 - query字段：语义匹配通过
+2026-03-03 11:44:05,047 - INFO - CaseID:1 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:05,048 - INFO - CaseID:2 - name字段：完全匹配，判定通过
+2026-03-03 11:44:05,048 - INFO - CaseID:2 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:05,048 - INFO - CaseID:2 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:05,048 - INFO - CaseID:2 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:05,048 - INFO - CaseID:2 - publishtime字段：匹配通过
+2026-03-03 11:44:06,641 - INFO - CaseID:2 - query字段：语义匹配通过
+2026-03-03 11:44:06,642 - INFO - CaseID:2 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:06,642 - INFO - CaseID:3 - name字段：完全匹配，判定通过
+2026-03-03 11:44:06,642 - INFO - CaseID:3 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:06,642 - INFO - CaseID:3 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:06,642 - INFO - CaseID:3 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:06,642 - INFO - CaseID:3 - publishtime字段：匹配通过
+2026-03-03 11:44:08,051 - INFO - CaseID:3 - query字段：语义匹配通过
+2026-03-03 11:44:08,052 - INFO - CaseID:3 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:08,052 - INFO - CaseID:4 - name字段：完全匹配，判定通过
+2026-03-03 11:44:08,052 - INFO - CaseID:4 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:08,052 - INFO - CaseID:4 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:08,052 - INFO - CaseID:4 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:08,052 - INFO - CaseID:4 - publishtime字段：匹配通过
+2026-03-03 11:44:09,409 - INFO - CaseID:4 - query字段：语义匹配通过
+2026-03-03 11:44:09,409 - INFO - CaseID:4 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:09,409 - INFO - CaseID:5 - name字段：完全匹配，判定通过
+2026-03-03 11:44:09,410 - INFO - CaseID:5 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:09,410 - INFO - CaseID:5 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:09,410 - INFO - CaseID:5 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:09,410 - INFO - CaseID:5 - publishtime字段：匹配通过
+2026-03-03 11:44:11,171 - INFO - CaseID:5 - query字段：语义匹配通过
+2026-03-03 11:44:11,171 - INFO - CaseID:5 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:11,171 - INFO - CaseID:6 - name字段：完全匹配，判定通过
+2026-03-03 11:44:11,172 - INFO - CaseID:6 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:11,172 - INFO - CaseID:6 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:11,172 - INFO - CaseID:6 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:11,172 - INFO - CaseID:6 - publishtime字段：匹配通过
+2026-03-03 11:44:13,163 - INFO - CaseID:6 - query字段：语义匹配通过
+2026-03-03 11:44:13,163 - INFO - CaseID:6 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:13,164 - INFO - CaseID:7 - name字段：完全匹配，判定通过
+2026-03-03 11:44:13,164 - INFO - CaseID:7 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:13,164 - INFO - CaseID:7 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:13,164 - INFO - CaseID:7 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:13,164 - INFO - CaseID:7 - publishtime字段：匹配通过
+2026-03-03 11:44:14,427 - INFO - CaseID:7 - query字段：语义匹配通过
+2026-03-03 11:44:14,427 - INFO - CaseID:7 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:14,428 - INFO - CaseID:8 - name字段：完全匹配，判定通过
+2026-03-03 11:44:14,428 - INFO - CaseID:8 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:14,428 - INFO - CaseID:8 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:14,428 - INFO - CaseID:8 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:14,428 - INFO - CaseID:8 - publishtime字段：匹配通过
+2026-03-03 11:44:16,576 - INFO - CaseID:8 - query字段：语义匹配通过
+2026-03-03 11:44:16,576 - INFO - CaseID:8 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:16,577 - INFO - CaseID:9 - name字段：完全匹配，判定通过
+2026-03-03 11:44:16,577 - INFO - CaseID:9 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:16,577 - INFO - CaseID:9 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:16,577 - INFO - CaseID:9 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:16,577 - INFO - CaseID:9 - publishtime字段：匹配通过
+2026-03-03 11:44:18,150 - INFO - CaseID:9 - query字段：语义匹配通过
+2026-03-03 11:44:18,150 - INFO - CaseID:9 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:18,150 - INFO - CaseID:10 - name字段：完全匹配，判定通过
+2026-03-03 11:44:18,150 - INFO - CaseID:10 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:18,150 - INFO - CaseID:10 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:18,150 - INFO - CaseID:10 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:18,150 - INFO - CaseID:10 - publishtime字段：匹配通过
+2026-03-03 11:44:20,275 - INFO - CaseID:10 - query字段：语义匹配通过
+2026-03-03 11:44:20,275 - INFO - CaseID:10 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:20,276 - INFO - CaseID:11 - name字段：完全匹配，判定通过
+2026-03-03 11:44:20,276 - INFO - CaseID:11 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:20,276 - INFO - CaseID:11 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:20,276 - INFO - CaseID:11 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:20,276 - INFO - CaseID:11 - publishtime字段：匹配通过
+2026-03-03 11:44:22,249 - INFO - CaseID:11 - query字段：语义匹配通过
+2026-03-03 11:44:22,250 - INFO - CaseID:11 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:22,250 - INFO - CaseID:12 - name字段：完全匹配，判定通过
+2026-03-03 11:44:22,250 - INFO - CaseID:12 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:22,251 - INFO - CaseID:12 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:22,251 - INFO - CaseID:12 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:22,251 - INFO - CaseID:12 - publishtime字段：匹配通过
+2026-03-03 11:44:22,251 - INFO - CaseID:12 - query字段：语义匹配通过
+2026-03-03 11:44:22,251 - INFO - CaseID:12 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:22,251 - INFO - CaseID:13 - name字段：完全匹配，判定通过
+2026-03-03 11:44:22,251 - INFO - CaseID:13 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:22,252 - INFO - CaseID:13 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:22,252 - INFO - CaseID:13 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:22,252 - INFO - CaseID:13 - publishtime字段：匹配通过
+2026-03-03 11:44:23,750 - INFO - CaseID:13 - query字段：语义匹配通过
+2026-03-03 11:44:23,750 - INFO - CaseID:13 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:23,751 - INFO - CaseID:14 - name字段：完全匹配，判定通过
+2026-03-03 11:44:23,751 - INFO - CaseID:14 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:23,751 - INFO - CaseID:14 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:23,751 - INFO - CaseID:14 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:23,751 - INFO - CaseID:14 - publishtime字段：匹配通过
+2026-03-03 11:44:25,284 - INFO - CaseID:14 - query字段：语义匹配通过
+2026-03-03 11:44:25,285 - INFO - CaseID:14 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:25,285 - INFO - CaseID:15 - name字段：完全匹配，判定通过
+2026-03-03 11:44:25,285 - INFO - CaseID:15 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:25,285 - INFO - CaseID:15 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:25,286 - INFO - CaseID:15 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:25,286 - INFO - CaseID:15 - publishtime字段：匹配通过
+2026-03-03 11:44:26,547 - INFO - CaseID:15 - query字段：语义匹配通过
+2026-03-03 11:44:26,547 - INFO - CaseID:15 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:26,548 - INFO - CaseID:16 - name字段：完全匹配，判定通过
+2026-03-03 11:44:26,548 - INFO - CaseID:16 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:26,548 - INFO - CaseID:16 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:26,549 - INFO - CaseID:16 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:26,549 - INFO - CaseID:16 - publishtime字段：匹配通过
+2026-03-03 11:44:28,391 - INFO - CaseID:16 - query字段：语义匹配通过
+2026-03-03 11:44:28,391 - INFO - CaseID:16 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:28,392 - INFO - CaseID:17 - name字段：完全匹配，判定通过
+2026-03-03 11:44:28,392 - INFO - CaseID:17 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:28,392 - INFO - CaseID:17 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:28,392 - INFO - CaseID:17 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:28,392 - INFO - CaseID:17 - publishtime字段：匹配通过
+2026-03-03 11:44:30,028 - INFO - CaseID:17 - query字段：语义匹配通过
+2026-03-03 11:44:30,029 - INFO - CaseID:17 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:30,029 - INFO - CaseID:18 - name字段：完全匹配，判定通过
+2026-03-03 11:44:30,030 - INFO - CaseID:18 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:30,030 - INFO - CaseID:18 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:30,030 - INFO - CaseID:18 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:30,030 - INFO - CaseID:18 - publishtime字段：匹配通过
+2026-03-03 11:44:31,466 - INFO - CaseID:18 - query字段：语义匹配通过
+2026-03-03 11:44:31,466 - INFO - CaseID:18 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:31,467 - INFO - CaseID:19 - name字段：完全匹配，判定通过
+2026-03-03 11:44:31,467 - INFO - CaseID:19 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:31,467 - INFO - CaseID:19 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:31,467 - INFO - CaseID:19 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:31,468 - INFO - CaseID:19 - publishtime字段：匹配通过
+2026-03-03 11:44:32,840 - INFO - CaseID:19 - query字段：语义匹配通过
+2026-03-03 11:44:32,841 - INFO - CaseID:19 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:32,841 - INFO - CaseID:20 - name字段：完全匹配，判定通过
+2026-03-03 11:44:32,841 - INFO - CaseID:20 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:32,842 - INFO - CaseID:20 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:32,842 - INFO - CaseID:20 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:32,842 - INFO - CaseID:20 - publishtime字段：匹配通过
+2026-03-03 11:44:34,537 - INFO - CaseID:20 - query字段：语义匹配通过
+2026-03-03 11:44:34,537 - INFO - CaseID:20 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:34,538 - INFO - CaseID:21 - name字段：完全匹配，判定通过
+2026-03-03 11:44:34,538 - INFO - CaseID:21 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:34,538 - INFO - CaseID:21 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:34,538 - INFO - CaseID:21 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:34,538 - INFO - CaseID:21 - publishtime字段：匹配通过
+2026-03-03 11:44:36,108 - INFO - CaseID:21 - query字段：语义匹配通过
+2026-03-03 11:44:36,108 - INFO - CaseID:21 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:36,109 - INFO - CaseID:22 - name字段：完全匹配，判定通过
+2026-03-03 11:44:36,109 - INFO - CaseID:22 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:36,109 - INFO - CaseID:22 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:36,109 - INFO - CaseID:22 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:36,109 - INFO - CaseID:22 - publishtime字段：匹配通过
+2026-03-03 11:44:37,607 - INFO - CaseID:22 - query字段：语义匹配通过
+2026-03-03 11:44:37,608 - INFO - CaseID:22 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:37,608 - INFO - CaseID:23 - name字段：完全匹配，判定通过
+2026-03-03 11:44:37,608 - INFO - CaseID:23 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:37,609 - INFO - CaseID:23 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:37,609 - INFO - CaseID:23 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:37,609 - INFO - CaseID:23 - publishtime字段：匹配通过
+2026-03-03 11:44:39,179 - INFO - CaseID:23 - query字段：语义匹配通过
+2026-03-03 11:44:39,179 - INFO - CaseID:23 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:39,180 - INFO - CaseID:24 - name字段：完全匹配，判定通过
+2026-03-03 11:44:39,180 - INFO - CaseID:24 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:39,180 - INFO - CaseID:24 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:39,180 - INFO - CaseID:24 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:39,180 - INFO - CaseID:24 - publishtime字段：匹配通过
+2026-03-03 11:44:40,682 - INFO - CaseID:24 - query字段：语义匹配通过
+2026-03-03 11:44:40,682 - INFO - CaseID:24 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:40,683 - INFO - CaseID:25 - name字段：完全匹配，判定通过
+2026-03-03 11:44:40,683 - INFO - CaseID:25 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:40,683 - INFO - CaseID:25 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:40,683 - INFO - CaseID:25 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:40,683 - INFO - CaseID:25 - publishtime字段：匹配通过
+2026-03-03 11:44:42,111 - INFO - CaseID:25 - query字段：语义匹配通过
+2026-03-03 11:44:42,112 - INFO - CaseID:25 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:42,112 - INFO - CaseID:26 - name字段：完全匹配，判定通过
+2026-03-03 11:44:42,112 - INFO - CaseID:26 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:42,112 - INFO - CaseID:26 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:42,112 - INFO - CaseID:26 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:42,112 - INFO - CaseID:26 - publishtime字段：匹配通过
+2026-03-03 11:44:43,560 - INFO - CaseID:26 - query字段：语义匹配通过
+2026-03-03 11:44:43,560 - INFO - CaseID:26 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:43,561 - INFO - CaseID:27 - name字段：完全匹配，判定通过
+2026-03-03 11:44:43,561 - INFO - CaseID:27 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:43,561 - INFO - CaseID:27 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:43,561 - INFO - CaseID:27 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:43,561 - INFO - CaseID:27 - publishtime字段：匹配通过
+2026-03-03 11:44:45,005 - INFO - CaseID:27 - query字段：语义匹配通过
+2026-03-03 11:44:45,005 - INFO - CaseID:27 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:45,006 - INFO - CaseID:28 - name字段：完全匹配，判定通过
+2026-03-03 11:44:45,006 - INFO - CaseID:28 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:45,006 - INFO - CaseID:28 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:45,006 - INFO - CaseID:28 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:45,006 - INFO - CaseID:28 - publishtime字段：匹配通过
+2026-03-03 11:44:46,431 - INFO - CaseID:28 - query字段：语义匹配通过
+2026-03-03 11:44:46,432 - INFO - CaseID:28 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:46,432 - INFO - CaseID:29 - name字段：完全匹配，判定通过
+2026-03-03 11:44:46,432 - INFO - CaseID:29 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:46,433 - INFO - CaseID:29 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:46,433 - INFO - CaseID:29 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:46,433 - INFO - CaseID:29 - publishtime字段：匹配通过
+2026-03-03 11:44:48,928 - INFO - CaseID:29 - query字段：语义匹配通过
+2026-03-03 11:44:48,929 - INFO - CaseID:29 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:48,929 - INFO - CaseID:30 - name字段：完全匹配，判定通过
+2026-03-03 11:44:48,929 - INFO - CaseID:30 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:48,929 - INFO - CaseID:30 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:48,929 - INFO - CaseID:30 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:48,929 - INFO - CaseID:30 - publishtime字段：匹配通过
+2026-03-03 11:44:50,569 - INFO - CaseID:30 - query字段：语义匹配通过
+2026-03-03 11:44:50,570 - INFO - CaseID:30 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:50,570 - INFO - CaseID:31 - name字段：完全匹配，判定通过
+2026-03-03 11:44:50,571 - INFO - CaseID:31 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:50,571 - INFO - CaseID:31 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:50,571 - INFO - CaseID:31 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:50,571 - INFO - CaseID:31 - publishtime字段：匹配通过
+2026-03-03 11:44:52,351 - INFO - CaseID:31 - query字段：语义匹配通过
+2026-03-03 11:44:52,351 - INFO - CaseID:31 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:52,352 - INFO - CaseID:32 - name字段：完全匹配，判定通过
+2026-03-03 11:44:52,352 - INFO - CaseID:32 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:52,352 - INFO - CaseID:32 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:52,352 - INFO - CaseID:32 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:52,352 - INFO - CaseID:32 - publishtime字段：匹配通过
+2026-03-03 11:44:53,753 - INFO - CaseID:32 - query字段：语义匹配通过
+2026-03-03 11:44:53,754 - INFO - CaseID:32 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:53,754 - INFO - CaseID:33 - name字段：完全匹配，判定通过
+2026-03-03 11:44:53,754 - INFO - CaseID:33 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:53,754 - INFO - CaseID:33 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:53,754 - INFO - CaseID:33 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:53,754 - INFO - CaseID:33 - publishtime字段：匹配通过
+2026-03-03 11:44:55,220 - INFO - CaseID:33 - query字段：语义匹配通过
+2026-03-03 11:44:55,220 - INFO - CaseID:33 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:55,221 - INFO - CaseID:34 - name字段：完全匹配，判定通过
+2026-03-03 11:44:55,221 - INFO - CaseID:34 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:55,221 - INFO - CaseID:34 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:55,221 - INFO - CaseID:34 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:55,221 - INFO - CaseID:34 - publishtime字段：匹配通过
+2026-03-03 11:44:56,857 - INFO - CaseID:34 - query字段：语义匹配通过
+2026-03-03 11:44:56,857 - INFO - CaseID:34 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:56,858 - INFO - CaseID:35 - name字段：完全匹配，判定通过
+2026-03-03 11:44:56,858 - INFO - CaseID:35 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:56,858 - INFO - CaseID:35 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:56,858 - INFO - CaseID:35 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:56,858 - INFO - CaseID:35 - publishtime字段：匹配通过
+2026-03-03 11:44:58,341 - INFO - CaseID:35 - query字段：语义匹配通过
+2026-03-03 11:44:58,341 - INFO - CaseID:35 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:44:58,342 - INFO - CaseID:36 - name字段：完全匹配，判定通过
+2026-03-03 11:44:58,342 - INFO - CaseID:36 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:44:58,342 - INFO - CaseID:36 - startTime字段：完全匹配，判定通过
+2026-03-03 11:44:58,342 - INFO - CaseID:36 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:44:58,342 - INFO - CaseID:36 - publishtime字段：匹配通过
+2026-03-03 11:45:00,953 - INFO - CaseID:36 - query字段：语义匹配通过
+2026-03-03 11:45:00,953 - INFO - CaseID:36 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:00,954 - INFO - CaseID:37 - name字段：完全匹配，判定通过
+2026-03-03 11:45:00,954 - INFO - CaseID:37 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:00,954 - INFO - CaseID:37 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:00,954 - INFO - CaseID:37 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:00,955 - INFO - CaseID:37 - publishtime字段：匹配通过
+2026-03-03 11:45:02,388 - INFO - CaseID:37 - query字段：语义匹配通过
+2026-03-03 11:45:02,388 - INFO - CaseID:37 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:02,389 - INFO - CaseID:38 - name字段：完全匹配，判定通过
+2026-03-03 11:45:02,389 - INFO - CaseID:38 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:02,389 - INFO - CaseID:38 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:02,389 - INFO - CaseID:38 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:02,389 - INFO - CaseID:38 - publishtime字段：匹配通过
+2026-03-03 11:45:03,805 - INFO - CaseID:38 - query字段：语义匹配通过
+2026-03-03 11:45:03,805 - INFO - CaseID:38 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:03,806 - INFO - CaseID:39 - name字段：完全匹配，判定通过
+2026-03-03 11:45:03,806 - INFO - CaseID:39 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:03,806 - INFO - CaseID:39 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:03,806 - INFO - CaseID:39 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:03,806 - INFO - CaseID:39 - publishtime字段：匹配通过
+2026-03-03 11:45:05,258 - INFO - CaseID:39 - query字段：语义匹配通过
+2026-03-03 11:45:05,259 - INFO - CaseID:39 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:05,259 - INFO - CaseID:40 - name字段：完全匹配，判定通过
+2026-03-03 11:45:05,259 - INFO - CaseID:40 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:05,260 - INFO - CaseID:40 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:05,260 - INFO - CaseID:40 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:05,260 - INFO - CaseID:40 - publishtime字段：匹配通过
+2026-03-03 11:45:06,597 - INFO - CaseID:40 - query字段：语义匹配通过
+2026-03-03 11:45:06,597 - INFO - CaseID:40 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:06,598 - INFO - CaseID:41 - name字段：完全匹配，判定通过
+2026-03-03 11:45:06,598 - INFO - CaseID:41 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:06,598 - INFO - CaseID:41 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:06,598 - INFO - CaseID:41 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:06,598 - INFO - CaseID:41 - publishtime字段：匹配通过
+2026-03-03 11:45:08,120 - INFO - CaseID:41 - query字段：语义匹配通过
+2026-03-03 11:45:08,120 - INFO - CaseID:41 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:08,121 - INFO - CaseID:42 - name字段：完全匹配，判定通过
+2026-03-03 11:45:08,121 - INFO - CaseID:42 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:08,121 - INFO - CaseID:42 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:08,121 - INFO - CaseID:42 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:08,121 - INFO - CaseID:42 - publishtime字段：匹配通过
+2026-03-03 11:45:09,573 - INFO - CaseID:42 - query字段：语义匹配通过
+2026-03-03 11:45:09,573 - INFO - CaseID:42 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:09,574 - INFO - CaseID:43 - name字段：完全匹配，判定通过
+2026-03-03 11:45:09,574 - INFO - CaseID:43 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:09,574 - INFO - CaseID:43 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:09,574 - INFO - CaseID:43 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:09,574 - INFO - CaseID:43 - publishtime字段：匹配通过
+2026-03-03 11:45:12,217 - INFO - CaseID:43 - query字段：语义匹配通过
+2026-03-03 11:45:12,217 - INFO - CaseID:43 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:12,218 - INFO - CaseID:44 - name字段：完全匹配，判定通过
+2026-03-03 11:45:12,218 - INFO - CaseID:44 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:12,218 - INFO - CaseID:44 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:12,218 - INFO - CaseID:44 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:12,219 - INFO - CaseID:44 - publishtime字段：匹配通过
+2026-03-03 11:45:14,652 - INFO - CaseID:44 - query字段：语义匹配通过
+2026-03-03 11:45:14,652 - INFO - CaseID:44 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:14,653 - INFO - CaseID:45 - name字段：完全匹配，判定通过
+2026-03-03 11:45:14,653 - INFO - CaseID:45 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:14,653 - INFO - CaseID:45 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:14,653 - INFO - CaseID:45 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:14,653 - INFO - CaseID:45 - publishtime字段：匹配通过
+2026-03-03 11:45:16,173 - INFO - CaseID:45 - query字段：语义匹配通过
+2026-03-03 11:45:16,173 - INFO - CaseID:45 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - name字段：完全匹配，判定通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - publishtime字段：匹配通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - query字段：语义匹配通过
+2026-03-03 11:45:16,174 - INFO - CaseID:46 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - name字段：完全匹配，判定通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - publishtime字段：匹配通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - query字段：语义匹配通过
+2026-03-03 11:45:16,175 - INFO - CaseID:47 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:16,175 - INFO - CaseID:48 - name字段：完全匹配，判定通过
+2026-03-03 11:45:16,175 - INFO - CaseID:48 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:48 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:48 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:48 - publishtime字段：匹配通过
+2026-03-03 11:45:16,176 - INFO - CaseID:48 - query字段：语义匹配通过
+2026-03-03 11:45:16,176 - INFO - CaseID:48 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:16,176 - INFO - CaseID:49 - name字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:49 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:49 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:49 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,176 - INFO - CaseID:49 - publishtime字段：匹配通过
+2026-03-03 11:45:16,177 - INFO - CaseID:49 - query字段：语义匹配通过
+2026-03-03 11:45:16,177 - INFO - CaseID:49 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - name字段：完全匹配，判定通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - publishtime字段：匹配通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - query字段：语义匹配通过
+2026-03-03 11:45:16,177 - INFO - CaseID:50 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-03-03 11:45:16,178 - INFO - CaseID:51 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,178 - INFO - CaseID:51 - publishtime字段：匹配通过
+2026-03-03 11:45:16,178 - INFO - CaseID:51 - query字段：语义匹配通过
+2026-03-03 11:45:16,178 - INFO - CaseID:51 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今天"}]
+2026-03-03 11:45:16,179 - INFO - CaseID:52 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,179 - INFO - CaseID:52 - publishtime字段：匹配通过
+2026-03-03 11:45:16,179 - INFO - CaseID:52 - query字段：语义匹配通过
+2026-03-03 11:45:16,179 - INFO - CaseID:52 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今日"}]
+2026-03-03 11:45:16,179 - INFO - CaseID:53 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,179 - INFO - CaseID:53 - publishtime字段：匹配通过
+2026-03-03 11:45:16,180 - INFO - CaseID:53 - query字段：语义匹配通过
+2026-03-03 11:45:16,180 - INFO - CaseID:53 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今天"}]
+2026-03-03 11:45:16,180 - INFO - CaseID:54 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,180 - INFO - CaseID:54 - publishtime字段：匹配通过
+2026-03-03 11:45:16,180 - INFO - CaseID:54 - query字段：语义匹配通过
+2026-03-03 11:45:16,180 - INFO - CaseID:54 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今日"}]
+2026-03-03 11:45:16,180 - INFO - CaseID:55 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,181 - INFO - CaseID:55 - publishtime字段：匹配通过
+2026-03-03 11:45:16,181 - INFO - CaseID:55 - query字段：语义匹配通过
+2026-03-03 11:45:16,181 - INFO - CaseID:55 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今日"}]
+2026-03-03 11:45:16,181 - INFO - CaseID:56 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,181 - INFO - CaseID:56 - publishtime字段：匹配通过
+2026-03-03 11:45:16,181 - INFO - CaseID:56 - query字段：语义匹配通过
+2026-03-03 11:45:16,181 - INFO - CaseID:56 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今天"}]
+2026-03-03 11:45:16,182 - INFO - CaseID:57 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:57 - publishtime字段：匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:57 - query字段：语义匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:57 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今天"}]
+2026-03-03 11:45:16,182 - INFO - CaseID:58 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:58 - publishtime字段：匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:58 - query字段：语义匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:58 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今日"}]
+2026-03-03 11:45:16,182 - INFO - CaseID:59 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:59 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:59 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:59 - publishtime字段：匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:59 - query字段：语义匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:59 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]
+2026-03-03 11:45:16,182 - INFO - CaseID:60 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:60 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:60 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:60 - publishtime字段：匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:60 - query字段：语义匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:60 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]
+2026-03-03 11:45:16,182 - INFO - CaseID:61 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,182 - INFO - CaseID:61 - publishtime字段：匹配通过
+2026-03-03 11:45:16,182 - INFO - CaseID:61 - query字段：语义匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:61 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今日"}]
+2026-03-03 11:45:16,183 - INFO - CaseID:62 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:62 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:62 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:62 - publishtime字段：匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:62 - query字段：语义匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:62 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]
+2026-03-03 11:45:16,183 - INFO - CaseID:63 - mediaType字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:63 - startTime字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:63 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:63 - publishtime字段：匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:63 - query字段：语义匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:63 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]
+2026-03-03 11:45:16,183 - INFO - CaseID:64 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:64 - publishtime字段：匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:64 - query字段：语义匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:64 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今天"}]
+2026-03-03 11:45:16,183 - INFO - CaseID:65 - RANGE字段：完全匹配，判定通过
+2026-03-03 11:45:16,183 - INFO - CaseID:65 - publishtime字段：匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:65 - query字段：语义匹配通过
+2026-03-03 11:45:16,183 - INFO - CaseID:65 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]; mediaType不匹配：预期[]，实际[播客]; startTime不匹配：预期[]，实际[{"norm": {"day": "+0"}, "raw": "今天"}]
+2026-03-03 11:45:28,979 - INFO - 
+=== 执行完成（总耗时：86.98秒 ≈ 1.4分钟）===
+2026-03-03 11:45:28,980 - INFO - 总用例数：65 | 通过：50（76.92%） | 失败：15
+2026-03-03 11:45:28,980 - INFO - LLM缓存命中次数：44

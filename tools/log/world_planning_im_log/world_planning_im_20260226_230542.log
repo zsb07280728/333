@@ -1,0 +1,325 @@
+2026-02-26 23:05:42,902 - INFO - === 看世界规划控制工具（多线程优化版）启动 ===
+2026-02-26 23:05:43,081 - INFO - 成功加载飞书表格
+2026-02-26 23:05:44,461 - INFO - 启动多线程处理，并发数：10，总用例数：149
+2026-02-26 23:05:44,462 - INFO - CaseID:2 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,465 - INFO - CaseID:5 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,465 - INFO - CaseID:6 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,466 - INFO - CaseID:8 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:44,466 - INFO - CaseID:9 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,467 - INFO - CaseID:10 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,530 - ERROR - CaseID:4 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,530 - ERROR - CaseID:7 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,531 - ERROR - CaseID:6 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,531 - ERROR - CaseID:8 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,531 - ERROR - CaseID:10 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,531 - ERROR - CaseID:9 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,531 - INFO - CaseID:11 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,531 - ERROR - CaseID:3 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:44,531 - INFO - CaseID:12 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:44,532 - INFO - CaseID:13 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:44,532 - INFO - CaseID:14 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:44,532 - INFO - CaseID:15 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:44,532 - INFO - CaseID:16 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:44,532 - INFO - CaseID:17 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:45,233 - INFO - CaseID:2 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:45,234 - INFO - CaseID:2 - TAG字段：有交集（{'文蛤'}），判定通过
+2026-02-26 23:05:45,234 - INFO - CaseID:2 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:45,234 - INFO - CaseID:18 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:45,407 - INFO - CaseID:5 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:45,407 - INFO - CaseID:5 - TAG字段：有交集（{'大熊猫', '生物学特性'}），判定通过
+2026-02-26 23:05:45,408 - INFO - CaseID:5 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:45,408 - INFO - CaseID:19 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:45,736 - ERROR - CaseID:16 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:45,737 - ERROR - CaseID:17 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:45,737 - ERROR - CaseID:11 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:45,738 - ERROR - CaseID:13 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:45,739 - INFO - CaseID:20 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:45,739 - INFO - CaseID:21 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:45,739 - INFO - CaseID:22 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:45,740 - INFO - CaseID:23 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:46,055 - INFO - CaseID:1 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品推荐]; QUERY不匹配：基础语义模糊匹配失败 - 预期[她背的帆布包是什么品牌的]，实际[印有黑猫图案的帆布包品牌]; TAG不匹配：一方为空 - 预期[]，实际[印有黑猫图案&帆布包&品牌]
+2026-02-26 23:05:46,055 - INFO - CaseID:24 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:46,331 - ERROR - CaseID:18 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:46,332 - INFO - CaseID:25 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:46,463 - INFO - CaseID:14 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:46,463 - INFO - CaseID:14 - TAG字段：有交集（{'寄居蟹', '生存环境'}），判定通过
+2026-02-26 23:05:46,463 - INFO - CaseID:14 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:46,489 - ERROR - CaseID:19 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:46,490 - INFO - CaseID:27 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:46,490 - INFO - CaseID:27 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:46,706 - INFO - CaseID:15 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:46,706 - INFO - CaseID:15 - TAG字段：有交集（{'重量', '锦鲤'}），判定通过
+2026-02-26 23:05:46,707 - INFO - CaseID:15 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:46,707 - INFO - CaseID:28 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:46,707 - INFO - CaseID:28 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:46,720 - INFO - CaseID:12 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:46,720 - INFO - CaseID:12 - TAG字段：有交集（{'淡水蟹'}），判定通过
+2026-02-26 23:05:46,721 - INFO - CaseID:12 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:46,721 - INFO - CaseID:29 - CATEGORY字段：交集匹配（{'影视'}），判定通过
+2026-02-26 23:05:46,793 - ERROR - CaseID:22 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:46,794 - INFO - CaseID:30 - CATEGORY字段：交集匹配（{'人物'}），判定通过
+2026-02-26 23:05:47,107 - ERROR - CaseID:24 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:47,108 - INFO - CaseID:31 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:47,108 - INFO - CaseID:31 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:47,441 - ERROR - CaseID:25 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:47,497 - ERROR - CaseID:26 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:47,497 - INFO - CaseID:23 - TAG字段：有交集（{'大嘴鲈鱼'}），判定通过
+2026-02-26 23:05:47,497 - INFO - CaseID:33 - CATEGORY字段：模型输出含「其他问答」，该字段通过
+2026-02-26 23:05:47,497 - INFO - CaseID:23 - 整体结果: FAILED | 详情: QUERY不匹配：基础语义模糊匹配失败 - 预期[大嘴鲈鱼捕获的概率]，实际[不同季节大嘴鲈鱼捕获率]
+2026-02-26 23:05:47,533 - ERROR - CaseID:27 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:47,635 - INFO - CaseID:21 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:47,635 - INFO - CaseID:21 - TAG字段：有交集（{'海鲈鱼'}），判定通过
+2026-02-26 23:05:47,635 - INFO - CaseID:21 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:47,758 - ERROR - CaseID:28 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:47,766 - ERROR - CaseID:29 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:47,766 - INFO - CaseID:38 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:48,146 - INFO - CaseID:20 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:48,146 - INFO - CaseID:20 - TAG字段：有交集（{'比目鱼'}），判定通过
+2026-02-26 23:05:48,146 - INFO - CaseID:20 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:48,146 - INFO - CaseID:39 - CATEGORY字段：交集匹配（{'人物'}），判定通过
+2026-02-26 23:05:48,563 - ERROR - CaseID:33 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:48,564 - INFO - CaseID:30 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:48,564 - INFO - CaseID:30 - TAG字段：有交集（{'事情', '佩奇', '最喜欢'}），判定通过
+2026-02-26 23:05:48,565 - ERROR - CaseID:34 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:48,565 - INFO - CaseID:30 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:48,566 - INFO - CaseID:41 - CATEGORY字段：模型输出含「其他问答」，该字段通过
+2026-02-26 23:05:48,588 - ERROR - CaseID:35 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:48,679 - ERROR - CaseID:36 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:48,679 - INFO - CaseID:44 - CATEGORY字段：交集匹配（{'影视'}），判定通过
+2026-02-26 23:05:48,805 - ERROR - CaseID:37 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:48,805 - INFO - CaseID:45 - CATEGORY字段：交集匹配（{'商品查询-不确定商品'}），判定通过
+2026-02-26 23:05:48,816 - ERROR - CaseID:38 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:49,133 - INFO - CaseID:31 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:49,133 - INFO - CaseID:31 - 整体结果: FAILED | 详情: TAG不匹配：无交集 - 预期[小猪佩奇&玩偶&适合年龄]，实际[小猪佩奇玩偶&适合&年龄范围]
+2026-02-26 23:05:49,214 - INFO - CaseID:32 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:49,215 - INFO - CaseID:32 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品查询-确定商品]; TAG不匹配：一方为空 - 预期[]，实际[小猪佩奇玩偶&常见材质]
+2026-02-26 23:05:49,215 - INFO - CaseID:48 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:49,618 - ERROR - CaseID:41 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:49,619 - INFO - CaseID:49 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:49,619 - INFO - CaseID:49 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:49,632 - ERROR - CaseID:43 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:49,728 - ERROR - CaseID:44 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:49,729 - INFO - CaseID:51 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:49,866 - ERROR - CaseID:45 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:49,867 - INFO - CaseID:52 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:49,869 - INFO - CaseID:39 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:49,869 - INFO - CaseID:39 - TAG字段：有交集（{'职业', 'rubble'}），判定通过
+2026-02-26 23:05:49,869 - INFO - CaseID:39 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:49,873 - ERROR - CaseID:46 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:49,874 - INFO - CaseID:54 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:49,874 - INFO - CaseID:54 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:50,198 - ERROR - CaseID:47 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:50,515 - INFO - CaseID:42 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[QASearch]; CATEGORY不匹配：一方为空 - 预期[]，实际[影视]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这个玩具小狗的材质是什么]，实际[汪汪队立大功玩具小狗的材质]; TAG不匹配：一方为空 - 预期[]，实际[汪汪队立大功&玩具小狗&材质]
+2026-02-26 23:05:50,685 - INFO - CaseID:40 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品查询-确定商品]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这只公仔的衣服是什么颜色的]，实际[汪汪队立大功公仔衣服颜色]; TAG不匹配：一方为空 - 预期[]，实际[汪汪队立大功&公仔&衣服&颜色]
+2026-02-26 23:05:50,686 - INFO - CaseID:57 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:50,783 - ERROR - CaseID:51 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:50,784 - INFO - CaseID:58 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:50,931 - ERROR - CaseID:52 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:50,931 - ERROR - CaseID:53 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:50,932 - INFO - CaseID:60 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:50,942 - ERROR - CaseID:54 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:51,307 - INFO - CaseID:50 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:51,307 - INFO - CaseID:50 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[AUTOSearch]; CATEGORY不匹配：一方为空 - 预期[]，实际[汽车]; TAG不匹配：一方为空 - 预期[]，实际[白色无线耳机充电盒&品牌]
+2026-02-26 23:05:51,451 - INFO - CaseID:48 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:51,451 - INFO - CaseID:48 - TAG字段：有交集（{'汪汪队立大功', '受众年龄'}），判定通过
+2026-02-26 23:05:51,451 - INFO - CaseID:48 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:51,452 - INFO - CaseID:63 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:51,830 - ERROR - CaseID:58 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:51,831 - INFO - CaseID:64 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:51,831 - INFO - CaseID:64 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:51,990 - ERROR - CaseID:59 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:51,990 - INFO - CaseID:65 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:51,997 - ERROR - CaseID:60 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:51,998 - ERROR - CaseID:61 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:52,106 - INFO - CaseID:55 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:52,106 - INFO - CaseID:55 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:52,106 - INFO - CaseID:68 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:52,107 - INFO - CaseID:68 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:52,308 - INFO - CaseID:49 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:52,308 - INFO - CaseID:49 - TAG字段：有交集（{'购买地点', '灰灰公仔'}），判定通过
+2026-02-26 23:05:52,308 - INFO - CaseID:49 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:52,309 - INFO - CaseID:69 - CATEGORY字段：交集匹配（{'商品查询-确定商品'}），判定通过
+2026-02-26 23:05:52,547 - INFO - CaseID:57 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:52,548 - INFO - CaseID:57 - TAG字段：有交集（{'遥控器'}），判定通过
+2026-02-26 23:05:52,548 - INFO - CaseID:57 - 整体结果: FAILED | 详情: APINAME不匹配：预期[QASearch]，实际[AUTOSearch]
+2026-02-26 23:05:53,040 - ERROR - CaseID:65 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:53,040 - ERROR - CaseID:67 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:53,041 - ERROR - CaseID:66 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:53,042 - INFO - CaseID:71 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:53,042 - INFO - CaseID:72 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:53,043 - INFO - CaseID:73 - CATEGORY字段：交集匹配（{'健康'}），判定通过
+2026-02-26 23:05:53,043 - INFO - CaseID:71 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:53,140 - ERROR - CaseID:68 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:53,141 - INFO - CaseID:74 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:53,212 - INFO - CaseID:56 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:53,213 - INFO - CaseID:56 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[AUTOSearch]; CATEGORY不匹配：一方为空 - 预期[]，实际[汽车]; TAG不匹配：一方为空 - 预期[]，实际[空调遥控器&空调品牌]
+2026-02-26 23:05:53,250 - INFO - CaseID:62 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:53,251 - INFO - CaseID:62 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:53,251 - INFO - CaseID:76 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:53,489 - INFO - CaseID:63 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:53,490 - INFO - CaseID:63 - TAG字段：有交集（{'麦克风', '工作原理'}），判定通过
+2026-02-26 23:05:53,490 - INFO - CaseID:63 - 整体结果: FAILED | 详情: APINAME不匹配：预期[QASearch]，实际[AUTOSearch]
+2026-02-26 23:05:53,693 - INFO - CaseID:64 - TAG字段：有交集（{'麦克风'}），判定通过
+2026-02-26 23:05:53,693 - INFO - CaseID:64 - 整体结果: FAILED | 详情: QUERY不匹配：基础语义模糊匹配失败 - 预期[麦克风的售价是多少]，实际[常见麦克风的市场价格范围]
+2026-02-26 23:05:53,694 - INFO - CaseID:78 - CATEGORY字段：模型输出含「其他问答」，该字段通过
+2026-02-26 23:05:54,088 - ERROR - CaseID:73 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:54,088 - ERROR - CaseID:72 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:54,089 - INFO - CaseID:80 - CATEGORY字段：模型输出含「其他问答」，该字段通过
+2026-02-26 23:05:54,218 - ERROR - CaseID:74 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:54,218 - INFO - CaseID:69 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:54,219 - INFO - CaseID:81 - CATEGORY字段：交集匹配（{'健康'}），判定通过
+2026-02-26 23:05:54,219 - INFO - CaseID:69 - TAG字段：有交集（{'牛仔布拉链袋'}），判定通过
+2026-02-26 23:05:54,219 - INFO - CaseID:69 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:54,249 - ERROR - CaseID:75 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:54,295 - ERROR - CaseID:76 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:54,296 - INFO - CaseID:84 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:54,923 - INFO - CaseID:71 - 整体结果: FAILED | 详情: QUERY不匹配：基础语义模糊匹配失败 - 预期[混合坚果的品牌有哪些]，实际[罐装混合坚果常见品牌]; TAG不匹配：无交集 - 预期[混合坚果&品牌]，实际[罐装混合坚果&常见品牌]
+2026-02-26 23:05:54,924 - INFO - CaseID:85 - CATEGORY字段：模型输出含「其他问答」，该字段通过
+2026-02-26 23:05:55,131 - ERROR - CaseID:80 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:55,132 - INFO - CaseID:86 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:55,217 - INFO - CaseID:70 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品查询-确定商品]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这个腰果零食是什么品牌的]，实际[紫皮腰果零食的品牌是什么]; TAG不匹配：一方为空 - 预期[]，实际[紫皮腰果零食&品牌]
+2026-02-26 23:05:55,218 - INFO - CaseID:87 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:55,267 - ERROR - CaseID:82 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:55,268 - ERROR - CaseID:81 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:55,268 - INFO - CaseID:88 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:55,269 - INFO - CaseID:89 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:05:55,270 - INFO - CaseID:89 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:55,304 - ERROR - CaseID:83 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:55,304 - INFO - CaseID:90 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:55,339 - ERROR - CaseID:84 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:55,340 - INFO - CaseID:91 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:55,498 - INFO - CaseID:77 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:55,498 - INFO - CaseID:77 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:55,499 - INFO - CaseID:92 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:55,670 - INFO - CaseID:79 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:55,670 - INFO - CaseID:79 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品查询-确定商品]; TAG不匹配：一方为空 - 预期[]，实际[竹香乌龙茶饮料&品牌]
+2026-02-26 23:05:55,710 - INFO - CaseID:78 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:55,710 - INFO - CaseID:78 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[QASearch]; TAG不匹配：一方为空 - 预期[]，实际[星巴克&常见饮料&杯壁颜色]
+2026-02-26 23:05:55,710 - INFO - CaseID:94 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:56,320 - ERROR - CaseID:89 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,320 - INFO - CaseID:95 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:56,324 - ERROR - CaseID:88 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,325 - INFO - CaseID:96 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:56,344 - ERROR - CaseID:90 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,345 - INFO - CaseID:97 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:56,390 - ERROR - CaseID:91 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,540 - ERROR - CaseID:92 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,541 - INFO - CaseID:99 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:56,703 - ERROR - CaseID:93 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,704 - INFO - CaseID:100 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:56,748 - ERROR - CaseID:94 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:56,749 - INFO - CaseID:101 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:56,822 - INFO - CaseID:85 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[QASearch]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这盒牛奶的品牌是什么？]，实际[牛奶包装上的品牌名称]; TAG不匹配：一方为空 - 预期[]，实际[牛奶&包装&品牌名称]
+2026-02-26 23:05:56,823 - INFO - CaseID:102 - CATEGORY字段：交集匹配（{'健康'}），判定通过
+2026-02-26 23:05:57,311 - INFO - CaseID:86 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:57,311 - INFO - CaseID:86 - TAG字段：有交集（{'布偶猫', '生活习性'}），判定通过
+2026-02-26 23:05:57,311 - INFO - CaseID:86 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:57,312 - INFO - CaseID:103 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:05:57,355 - INFO - CaseID:87 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:57,355 - INFO - CaseID:87 - TAG字段：有交集（{'喜马拉雅猫', '生活习性'}），判定通过
+2026-02-26 23:05:57,355 - INFO - CaseID:87 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:57,355 - INFO - CaseID:104 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:57,428 - ERROR - CaseID:98 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:57,429 - INFO - CaseID:105 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:57,593 - ERROR - CaseID:99 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:57,594 - INFO - CaseID:106 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:57,757 - ERROR - CaseID:100 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:57,758 - INFO - CaseID:107 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:57,801 - ERROR - CaseID:101 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:57,801 - INFO - CaseID:108 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:57,866 - ERROR - CaseID:102 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:57,867 - INFO - CaseID:109 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:58,080 - INFO - CaseID:96 - TAG字段：有交集（{'科属'}），判定通过
+2026-02-26 23:05:58,081 - INFO - CaseID:96 - 整体结果: FAILED | 详情: QUERY不匹配：基础语义模糊匹配失败 - 预期[黄色月季花的科属]，实际[月季花的科属]
+2026-02-26 23:05:58,081 - INFO - 多线程已处理100/149条用例
+2026-02-26 23:05:58,282 - INFO - CaseID:95 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:58,283 - INFO - CaseID:95 - 整体结果: FAILED | 详情: TAG不匹配：无交集 - 预期[黄色&玫瑰花&培育&特点]，实际[黄色玫瑰花&培育要点]
+2026-02-26 23:05:58,324 - INFO - CaseID:97 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:58,324 - INFO - CaseID:97 - TAG字段：有交集（{'花语', '玫瑰花'}），判定通过
+2026-02-26 23:05:58,324 - INFO - CaseID:97 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:58,324 - INFO - CaseID:112 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:58,346 - ERROR - CaseID:103 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:58,346 - INFO - CaseID:113 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:58,817 - ERROR - CaseID:107 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:58,818 - INFO - CaseID:114 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:58,850 - ERROR - CaseID:108 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:58,852 - INFO - CaseID:115 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:58,914 - ERROR - CaseID:109 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:58,915 - INFO - CaseID:116 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:59,133 - ERROR - CaseID:110 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:59,134 - INFO - CaseID:117 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:59,306 - INFO - CaseID:104 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:59,306 - INFO - CaseID:104 - TAG字段：有交集（{'郁金香'}），判定通过
+2026-02-26 23:05:59,307 - INFO - CaseID:104 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:59,307 - INFO - CaseID:118 - CATEGORY字段：交集匹配（{'生物'}），判定通过
+2026-02-26 23:05:59,337 - ERROR - CaseID:111 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:59,368 - ERROR - CaseID:112 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:59,379 - ERROR - CaseID:113 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:05:59,449 - INFO - CaseID:105 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:59,450 - INFO - CaseID:105 - TAG字段：有交集（{'别名', '水仙百合'}），判定通过
+2026-02-26 23:05:59,450 - INFO - CaseID:105 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:05:59,462 - INFO - CaseID:106 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:05:59,462 - INFO - CaseID:106 - TAG字段：有交集（{'落羽杉'}），判定通过
+2026-02-26 23:05:59,462 - INFO - CaseID:106 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:06:00,176 - ERROR - CaseID:117 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,178 - INFO - CaseID:124 - 整体结果: FAILED | 详情: 模型输出核心字段全为空，判定不通过
+2026-02-26 23:06:00,358 - ERROR - CaseID:118 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,387 - ERROR - CaseID:119 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,389 - INFO - CaseID:127 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:06:00,389 - INFO - CaseID:127 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:06:00,420 - ERROR - CaseID:120 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,420 - INFO - CaseID:128 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:06:00,421 - INFO - CaseID:128 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:06:00,422 - ERROR - CaseID:121 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,487 - INFO - CaseID:114 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:00,487 - INFO - CaseID:114 - TAG字段：有交集（{'病斑', '叶子', '植物'}），判定通过
+2026-02-26 23:06:00,487 - INFO - CaseID:114 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:06:00,488 - INFO - CaseID:130 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:06:00,488 - INFO - CaseID:130 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:06:00,497 - ERROR - CaseID:122 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,497 - INFO - CaseID:131 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:06:00,497 - INFO - CaseID:131 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:06:00,509 - ERROR - CaseID:123 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:00,712 - INFO - CaseID:116 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:00,713 - INFO - CaseID:116 - TAG字段：有交集（{'高度', '玉兰树'}），判定通过
+2026-02-26 23:06:00,713 - INFO - CaseID:116 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:06:00,859 - INFO - CaseID:115 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:00,860 - INFO - CaseID:115 - TAG字段：有交集（{'植物保护等级', '玉兰树'}），判定通过
+2026-02-26 23:06:00,860 - INFO - CaseID:115 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:06:01,458 - ERROR - CaseID:128 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,459 - ERROR - CaseID:129 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,530 - ERROR - CaseID:130 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,534 - ERROR - CaseID:131 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,558 - ERROR - CaseID:132 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,753 - ERROR - CaseID:133 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,754 - INFO - CaseID:140 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:06:01,916 - ERROR - CaseID:134 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:01,917 - INFO - CaseID:141 - APINAME字段：QASearch↔worthbuy，判定通过
+2026-02-26 23:06:01,917 - INFO - CaseID:141 - CATEGORY字段：标准答案含「其他问答」，模型输出任意值通过
+2026-02-26 23:06:02,400 - INFO - CaseID:126 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:02,401 - INFO - CaseID:126 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:06:02,401 - INFO - CaseID:127 - 整体结果: FAILED | 详情: QUERY不匹配：基础语义模糊匹配失败 - 预期[适合搭配的牛仔裤的类型推荐]，实际[当前季节和气候适合的牛仔裤类型]; TAG不匹配：无交集 - 预期[适合搭配&牛仔裤&类型推荐]，实际[当前季节&气候&适合&牛仔裤类型]
+2026-02-26 23:06:02,586 - ERROR - CaseID:138 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:02,610 - ERROR - CaseID:139 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:02,789 - INFO - CaseID:125 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品查询-确定商品]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这件夹克的款式怎么样]，实际[黑色防风防水夹克的款式特点]; TAG不匹配：一方为空 - 预期[]，实际[黑色&防风防水夹克&款式特点]
+2026-02-26 23:06:02,791 - INFO - CaseID:146 - CATEGORY字段：模型输出含「其他问答」，该字段通过
+2026-02-26 23:06:02,793 - ERROR - CaseID:140 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:02,967 - ERROR - CaseID:141 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:03,326 - INFO - CaseID:137 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:03,326 - INFO - CaseID:136 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:03,326 - INFO - CaseID:137 - 整体结果: PASS | 详情: 所有字段校验通过
+2026-02-26 23:06:03,326 - INFO - CaseID:136 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[skill_search]
+2026-02-26 23:06:03,451 - ERROR - CaseID:143 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:03,452 - ERROR - CaseID:142 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:03,522 - INFO - CaseID:135 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:03,522 - INFO - CaseID:135 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品推荐]; TAG不匹配：一方为空 - 预期[]，实际[红白格纹外套&搭配&包包&建议]
+2026-02-26 23:06:03,852 - ERROR - CaseID:147 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:04,019 - ERROR - CaseID:148 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:04,364 - INFO - CaseID:145 - QUERY字段：基础语义模糊匹配通过
+2026-02-26 23:06:04,365 - INFO - CaseID:145 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[skill_search]
+2026-02-26 23:06:04,372 - ERROR - CaseID:149 - 处理失败：429 Client Error: Too Many Requests for url: http://api-hub.inner.chj.cloud/llm-gateway/v1/chat/comp
+2026-02-26 23:06:04,423 - INFO - CaseID:146 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[QASearch]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这件格子衬衫的款式如何]，实际[格子衬衫的常见款式特点]; TAG不匹配：一方为空 - 预期[]，实际[格子衬衫&常见款式&特点]
+2026-02-26 23:06:04,561 - INFO - CaseID:144 - 整体结果: FAILED | 详情: APINAME不匹配：预期[visual_search]，实际[worthbuy]; CATEGORY不匹配：一方为空 - 预期[]，实际[商品查询-不确定商品]; QUERY不匹配：基础语义模糊匹配失败 - 预期[这件条纹衬衫的材质是什么]，实际[条纹衬衫的常见材质类型]; TAG不匹配：一方为空 - 预期[]，实际[条纹衬衫&常见材质类型]
+2026-02-26 23:06:11,303 - INFO - 
+=== 执行完成（总耗时：28.40秒）===
+2026-02-26 23:06:11,304 - INFO - 总用例数：149 | 通过：26（17.45%） | 失败：123

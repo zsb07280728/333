@@ -1,0 +1,2490 @@
+2026-03-23 16:27:13,782 - INFO - === IM_vehicle_control API对比工具启动 ===
+2026-03-23 16:27:16,830 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","position":"靠右}}...）: Unterminated string starting at: line 1 column 63 (char 62)
+2026-03-23 16:27:16,831 - ERROR - CaseID: 32
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,835 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_park","position":"中","point_desc":{"parking_space...）: Extra data: line 1 column 110 (char 109)
+2026-03-23 16:27:16,835 - ERROR - CaseID: 91
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,844 - ERROR - CaseID: 206
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+2026-03-23 16:27:16,846 - ERROR - CaseID: 233
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:16,847 - ERROR - CaseID: 249
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,847 - ERROR - CaseID: 250
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,848 - ERROR - CaseID: 251
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,848 - ERROR - CaseID: 252
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,848 - ERROR - CaseID: 253
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,848 - ERROR - CaseID: 254
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,848 - ERROR - CaseID: 256
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:16,848 - ERROR - CaseID: 257
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"subject": "\u5927\u67f1\u5b50"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"subject": "\u67f1\u5b50"}}
+2026-03-23 16:27:16,848 - ERROR - CaseID: 258
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:16,848 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位","subject":"墙",...）: Extra data: line 1 column 134 (char 133)
+2026-03-23 16:27:16,849 - ERROR - CaseID: 262
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:16,849 - ERROR - CaseID: 268
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u6211\u4eec"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u6211"}}
+2026-03-23 16:27:16,849 - ERROR - CaseID: 271
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3\u8fb9", "subject": "\u6211"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u6211"}}
+2026-03-23 16:27:16,850 - ERROR - CaseID: 278
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u53f3\u524d"}
+2026-03-23 16:27:16,855 - ERROR - CaseID: 353
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:16,856 - ERROR - CaseID: 372
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u53f3\u524d"}
+2026-03-23 16:27:16,857 - ERROR - CaseID: 387
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u4f4d\u5b50"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u53f3"}
+2026-03-23 16:27:16,860 - ERROR - CaseID: 441
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u8f66\u4f4d"}}
+2026-03-23 16:27:16,861 - ERROR - CaseID: 442
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+2026-03-23 16:27:16,861 - ERROR - CaseID: 443
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+2026-03-23 16:27:16,864 - ERROR - CaseID: 497
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "PARKINGASSIST"}
+2026-03-23 16:27:17,616 - ERROR - CaseID: 505
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 515
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 519
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 521
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 522
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 525
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 526
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "turnon", "entity": "WARNING_LAMP_WHISTLE"}
+2026-03-23 16:27:17,617 - ERROR - CaseID: 529
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:17,618 - ERROR - CaseID: 530
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:17,618 - ERROR - CaseID: 531
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,618 - ERROR - CaseID: 532
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,618 - ERROR - CaseID: 534
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,618 - ERROR - CaseID: 535
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,618 - ERROR - CaseID: 536
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,618 - ERROR - CaseID: 537
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,618 - ERROR - CaseID: 538
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,618 - ERROR - CaseID: 539
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,618 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 540
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 541
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 542
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 543
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 544
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 545
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 546
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 547
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 548
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,619 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,619 - ERROR - CaseID: 549
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 550
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 551
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 552
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 88 (char 87)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 553
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 554
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 555
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 556
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 557
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 558
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,620 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,620 - ERROR - CaseID: 559
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 560
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 561
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 562
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 563
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 564
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 565
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,621 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,621 - ERROR - CaseID: 566
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 567
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 568
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 569
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 570
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 571
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 572
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 91 (char 90)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 573
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 574
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,622 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,622 - ERROR - CaseID: 575
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 576
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 577
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 578
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 579
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 580
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 581
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 582
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 583
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 584
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,623 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,623 - ERROR - CaseID: 585
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 586
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 587
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 588
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 589
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 590
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 591
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,624 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,624 - ERROR - CaseID: 592
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,625 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:17,625 - ERROR - CaseID: 593
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:17,626 - ERROR - CaseID: 619
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "query", "entity": "VEHICLE_LOCATION"}
+2026-03-23 16:27:17,628 - ERROR - CaseID: 661
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u9760\u53f3"}
+2026-03-23 16:27:17,633 - ERROR - CaseID: 762
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u5de6"}
+2026-03-23 16:27:17,633 - ERROR - CaseID: 763
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u53f3"}
+2026-03-23 16:27:17,633 - ERROR - CaseID: 764
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u4e2d"}
+2026-03-23 16:27:17,633 - ERROR - CaseID: 765
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE", "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u5de6"}
+2026-03-23 16:27:17,633 - ERROR - CaseID: 766
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u53f3"}
+2026-03-23 16:27:17,633 - ERROR - CaseID: 767
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u4e2d"}
+2026-03-23 16:27:17,635 - ERROR - CaseID: 807
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in"}
+2026-03-23 16:27:17,636 - ERROR - CaseID: 818
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,636 - ERROR - CaseID: 826
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 837
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 838
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 839
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 840
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 844
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 848
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 849
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,637 - ERROR - CaseID: 850
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 858
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 859
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 860
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 861
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 864
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 865
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,638 - ERROR - CaseID: 866
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,639 - ERROR - CaseID: 870
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,639 - ERROR - CaseID: 871
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,639 - ERROR - CaseID: 880
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park"}
+2026-03-23 16:27:17,640 - ERROR - CaseID: 891
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:17,640 - ERROR - CaseID: 895
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive"}
+2026-03-23 16:27:17,640 - ERROR - CaseID: 904
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive"}
+2026-03-23 16:27:17,640 - ERROR - CaseID: 905
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:17,640 - ERROR - CaseID: 906
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:17,641 - ERROR - CaseID: 913
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:17,641 - ERROR - CaseID: 925
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_getoff_park"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_getoff_park", "position": "\u9760\u4e2d"}
+2026-03-23 16:27:17,641 - ERROR - CaseID: 931
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_getoff_park"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in"}
+2026-03-23 16:27:17,642 - ERROR - CaseID: 949
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out"}
+2026-03-23 16:27:17,642 - ERROR - CaseID: 956
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,643 - ERROR - CaseID: 958
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,643 - ERROR - CaseID: 959
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,643 - ERROR - CaseID: 963
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,643 - ERROR - CaseID: 967
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,643 - ERROR - CaseID: 968
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,644 - ERROR - CaseID: 980
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,644 - ERROR - CaseID: 985
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,645 - ERROR - CaseID: 987
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,645 - ERROR - CaseID: 988
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,645 - ERROR - CaseID: 994
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,645 - ERROR - CaseID: 995
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:17,645 - INFO - 已处理 1000 行数据
+2026-03-23 16:27:17,645 - ERROR - CaseID: 999
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:17,645 - ERROR - CaseID: 1000
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,702 - ERROR - CaseID: 1001
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,703 - ERROR - CaseID: 1010
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:18,706 - ERROR - CaseID: 1042
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,706 - ERROR - CaseID: 1049
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,706 - ERROR - CaseID: 1050
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,707 - ERROR - CaseID: 1058
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,707 - ERROR - CaseID: 1061
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park"}
+2026-03-23 16:27:18,709 - ERROR - CaseID: 1082
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_getoff_park", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_getoff_park", "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,709 - ERROR - CaseID: 1083
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_getoff_park", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_getoff_park", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,710 - ERROR - CaseID: 1102
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,710 - ERROR - CaseID: 1103
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,712 - ERROR - CaseID: 1122
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,712 - ERROR - CaseID: 1123
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,713 - ERROR - CaseID: 1142
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,714 - ERROR - CaseID: 1143
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,715 - ERROR - CaseID: 1162
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,715 - ERROR - CaseID: 1163
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,716 - ERROR - CaseID: 1171
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,716 - ERROR - CaseID: 1172
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,716 - ERROR - CaseID: 1173
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,717 - ERROR - CaseID: 1191
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,717 - ERROR - CaseID: 1192
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,717 - ERROR - CaseID: 1193
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,718 - ERROR - CaseID: 1200
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u5de6\u53f3"}
+2026-03-23 16:27:18,722 - ERROR - CaseID: 1268
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:18,724 - ERROR - CaseID: 1291
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_in", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:18,725 - ERROR - CaseID: 1314
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:18,727 - ERROR - CaseID: 1337
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:18,727 - ERROR - CaseID: 1343
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,727 - ERROR - CaseID: 1345
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u9760\u5de6"}
+2026-03-23 16:27:18,727 - ERROR - CaseID: 1349
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,728 - ERROR - CaseID: 1350
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:18,728 - ERROR - CaseID: 1353
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u4e2d"}
+2026-03-23 16:27:18,728 - ERROR - CaseID: 1356
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u4e2d"}
+2026-03-23 16:27:18,728 - ERROR - CaseID: 1358
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:18,728 - ERROR - CaseID: 1359
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "position": "\u9760\u53f3"}
+2026-03-23 16:27:18,728 - ERROR - CaseID: 1360
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park", "point_tag": "HERE", "position": "\u4e2d"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:18,732 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,732 - ERROR - CaseID: 1425
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,732 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,732 - ERROR - CaseID: 1426
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,732 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,732 - ERROR - CaseID: 1427
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,732 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,732 - ERROR - CaseID: 1428
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,732 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,732 - ERROR - CaseID: 1429
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1430
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1431
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1432
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1433
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1434
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1435
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1436
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,733 - ERROR - CaseID: 1437
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,733 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1438
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,734 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1439
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,734 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1440
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,734 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1441
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,734 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1442
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,734 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1443
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,734 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_out","point_desc":{"parking_space":"车位"}}...）: Expecting ',' delimiter: line 1 column 92 (char 91)
+2026-03-23 16:27:18,734 - ERROR - CaseID: 1444
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:18,737 - ERROR - CaseID: 1493
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "direction": "OUT", "position": "\u5de6\u524d"}
+2026-03-23 16:27:19,843 - ERROR - CaseID: 1513
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "position": "\u5de6\u524d"}
+2026-03-23 16:27:19,845 - ERROR - CaseID: 1544
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "direction": "OUT"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT"}
+2026-03-23 16:27:19,846 - ERROR - CaseID: 1555
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out"}
+2026-03-23 16:27:19,846 - ERROR - CaseID: 1563
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out"}
+2026-03-23 16:27:19,846 - ERROR - CaseID: 1564
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out"}
+2026-03-23 16:27:19,846 - ERROR - CaseID: 1566
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:19,847 - ERROR - CaseID: 1574
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "direction": "OUT"}
+2026-03-23 16:27:19,847 - ERROR - CaseID: 1575
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:19,848 - ERROR - CaseID: 1594
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out"}
+2026-03-23 16:27:19,848 - ERROR - CaseID: 1595
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:19,848 - ERROR - CaseID: 1603
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:19,849 - ERROR - CaseID: 1613
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,849 - ERROR - CaseID: 1614
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,850 - ERROR - CaseID: 1627
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,850 - ERROR - CaseID: 1635
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,850 - ERROR - CaseID: 1637
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,850 - ERROR - CaseID: 1638
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,851 - ERROR - CaseID: 1655
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,851 - ERROR - CaseID: 1658
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,851 - ERROR - CaseID: 1660
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,851 - ERROR - CaseID: 1661
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,852 - ERROR - CaseID: 1670
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,852 - ERROR - CaseID: 1675
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,852 - ERROR - CaseID: 1678
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,852 - ERROR - CaseID: 1681
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,852 - ERROR - CaseID: 1682
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:19,853 - ERROR - CaseID: 1688
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:19,854 - ERROR - CaseID: 1724
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "position": "\u5de6\u524d"}
+2026-03-23 16:27:19,854 - ERROR - CaseID: 1725
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "position": "\u5de6\u524d"}
+2026-03-23 16:27:19,855 - ERROR - CaseID: 1726
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "position": "\u53f3"}
+2026-03-23 16:27:19,855 - ERROR - CaseID: 1727
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "position": "\u5de6"}
+2026-03-23 16:27:19,855 - ERROR - CaseID: 1728
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "position": "\u524d"}
+2026-03-23 16:27:19,855 - ERROR - CaseID: 1739
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3"}
+2026-03-23 16:27:19,856 - ERROR - CaseID: 1745
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3\u524d"}
+2026-03-23 16:27:19,857 - ERROR - CaseID: 1764
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:19,857 - ERROR - CaseID: 1765
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+2026-03-23 16:27:19,857 - ERROR - CaseID: 1766
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3"}
+2026-03-23 16:27:19,857 - ERROR - CaseID: 1767
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6"}
+2026-03-23 16:27:19,857 - ERROR - CaseID: 1768
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_park_out", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d"}
+2026-03-23 16:27:19,858 - ERROR - CaseID: 1790
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT"}
+2026-03-23 16:27:19,860 - ERROR - CaseID: 1840
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "cancel"}
+2026-03-23 16:27:19,865 - ERROR - CaseID: 1934
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,865 - ERROR - CaseID: 1937
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,865 - ERROR - CaseID: 1938
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,865 - ERROR - CaseID: 1939
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,865 - ERROR - CaseID: 1940
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,865 - ERROR - CaseID: 1945
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,866 - ERROR - CaseID: 1948
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,866 - ERROR - CaseID: 1950
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,866 - ERROR - CaseID: 1952
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "cancel_straight_calling"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_straight_calling"}
+2026-03-23 16:27:19,868 - ERROR - CaseID: 1988
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFTWARD", "range": "+"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFTWARD"}
+2026-03-23 16:27:19,868 - INFO - 已处理 2000 行数据
+2026-03-23 16:27:20,755 - ERROR - CaseID: 2004
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFTWARD", "point_desc": {"subject": "0.5m"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFTWARD", "point_desc": {"subject": "\u8fb9\u5f00\u534am"}}
+2026-03-23 16:27:20,755 - ERROR - CaseID: 2005
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "RIGHTWARD", "point_desc": {"subject": "5m"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "RIGHTWARD", "point_desc": {"subject": "\u8fb9\u632a5m"}}
+2026-03-23 16:27:20,755 - ERROR - CaseID: 2006
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFTWARD", "point_desc": {"subject": "1m"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFTWARD", "point_desc": {"subject": "\u7a0d\u5fae\u632a1m"}}
+2026-03-23 16:27:20,756 - ERROR - CaseID: 2015
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u6b63\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u524d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,756 - ERROR - CaseID: 2016
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,756 - ERROR - CaseID: 2020
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,756 - ERROR - CaseID: 2022
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:20,756 - ERROR - CaseID: 2023
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,756 - ERROR - CaseID: 2024
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u524d", "subject": "\u67f1\u5b50"}}
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2025
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u9644\u8fd1", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2028
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u524d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2029
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2031
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u53f3\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u53f3\u524d", "subject": "\u67f1\u5b50"}, "point_tag": "\u8f66\u4f4d", "position": "\u65c1\u8fb9"}
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2032
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u8f66\u4f4d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,757 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2033
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,757 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2034
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,757 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,757 - ERROR - CaseID: 2035
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2036
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2037
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2038
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2039
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2040
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2041
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2042
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2043
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,758 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,758 - ERROR - CaseID: 2044
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2045
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2046
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2047
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2048
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2049
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2050
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2051
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"大柱子"}}...）: Expecting ',' delimiter: line 1 column 87 (char 86)
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2052
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,759 - ERROR - CaseID: 2053
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u5de6\u524d"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2057
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2059
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2060
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6\u524d", "subject": "\u67f1\u5b50"}, "position": "\u540e"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2061
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2063
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2064
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u627f\u91cd\u67f1"}, "position": "\u540e"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2065
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2067
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u524d", "subject": "\u67f1\u5b50"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3\u524d", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,760 - ERROR - CaseID: 2068
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6\u540e", "subject": "\u67f1\u5b50"}, "position": "\u5de6\u540e"}
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2069
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2070
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2072
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u5de6\u540e", "subject": "\u67f1\u5b50"}, "position": "\u540e"}
+2026-03-23 16:27:20,761 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"柱子"}}...）: Expecting ',' delimiter: line 1 column 89 (char 88)
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2073
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2075
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"position": "\u53f3", "subject": "\u67f1\u5b50"}}
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2076
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u53f3\u540e\u65b9\u7acb\u67f1"}
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2080
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"position": "\u5de6", "subject": "\u67f1\u5b50"}, "position": "\u524d"}
+2026-03-23 16:27:20,761 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"柱子"}}...）: Expecting ',' delimiter: line 1 column 89 (char 88)
+2026-03-23 16:27:20,761 - ERROR - CaseID: 2081
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,762 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"柱子"}}...）: Expecting ',' delimiter: line 1 column 89 (char 88)
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2082
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,762 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"柱子"}}...）: Expecting ',' delimiter: line 1 column 89 (char 88)
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2083
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,762 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"柱子"}}...）: Expecting ',' delimiter: line 1 column 89 (char 88)
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2084
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2085
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u540e\u65b9\u7acb\u67f1\u65c1"}
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2087
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u53f3\u524d\u67f1\u5b50\u65c1"}
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2089
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3"}
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2090
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}}
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2091
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u53f3\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u53f3\u540e\u65b9\u7acb\u67f1"}
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2092
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"position": "\u65c1\u8fb9", "subject": "\u67f1\u5b50"}, "position": "\u5de6"}
+2026-03-23 16:27:20,762 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,762 - ERROR - CaseID: 2093
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2094
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2095
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2096
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2097
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2098
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2099
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2100
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,763 - ERROR - CaseID: 2101
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,763 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2102
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2103
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2104
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2105
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2106
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2107
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2108
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2109
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,764 - ERROR - CaseID: 2110
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,764 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,765 - ERROR - CaseID: 2111
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,765 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,765 - ERROR - CaseID: 2112
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,765 - ERROR - CaseID: 2118
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u5899"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d\u5899\u8fb9"}
+2026-03-23 16:27:20,765 - ERROR - CaseID: 2125
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u5899"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d", "subject": "\u5899"}
+2026-03-23 16:27:20,766 - ERROR - CaseID: 2126
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u5899"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d", "subject": "\u5899\u8fb9"}
+2026-03-23 16:27:20,766 - ERROR - CaseID: 2127
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u5899"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d", "subject": "\u5899"}
+2026-03-23 16:27:20,766 - ERROR - CaseID: 2130
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u65c1\u8fb9", "subject": "\u5899"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d", "subject": "\u5899"}
+2026-03-23 16:27:20,766 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,766 - ERROR - CaseID: 2133
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,766 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,766 - ERROR - CaseID: 2134
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,766 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2135
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,767 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2136
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,767 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2137
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,767 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2138
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,767 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2139
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,767 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2140
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,767 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,767 - ERROR - CaseID: 2141
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2142
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2143
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2144
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2145
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2146
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2147
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2148
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2149
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,768 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,768 - ERROR - CaseID: 2150
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2151
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"navigate","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 101 (char 100)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2152
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2153
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2154
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2155
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2156
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2157
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2158
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,769 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,769 - ERROR - CaseID: 2159
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,770 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,770 - ERROR - CaseID: 2160
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,770 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,770 - ERROR - CaseID: 2161
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,770 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,770 - ERROR - CaseID: 2162
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,770 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,770 - ERROR - CaseID: 2163
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,770 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,770 - ERROR - CaseID: 2164
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,770 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,770 - ERROR - CaseID: 2165
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,771 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,771 - ERROR - CaseID: 2166
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,771 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,771 - ERROR - CaseID: 2167
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,771 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,771 - ERROR - CaseID: 2168
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,771 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,771 - ERROR - CaseID: 2169
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,771 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,771 - ERROR - CaseID: 2170
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,772 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,772 - ERROR - CaseID: 2171
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,772 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"墙","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,772 - ERROR - CaseID: 2172
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,772 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,772 - ERROR - CaseID: 2173
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,772 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,772 - ERROR - CaseID: 2174
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,772 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,772 - ERROR - CaseID: 2175
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,773 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,773 - ERROR - CaseID: 2176
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,773 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,773 - ERROR - CaseID: 2177
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,773 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,773 - ERROR - CaseID: 2178
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,773 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,773 - ERROR - CaseID: 2179
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,773 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,773 - ERROR - CaseID: 2180
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,773 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,773 - ERROR - CaseID: 2181
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,774 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,774 - ERROR - CaseID: 2182
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,774 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,774 - ERROR - CaseID: 2183
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,774 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,774 - ERROR - CaseID: 2184
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,774 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,774 - ERROR - CaseID: 2185
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,774 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,774 - ERROR - CaseID: 2186
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2187
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2188
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2189
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2190
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2191
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"pause_drive","point_desc":{"subject":"墙","position":"旁边...）: Expecting ',' delimiter: line 1 column 104 (char 103)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2192
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2193
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,775 - ERROR - CaseID: 2194
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,775 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2195
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2196
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2197
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2198
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2199
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2200
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2201
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2202
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,776 - ERROR - CaseID: 2203
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,776 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2204
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2205
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2206
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2207
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2208
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2209
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2210
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我们","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 98 (char 97)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2211
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,777 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 97 (char 96)
+2026-03-23 16:27:20,777 - ERROR - CaseID: 2212
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,778 - ERROR - CaseID: 2214
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,778 - ERROR - CaseID: 2216
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"position": "\u5de6", "subject": "\u6211"}, "point_tag": "HERE"}
+2026-03-23 16:27:20,778 - ERROR - CaseID: 2218
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u5de6"}
+2026-03-23 16:27:20,778 - ERROR - CaseID: 2220
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE", "position": "\u53f3"}
+2026-03-23 16:27:20,778 - ERROR - CaseID: 2221
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u5de6"}
+2026-03-23 16:27:20,778 - ERROR - CaseID: 2223
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"position": "\u5de6", "subject": "\u6211"}, "point_tag": "HERE"}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2224
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"point_tag": "HERE", "subject": "\u6211"}}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2225
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"position": "\u5de6", "subject": "\u6211"}, "point_tag": "HERE"}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2226
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"point_tag": "HERE", "subject": "\u6211"}}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2227
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2228
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u5de6"}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2229
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2230
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u5de6"}
+2026-03-23 16:27:20,779 - ERROR - CaseID: 2231
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,780 - ERROR - CaseID: 2232
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_out", "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,780 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,780 - ERROR - CaseID: 2233
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,780 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,780 - ERROR - CaseID: 2234
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,780 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"左"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,780 - ERROR - CaseID: 2235
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,780 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,780 - ERROR - CaseID: 2236
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,780 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,781 - ERROR - CaseID: 2237
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,781 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"左"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,781 - ERROR - CaseID: 2238
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,781 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,781 - ERROR - CaseID: 2239
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,781 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,781 - ERROR - CaseID: 2240
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,781 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,781 - ERROR - CaseID: 2241
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,781 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,781 - ERROR - CaseID: 2242
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,782 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,782 - ERROR - CaseID: 2243
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,782 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"左"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,782 - ERROR - CaseID: 2244
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,782 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,782 - ERROR - CaseID: 2245
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,782 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,782 - ERROR - CaseID: 2246
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,782 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,782 - ERROR - CaseID: 2247
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,782 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,782 - ERROR - CaseID: 2248
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,783 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,783 - ERROR - CaseID: 2249
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,783 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"旁边"}}...）: Expecting ',' delimiter: line 1 column 100 (char 99)
+2026-03-23 16:27:20,783 - ERROR - CaseID: 2250
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,783 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,783 - ERROR - CaseID: 2251
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,783 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park_in","point_desc":{"subject":"我","position":"右"}}...）: Expecting ',' delimiter: line 1 column 99 (char 98)
+2026-03-23 16:27:20,783 - ERROR - CaseID: 2252
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:20,783 - ERROR - CaseID: 2259
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "direction": "IN"}
+2026-03-23 16:27:20,784 - ERROR - CaseID: 2266
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "direction": "IN", "point_desc": {"subject": "\u6211"}, "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,784 - ERROR - CaseID: 2269
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:20,784 - ERROR - CaseID: 2272
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,785 - ERROR - CaseID: 2274
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:20,786 - ERROR - CaseID: 2286
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,786 - ERROR - CaseID: 2287
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_tag": "HERE"}
+2026-03-23 16:27:20,786 - ERROR - CaseID: 2289
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:20,786 - ERROR - CaseID: 2291
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u6211\u8fd9\u8fb9"}
+2026-03-23 16:27:20,786 - ERROR - CaseID: 2292
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u6211"}, "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"subject": "\u8f66\u8f86"}, "point_tag": "HERE"}
+2026-03-23 16:27:20,789 - ERROR - CaseID: 2337
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u53f3\u8fb9"}
+2026-03-23 16:27:20,791 - ERROR - CaseID: 2387
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u9760\u5de6"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u9760\u5de6", "position_reference": "\u5de6"}
+2026-03-23 16:27:20,791 - ERROR - CaseID: 2388
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u9760\u5de6"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u9760\u5de6", "position_reference": "\u53f3"}
+2026-03-23 16:27:20,792 - ERROR - CaseID: 2389
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u9760\u53f3"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_tag": "HERE", "position": "\u9760\u53f3", "position_reference": "\u53f3"}
+2026-03-23 16:27:20,792 - ERROR - CaseID: 2390
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u4e2d"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u4e2d", "position_reference": "\u53f3"}
+2026-03-23 16:27:20,792 - ERROR - CaseID: 2391
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u4e2d"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u4e2d"}
+2026-03-23 16:27:20,792 - ERROR - CaseID: 2392
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"position": "\u4e2d"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u4e2d", "position_reference": "\u53f3"}
+2026-03-23 16:27:20,794 - ERROR - CaseID: 2429
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u4e2d"}, "position": "\u53f3\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u53f3\u524d"}
+2026-03-23 16:27:20,794 - ERROR - CaseID: 2432
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u4e2d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u5de6\u524d"}, "position": "\u4e2d"}
+2026-03-23 16:27:20,798 - ERROR - CaseID: 2495
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "point_desc": {"position": "\u4e2d"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "position": "\u4e2d", "position_reference": "\u524d"}
+2026-03-23 16:27:22,691 - ERROR - CaseID: 2504
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "point_desc": {"position": "\u9760\u53f3"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "position": "\u9760\u53f3"}
+2026-03-23 16:27:22,692 - ERROR - CaseID: 2510
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "point_desc": {"position": "\u9760\u5de6"}, "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "position": "\u9760\u5de6", "position_reference": "\u53f3"}
+2026-03-23 16:27:22,692 - ERROR - CaseID: 2512
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "point_desc": {"position": "\u4e2d"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "getoff_park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u4e2d"}
+2026-03-23 16:27:22,693 - ERROR - CaseID: 2515
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"position": "\u9760\u5de6"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u9760\u5de6", "position_reference": "\u5de6\u4fa7"}
+2026-03-23 16:27:22,695 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"车位","position":"靠左...）: Expecting value: line 1 column 115 (char 114)
+2026-03-23 16:27:22,695 - ERROR - CaseID: 2537
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:22,696 - ERROR - CaseID: 2542
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u9760\u5de6"}, "position": "\u53f3\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u53f3\u524d"}, "position": "\u9760\u5de6"}
+2026-03-23 16:27:22,696 - ERROR - CaseID: 2543
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u9760\u5de6"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d", "position": "\u5de6\u524d"}, "position": "\u9760\u5de6"}
+2026-03-23 16:27:22,697 - ERROR - CaseID: 2553
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: charge_control, 参数: {"action": "turnon", "entity": "CHARGER"}
+2026-03-23 16:27:22,697 - ERROR - CaseID: 2554
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u5145\u7535\u54c8"}}
+2026-03-23 16:27:22,697 - ERROR - CaseID: 2555
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: charge_control, 参数: {"action": "turnon", "entity": "CHARGER"}
+2026-03-23 16:27:22,697 - ERROR - CaseID: 2559
+函数数量不匹配：预期1个，规划2个
+2026-03-23 16:27:22,698 - ERROR - CaseID: 2560
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: charge_control, 参数: {"action": "switch", "entity": "CHARGING_STATION"}
+2026-03-23 16:27:22,698 - ERROR - CaseID: 2561
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: charge_control, 参数: {"action": "turnon", "entity": "CHARGER"}
+2026-03-23 16:27:22,698 - ERROR - CaseID: 2562
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u5145\u7535\u7ad9\u7ed9\u8f66\u5145\u7535"}}
+2026-03-23 16:27:22,698 - ERROR - CaseID: 2563
+函数数量不匹配：预期1个，规划2个
+2026-03-23 16:27:22,698 - ERROR - CaseID: 2565
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: charge_control, 参数: {"action": "turnon", "entity": "CHARGER"}
+2026-03-23 16:27:22,698 - ERROR - CaseID: 2567
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u8d85\u51b2\u7ad9\u5145\u4e2a\u7535\u5427"}}
+2026-03-23 16:27:22,699 - ERROR - CaseID: 2571
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "charge"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,699 - ERROR - CaseID: 2573
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,699 - ERROR - CaseID: 2579
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u5496\u5561\u5e97"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u9644\u8fd1\u7684\u5496\u5561\u5e97"}}
+2026-03-23 16:27:22,700 - ERROR - CaseID: 2581
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u56fe\u4e66\u9986"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u9644\u8fd1\u7684\u56fe\u4e66\u9986"}}
+2026-03-23 16:27:22,700 - ERROR - CaseID: 2584
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u4e07\u79d1\u65f6\u4ee3\u4e2d\u5fc3"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u4e07\u79d1\u65f6\u4ee3\u4e2d\u5fc3\u5427"}}
+2026-03-23 16:27:22,701 - ERROR - CaseID: 2594
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u516c\u53f8"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u516c\u53f8\u5427"}}
+2026-03-23 16:27:22,701 - ERROR - CaseID: 2597
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u5bb6"}}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,701 - ERROR - CaseID: 2598
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u5496\u5561\u5e97"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u9644\u8fd1\u7684\u5496\u5561\u5e97"}}
+2026-03-23 16:27:22,702 - ERROR - CaseID: 2603
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u8d85\u5e02"}}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,702 - ERROR - CaseID: 2605
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u5bb6"}}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,702 - ERROR - CaseID: 2606
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u516c\u53f8"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u516c\u53f8\u4e00\u8d9f"}}
+2026-03-23 16:27:22,702 - ERROR - CaseID: 2608
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u56fe\u4e66\u9986"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u9644\u8fd1\u7684\u56fe\u4e66\u9986"}}
+2026-03-23 16:27:22,702 - ERROR - CaseID: 2609
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u7406\u60f3\u6c7d\u8f66\u7814\u53d1\u603b\u90e8"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u7406\u60f3\u6c7d\u8f66\u7814\u53d1\u603b\u90e8\u5427"}}
+2026-03-23 16:27:22,702 - ERROR - CaseID: 2611
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "function_option": "map", "point_desc": {"poi": "\u5bb6"}}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,704 - ERROR - CaseID: 2639
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "start_charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "resume_charge"}
+2026-03-23 16:27:22,705 - ERROR - CaseID: 2643
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "start_charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "resume_charge"}
+2026-03-23 16:27:22,705 - ERROR - CaseID: 2645
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,705 - ERROR - CaseID: 2649
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "start_charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "resume_charge"}
+2026-03-23 16:27:22,705 - ERROR - CaseID: 2650
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "start_charge"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "resume_charge"}
+2026-03-23 16:27:22,707 - ERROR - CaseID: 2677
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,707 - ERROR - CaseID: 2678
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,707 - ERROR - CaseID: 2679
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,707 - ERROR - CaseID: 2680
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,707 - ERROR - CaseID: 2681
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2682
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2683
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2684
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2685
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2686
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2687
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2688
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2689
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2690
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2691
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2692
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,708 - ERROR - CaseID: 2693
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2694
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "resume"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2695
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2696
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2697
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2698
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2699
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2700
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2701
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2702
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2703
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,709 - ERROR - CaseID: 2704
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2705
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2706
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2707
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2708
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2709
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2710
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2711
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2712
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2713
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2714
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2715
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause"}
+规划列多出以下函数：
+  名称: global_control, 参数: {"action": "pause"}
+2026-03-23 16:27:22,710 - ERROR - CaseID: 2716
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:22,712 - ERROR - CaseID: 2733
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "ROUND"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "BACKWARD"}
+2026-03-23 16:27:22,714 - ERROR - CaseID: 2781
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park"}
+2026-03-23 16:27:22,715 - ERROR - CaseID: 2798
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u5de6\u540e"}
+2026-03-23 16:27:22,716 - ERROR - CaseID: 2799
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u4f4d"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u524d"}
+2026-03-23 16:27:22,716 - ERROR - CaseID: 2801
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u9644\u8fd1"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,716 - ERROR - CaseID: 2808
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u4f4d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+2026-03-23 16:27:22,716 - ERROR - CaseID: 2809
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u9644\u8fd1"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:22,717 - ERROR - CaseID: 2813
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u4f4d"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u524d"}
+2026-03-23 16:27:22,717 - ERROR - CaseID: 2815
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u4f4d"}, "position": "\u5de6\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u5de6\u524d"}
+2026-03-23 16:27:22,717 - ERROR - CaseID: 2816
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u4f4d"}, "position": "\u540e"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}, "position": "\u540e"}
+2026-03-23 16:27:22,717 - ERROR - CaseID: 2825
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u9644\u8fd1"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "position": "\u9644\u8fd1"}
+2026-03-23 16:27:22,718 - ERROR - CaseID: 2827
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u4f4d\u5b50"}, "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u5de6"}
+2026-03-23 16:27:22,718 - ERROR - CaseID: 2828
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_desc": {"parking_space": "\u4f4d\u5b50"}, "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "position": "\u524d\u8fb9"}
+2026-03-23 16:27:22,719 - ERROR - CaseID: 2855
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "position": "\u5de6"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "LEFT"}
+2026-03-23 16:27:22,719 - ERROR - CaseID: 2856
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "steer", "direction": "RIGHT"}
+2026-03-23 16:27:22,720 - ERROR - CaseID: 2862
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive"}
+2026-03-23 16:27:22,720 - ERROR - CaseID: 2869
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u9760\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "duration": "\u4e00\u4f1a\u513f", "position": "\u9760\u53f3"}
+2026-03-23 16:27:22,720 - ERROR - CaseID: 2870
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u524d"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"cross_range": 1}}
+2026-03-23 16:27:22,720 - ERROR - CaseID: 2871
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "position": "\u53f3"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"cross_range": "1", "subject": "\u8def\u53e3"}, "position": "\u53f3"}
+2026-03-23 16:27:22,722 - ERROR - CaseID: 2897
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE"}
+2026-03-23 16:27:22,722 - ERROR - CaseID: 2899
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park_in", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_tag": "HERE"}
+2026-03-23 16:27:22,723 - ERROR - CaseID: 2927
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "location": "\u539f\u5730"}
+2026-03-23 16:27:22,724 - ERROR - CaseID: 2928
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive"}
+2026-03-23 16:27:22,724 - ERROR - CaseID: 2931
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_tag": "HERE"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive"}
+2026-03-23 16:27:22,724 - WARNING - 单行JSON解析失败（原始字符串：{"name":"vla_control","arguments":{"action":"park","point_desc":{"parking_space":"空车位"},"position":"...）: Extra data: line 1 column 105 (char 104)
+2026-03-23 16:27:22,724 - ERROR - CaseID: 2941
+函数数量不匹配：预期0个，规划1个
+2026-03-23 16:27:22,725 - ERROR - CaseID: 2955
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,727 - ERROR - CaseID: 2984
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,727 - ERROR - CaseID: 2987
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,727 - ERROR - CaseID: 2991
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,728 - ERROR - CaseID: 2992
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,728 - ERROR - CaseID: 2993
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,728 - ERROR - CaseID: 2994
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u65e0\u969c\u788d\u8f66\u4f4d\u5427"}}
+2026-03-23 16:27:22,728 - ERROR - CaseID: 2995
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"poi": "\u65e0\u969c\u788d\u8f66\u4f4d\u54c8"}}
+2026-03-23 16:27:22,728 - ERROR - CaseID: 2996
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u65e0\u969c\u788d\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:22,728 - ERROR - CaseID: 2997
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u7a7a\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "park", "point_desc": {"parking_space": "\u7a7a\u8f66\u4f4d"}}
+2026-03-23 16:27:22,728 - INFO - 已处理 3000 行数据
+2026-03-23 16:27:22,728 - ERROR - CaseID: 3000
+函数数量不匹配：预期1个，规划2个
+2026-03-23 16:27:23,188 - ERROR - CaseID: 3001
+函数数量不匹配：预期1个，规划2个
+2026-03-23 16:27:23,189 - ERROR - CaseID: 3005
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,189 - ERROR - CaseID: 3006
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,190 - ERROR - CaseID: 3007
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,190 - ERROR - CaseID: 3008
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,190 - ERROR - CaseID: 3009
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,190 - ERROR - CaseID: 3010
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,191 - ERROR - CaseID: 3011
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u5145\u7535\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "navigate", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,191 - ERROR - CaseID: 3012
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "VIP\u8f66\u4f4d"}}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "pause_drive", "point_desc": {"parking_space": "\u8f66\u4f4d"}}
+2026-03-23 16:27:23,192 - ERROR - CaseID: 3020
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume_drive"}
+规划列多出以下函数：
+  名称: device_control, 参数: {"action": "unsupport"}
+2026-03-23 16:27:23,192 - ERROR - CaseID: 3022
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:23,192 - ERROR - CaseID: 3026
+规划列缺少以下函数：
+  名称: vla_control, 参数: {"action": "resume_drive"}
+规划列多出以下函数：
+  名称: vla_control, 参数: {"action": "cancel_navigate", "direction": "OUT"}
+2026-03-23 16:27:23,192 - ERROR - CaseID: 3032
+函数数量不匹配：预期1个，规划0个
+规划列无有效函数
+2026-03-23 16:27:23,193 - INFO - 开始分片写入 3036 条结果，每片 2000 条
+2026-03-23 16:27:23,714 - INFO - 已写入第 1-2000 行结果
+2026-03-23 16:27:24,815 - INFO - 已写入第 2001-3036 行结果
+2026-03-23 16:27:25,320 - INFO - === IM_vehicle_control 流程完成，耗时: 11.54秒 ===

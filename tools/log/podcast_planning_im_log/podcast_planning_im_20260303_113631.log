@@ -1,0 +1,127 @@
+2026-03-03 11:36:31,675 - INFO - === 播客规划控制工具（最终完整版）启动 ===
+2026-03-03 11:36:31,810 - INFO - 成功加载飞书表格
+2026-03-03 11:36:34,540 - INFO - 表格读取完成，共65行有效数据
+2026-03-03 11:36:34,540 - INFO - 开始处理65条播客用例...
+2026-03-03 11:36:34,541 - INFO - CaseID:1 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天的AI播客聚焦了哪些话题]，实际[]
+2026-03-03 11:36:34,541 - INFO - CaseID:2 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天的AI播客有哪些]，实际[]
+2026-03-03 11:36:34,542 - INFO - CaseID:3 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天的AI播客讲述了什么]，实际[]
+2026-03-03 11:36:34,542 - INFO - CaseID:4 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[详细说下今天的播客]，实际[]
+2026-03-03 11:36:34,542 - INFO - CaseID:5 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天ai播客的主要内容]，实际[]
+2026-03-03 11:36:34,542 - INFO - CaseID:6 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,542 - INFO - CaseID:6 - 整体结果: FAILED | 详情: query语义不匹配：预期[仔细说下ai播客内容]，实际[]
+2026-03-03 11:36:34,543 - INFO - CaseID:7 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今日]，实际[]; query语义不匹配：预期[简单说下今日的播客]，实际[]
+2026-03-03 11:36:34,543 - INFO - CaseID:8 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今日]，实际[]; query语义不匹配：预期[聊一下今日ai播客内容]，实际[]
+2026-03-03 11:36:34,543 - INFO - CaseID:9 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[说下今天播客的内容]，实际[]
+2026-03-03 11:36:34,543 - INFO - CaseID:10 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[讲一下今天的ai播客内容]，实际[]
+2026-03-03 11:36:34,543 - INFO - CaseID:11 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今日]，实际[]; query语义不匹配：预期[今日的ai播客说了些什么]，实际[]
+2026-03-03 11:36:34,544 - INFO - CaseID:12 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天ai播客的主要内容]，实际[]
+2026-03-03 11:36:34,544 - INFO - CaseID:13 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今日]，实际[]; query语义不匹配：预期[今日ai播客有何看点]，实际[]
+2026-03-03 11:36:34,544 - INFO - CaseID:14 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天ai播客都聊了哪些话题]，实际[]
+2026-03-03 11:36:34,544 - INFO - CaseID:15 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今日]，实际[]; query语义不匹配：预期[今日ai播客带来了哪些新资讯]，实际[]
+2026-03-03 11:36:34,544 - INFO - CaseID:16 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天ai播客有哪些]，实际[]
+2026-03-03 11:36:34,545 - INFO - CaseID:17 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天ai播客所阐述的信息]，实际[]
+2026-03-03 11:36:34,545 - INFO - CaseID:18 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今日]，实际[]; query语义不匹配：预期[今日的ai播客涵盖了哪些内容]，实际[]
+2026-03-03 11:36:34,545 - INFO - CaseID:19 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,545 - INFO - CaseID:19 - 整体结果: FAILED | 详情: query语义不匹配：预期[说一下第四个播客的信息]，实际[]
+2026-03-03 11:36:34,545 - INFO - CaseID:20 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天第三个播客提到的内容]，实际[]
+2026-03-03 11:36:34,546 - INFO - CaseID:21 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,546 - INFO - CaseID:21 - 整体结果: FAILED | 详情: query语义不匹配：预期[简单概括第六个播客涉及的信息]，实际[]
+2026-03-03 11:36:34,546 - INFO - CaseID:22 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,546 - INFO - CaseID:22 - 整体结果: FAILED | 详情: query语义不匹配：预期[讲解第一个播客的观点]，实际[]
+2026-03-03 11:36:34,546 - INFO - CaseID:23 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[了解一下今天播客的内容]，实际[]
+2026-03-03 11:36:34,546 - INFO - CaseID:24 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[总结今天第六个播客的精华部分]，实际[]
+2026-03-03 11:36:34,547 - INFO - CaseID:25 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,547 - INFO - CaseID:25 - 整体结果: FAILED | 详情: query语义不匹配：预期[告诉我第一个播客的主要话题]，实际[]
+2026-03-03 11:36:34,547 - INFO - CaseID:26 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,547 - INFO - CaseID:26 - 整体结果: FAILED | 详情: query语义不匹配：预期[能否梳理一下第三个播客的主要信息]，实际[]
+2026-03-03 11:36:34,547 - INFO - CaseID:27 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[说一说今天第五个播客的核心内容]，实际[]
+2026-03-03 11:36:34,547 - INFO - CaseID:28 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,547 - INFO - CaseID:28 - 整体结果: FAILED | 详情: query语义不匹配：预期[能否讲解第六个播客的核心内容概要]，实际[]
+2026-03-03 11:36:34,548 - INFO - CaseID:29 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天第二个播客讲了什么]，实际[]
+2026-03-03 11:36:34,548 - INFO - CaseID:30 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,548 - INFO - CaseID:30 - 整体结果: FAILED | 详情: query语义不匹配：预期[第二个AI播客的详细内容]，实际[]
+2026-03-03 11:36:34,548 - INFO - CaseID:31 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天播客的有趣内容]，实际[]
+2026-03-03 11:36:34,548 - INFO - CaseID:32 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天第七个AI播客的内容]，实际[]
+2026-03-03 11:36:34,549 - INFO - CaseID:33 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,549 - INFO - CaseID:33 - 整体结果: FAILED | 详情: query语义不匹配：预期[第十一个播客说啥了]，实际[]
+2026-03-03 11:36:34,549 - INFO - CaseID:34 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,549 - INFO - CaseID:34 - 整体结果: FAILED | 详情: query语义不匹配：预期[第八个播客的精彩部分]，实际[]
+2026-03-03 11:36:34,549 - INFO - CaseID:35 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,549 - INFO - CaseID:35 - 整体结果: FAILED | 详情: query语义不匹配：预期[第七个播客的主要话题]，实际[]
+2026-03-03 11:36:34,549 - INFO - CaseID:36 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天播客的核心内容]，实际[]
+2026-03-03 11:36:34,550 - INFO - CaseID:37 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天的首个播客的内容]，实际[]
+2026-03-03 11:36:34,550 - INFO - CaseID:38 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[总结一下今天的播客]，实际[]
+2026-03-03 11:36:34,550 - INFO - CaseID:39 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[简单说一下今日ai播客内容]，实际[]
+2026-03-03 11:36:34,550 - INFO - CaseID:40 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今日ai播客讲了啥]，实际[]
+2026-03-03 11:36:34,551 - INFO - CaseID:41 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[总结一下今天第三个播客]，实际[]
+2026-03-03 11:36:34,551 - INFO - CaseID:42 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,551 - INFO - CaseID:42 - 整体结果: FAILED | 详情: query语义不匹配：预期[简单总结一下第三个播客的具体内容]，实际[]
+2026-03-03 11:36:34,551 - INFO - CaseID:43 - 整体结果: FAILED | 详情: publishtime不匹配：预期[今天]，实际[]; query语义不匹配：预期[今天的第五个ai播客讲的内容是什么]，实际[]
+2026-03-03 11:36:34,551 - INFO - CaseID:44 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,551 - INFO - CaseID:44 - 整体结果: FAILED | 详情: query语义不匹配：预期[总结一下第五个播客的内容]，实际[]
+2026-03-03 11:36:34,551 - INFO - CaseID:45 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,552 - INFO - CaseID:45 - 整体结果: FAILED | 详情: query语义不匹配：预期[总结一下这个播客的主要内容]，实际[]
+2026-03-03 11:36:34,552 - INFO - CaseID:46 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,552 - INFO - CaseID:46 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,552 - INFO - CaseID:46 - 整体结果: FAILED | 详情: mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,552 - INFO - CaseID:47 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,552 - INFO - CaseID:47 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,552 - INFO - CaseID:47 - 整体结果: FAILED | 详情: mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,552 - INFO - CaseID:48 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,552 - INFO - CaseID:48 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,552 - INFO - CaseID:48 - 整体结果: FAILED | 详情: mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,553 - INFO - CaseID:49 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,553 - INFO - CaseID:49 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,553 - INFO - CaseID:49 - 整体结果: FAILED | 详情: mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,553 - INFO - CaseID:50 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,553 - INFO - CaseID:50 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,553 - INFO - CaseID:50 - 整体结果: FAILED | 详情: mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,553 - INFO - CaseID:51 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,553 - INFO - CaseID:51 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,553 - INFO - CaseID:51 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,554 - INFO - CaseID:52 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,554 - INFO - CaseID:52 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,554 - INFO - CaseID:52 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,554 - INFO - CaseID:53 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,554 - INFO - CaseID:53 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,554 - INFO - CaseID:53 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,554 - INFO - CaseID:54 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,554 - INFO - CaseID:54 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,554 - INFO - CaseID:54 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,555 - INFO - CaseID:55 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,555 - INFO - CaseID:55 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,555 - INFO - CaseID:55 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,555 - INFO - CaseID:56 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,555 - INFO - CaseID:56 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,555 - INFO - CaseID:56 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,555 - INFO - CaseID:57 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,555 - INFO - CaseID:57 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,555 - INFO - CaseID:57 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,556 - INFO - CaseID:58 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,556 - INFO - CaseID:58 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,556 - INFO - CaseID:58 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,556 - INFO - CaseID:59 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,556 - INFO - CaseID:59 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,556 - INFO - CaseID:59 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]; mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,556 - INFO - CaseID:60 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,556 - INFO - CaseID:60 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,556 - INFO - CaseID:60 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]; mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,556 - INFO - CaseID:61 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,556 - INFO - CaseID:61 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,557 - INFO - CaseID:61 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,557 - INFO - CaseID:62 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,557 - INFO - CaseID:62 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,557 - INFO - CaseID:62 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]; mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,557 - INFO - CaseID:63 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,557 - INFO - CaseID:63 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,557 - INFO - CaseID:63 - 整体结果: FAILED | 详情: name不匹配：预期[media_search]，实际[playback_play_resume]; mediaType不匹配：预期[播客]，实际[]
+2026-03-03 11:36:34,557 - INFO - CaseID:64 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,557 - INFO - CaseID:64 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,557 - INFO - CaseID:64 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:34,558 - INFO - CaseID:65 - publishtime字段：完全匹配，判定通过
+2026-03-03 11:36:34,558 - INFO - CaseID:65 - query字段：语义模糊匹配通过
+2026-03-03 11:36:34,558 - INFO - CaseID:65 - 整体结果: FAILED | 详情: name不匹配：预期[]，实际[media_play_resume]
+2026-03-03 11:36:47,008 - INFO - 
+=== 执行完成（总耗时：15.33秒 ≈ 0.3分钟）===
+2026-03-03 11:36:47,009 - INFO - 总用例数：65 | 通过：0（0.00%） | 失败：65
+2026-03-03 11:36:47,009 - INFO - LLM缓存命中次数：0
