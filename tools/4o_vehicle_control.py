@@ -21,7 +21,7 @@ def setup_logger():
     log_filename = os.path.join(log_dir, f"4o_vehicle_control_{current_time}.log")
 
     logger = logging.getLogger(__name__)
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)  # 改为DEBUG级别以查看详细日志
     if logger.handlers:
         return logger
 
@@ -81,17 +81,83 @@ def is_vehicle_brand_model_match(vehicle_brand, vehicle_model):
     return vehicle_model.lower() in [model.lower() for model in brand_models[vehicle_brand]]
 
 
+def clean_json_string(raw_str):
+    """清理JSON字符串中的特殊字符和格式问题"""
+    if not raw_str:
+        return raw_str
+
+    cleaned = raw_str
+
+    # 1. 替换各种类型的引号为标准英文引号
+    quote_replacements = {
+        '"': '"',   # 左双引号
+        '"': '"',   # 右双引号
+        ''': "'",   # 左单引号
+        ''': "'",   # 右单引号
+        '＂': '"',  # 全角双引号
+        '＇': "'",  # 全角单引号
+        '`': "'",   # 反引号
+        '´': "'",   # 重音符
+    }
+    for old, new in quote_replacements.items():
+        cleaned = cleaned.replace(old, new)
+
+    # 2. 替换全角字符为半角
+    fullwidth_replacements = {
+        '：': ':',  # 全角冒号
+        '，': ',',  # 全角逗号
+        '｛': '{',  # 全角左花括号
+        '｝': '}',  # 全角右花括号
+        '［': '[',  # 全角左方括号
+        '］': ']',  # 全角右方括号
+        '（': '(',  # 全角左括号
+        '）': ')',  # 全角右括号
+    }
+    for old, new in fullwidth_replacements.items():
+        cleaned = cleaned.replace(old, new)
+
+    # 3. 移除或替换其他可能的问题字符
+    # 替换不可见空白字符
+    cleaned = cleaned.replace('\u200b', '')  # 零宽空格
+    cleaned = cleaned.replace('\ufeff', '')  # BOM标记
+    cleaned = cleaned.replace('\xa0', ' ')   # 不间断空格 → 普通空格
+    cleaned = cleaned.replace('\u3000', ' ') # 全角空格 → 普通空格
+
+    return cleaned
+
+
 def parse_arguments(raw_str, case_id="???"):
     if not raw_str:
         return {}
 
     try:
-        cleaned_str = re.sub(r'\s+', ' ', raw_str.strip())
-        cleaned_str = re.sub(r'\}\}+$', '}', cleaned_str)
+        # 先清理特殊字符
+        cleaned_str = clean_json_string(raw_str)
+        # 移除多余空格
+        cleaned_str = re.sub(r'\s+', ' ', cleaned_str.strip())
+
+        # 注意：不要移除末尾的花括号！JSON嵌套对象需要多个 }}
+        # 之前的 re.sub(r'\}\}+$', '}', cleaned_str) 会错误地删除必要的花括号
+
+        # 添加详细的调试日志
+        if raw_str != cleaned_str:
+            logger.debug(f"CaseID: {case_id} - 字符串清理前: {repr(raw_str[:100])}")
+            logger.debug(f"CaseID: {case_id} - 字符串清理后: {repr(cleaned_str[:100])}")
+
         parsed = json.loads(cleaned_str)
         return deep_sort_dict(parsed)
     except json.JSONDecodeError as e:
-        logger.warning(f"CaseID: {case_id} - 参数解析失败: {str(e)}, 原始数据: {raw_str[:50]}")
+        logger.error(f"CaseID: {case_id} - JSON解析失败!")
+        logger.error(f"  错误信息: {str(e)}")
+        logger.error(f"  原始字符串: {repr(raw_str)}")
+        logger.error(f"  清理后字符串: {repr(cleaned_str)}")
+        logger.error(f"  错误位置(col {e.colno}): {repr(cleaned_str[max(0, e.colno-10):min(len(cleaned_str), e.colno+10)])}")
+
+        # 逐字符检查问题位置
+        if e.colno <= len(cleaned_str):
+            problem_char = cleaned_str[e.colno-1] if e.colno > 0 else ''
+            logger.error(f"  问题字符: '{problem_char}' (Unicode: U+{ord(problem_char):04X})")
+
         return {"_parse_error": str(e)}
 
 
@@ -168,6 +234,9 @@ def parse_multi_results(name_str, args_str, case_id):
     """解析多结果数据（支持 & 分割、换行分割、JSON数组格式），优化空行和重复项处理"""
     results = []
 
+    # 添加调试日志
+    logger.debug(f"CaseID: {case_id} - parse_multi_results输入 - name_str: {repr(name_str)}, args_str: {repr(args_str)}")
+
     # ---------------------- 关键修改1：支持 & 分割name（同时保留换行分割） ----------------------
     # 先按 & 分割，再按换行分割，最后过滤空值和纯空格
     names = []
@@ -219,6 +288,8 @@ def parse_multi_results(name_str, args_str, case_id):
         if key not in seen_keys:
             seen_keys.add(key)
             unique_results.append(res)
+
+    logger.debug(f"CaseID: {case_id} - parse_multi_results输出: {unique_results}")
     return unique_results
 
 
@@ -258,19 +329,14 @@ def compare_multi_api_fields(expected_name_str, expected_args_str, actual_rname_
     error_details = [f"CaseID: {case_id}"]
     is_passed = True
 
-    # ============ 核心修改2：最优先执行【你的唯一规则】- 绝对精准 ============
-    # 规则1: 预期name+args 纯空白 + 实际rname+rargs 纯空白 → 返回 PASS
-    if expected_name_str == "" and expected_args_str == "" and actual_rname_str == "" and actual_rargs_str == "":
-        return "PASS"
-    # 规则2: 预期name+args 纯空白 + 实际rname+rargs 有任意内容 → 返回 FAILED + 日志报错
-    elif expected_name_str == "" and expected_args_str == "" and (actual_rname_str != "" or actual_rargs_str != ""):
-        error_details.append("预期name+arguments均为纯空白无任何内容，但是实际rname+rarguments有值，判定为错误")
-        logger.error("\n".join(error_details))
-        return "FAILED"
 
     # 1. 解析预期和实际的多结果数据（已支持&分割）
     expected_results = parse_multi_results(expected_name_str, expected_args_str, case_id)
     actual_results = parse_multi_results(actual_rname_str, actual_rargs_str, case_id)
+
+    # 添加调试日志
+    logger.debug(f"CaseID: {case_id} - expected_results: {expected_results}")
+    logger.debug(f"CaseID: {case_id} - actual_results: {actual_results}")
 
     # 2. 校验结果数量一致性
     if len(expected_results) != len(actual_results):
@@ -280,6 +346,10 @@ def compare_multi_api_fields(expected_name_str, expected_args_str, actual_rname_
         # 3. 转换为集合进行无序对比（核心：忽略顺序，只比内容）
         expected_keys = set(result_to_key(res) for res in expected_results)
         actual_keys = set(result_to_key(res) for res in actual_results)
+
+        # 添加调试日志
+        logger.debug(f"CaseID: {case_id} - expected_keys: {expected_keys}")
+        logger.debug(f"CaseID: {case_id} - actual_keys: {actual_keys}")
 
         # 查找缺失和多余的结果
         missing = expected_keys - actual_keys
@@ -384,12 +454,12 @@ def main():
 
 
 # ================= 配置项 =================
-FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/BiJTsozjFhTURAts5DecfaMLnQg?sheet=8qjVBv'  # 具体Sheet链接
+FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/LlR7sQ7cZhDpvmts1zTc6955nIh'  # 具体Sheet链接
 EXPECTED_NAME_COLUMN = "name"  # 预期name列名
 EXPECTED_ARGS_COLUMN = "arguments"  # 预期arguments列名
 ACTUAL_RNAME_COLUMN = "rname"  # 实际rname列名
 ACTUAL_RARGS_COLUMN = "rarguments"  # 实际rarguments列名
-RESULT_COLUMN_NAME = "APIINFO测试结果000"  # 结果写入列名
+RESULT_COLUMN_NAME = "APIINFO测试结果"  # 结果写入列名
 CASE_ID_COLUMN_NAME = "CaseID"  # CaseID列名
 # =========================================
 

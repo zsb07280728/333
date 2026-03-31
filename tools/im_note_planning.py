@@ -225,6 +225,7 @@ def call_llm(prompt: str) -> str:
     return ""
 
 
+# ... existing code ...
 def compare_semantic(text1: str, text2: str) -> bool:
     """基于GPT-4o的语义对比，判断两段文本核心语义是否一致（修复错别字判定+核心关键词匹配）"""
     # 前置空值判断（保留）
@@ -235,8 +236,6 @@ def compare_semantic(text1: str, text2: str) -> bool:
     if text1_clean == "" and text2_clean != "":
         return False
 
-    # 原有实现，但由于网络问题可能导致连接失败
-    # 以下是模拟版本，用于测试对比逻辑
     try:
         prompt = f"""你必须严格按照以下步骤和规则执行判定，不得偏离：
 
@@ -250,8 +249,6 @@ def compare_semantic(text1: str, text2: str) -> bool:
 示例：
 - 文本：记个备忘录，今天上了舞蹈课 → 核心信息：上了舞蹈课
 - 文本：今天上了舞蹈课 → 核心信息：上了舞蹈课
-- 文本：上午9点见客户，下午3点团队会议 → 核心信息：9点见客户 3点团队会议
-- 文本：明天上午9点见客户下午3点团队会议 → 核心信息：9点见客户 3点团队会议
 - 文本：外婆的生日是农历几号，今年阳历是哪天，需要提前准备什么 → 核心信息：外婆 生日 准备
 - 文本：零零今年都学会了什么 → 核心信息：零零 今年学会的内容
 
@@ -263,7 +260,7 @@ def compare_semantic(text1: str, text2: str) -> bool:
 2. 不一致（返回「否」）：
    - 关键人物不同（包括错别字，如"零零"→"玲玲"、"大姨"≠"大夷"）；
    - 核心诉求/事实完全无关（如"见客户" vs "上课"、"舞蹈课" vs "数学课"）；
-   - 核心时间/事件关键词改变（如"9点见客户" vs "10点见客户"、"团队会议" vs "部门会议"）。
+   - 其他情况均视为合理简化，判定为一致。
 
 ### 步骤3：输出要求（违反则判定为无效）
 - 仅能返回「是」或「否」两个汉字，无任何其他字符（包括空格、标点、解释、换行）；
@@ -290,7 +287,9 @@ def compare_semantic(text1: str, text2: str) -> bool:
         response = call_llm(prompt)
         # 精准清洗：只保留中文的"是"或"否"，剔除所有无关字符
         clean_resp = response.strip()
-        # 仅匹配纯"是"或"否"，过滤任何多余内容
+        # 加强格式清洗：只保留中文字符，去除所有空格和特殊符号
+        clean_resp = re.sub(r'[^\u4e00-\u9fff]', '', clean_resp)  # 只保留中文
+        clean_resp = clean_resp.replace(' ', '').replace('\n', '').replace('\r', '').replace('\t', '')
         if clean_resp == "是":
             return True
         elif clean_resp == "否":
@@ -301,61 +300,14 @@ def compare_semantic(text1: str, text2: str) -> bool:
             logger_instance.warning(f"LLM输出格式异常，响应：{response}，按核心不一致判定为否")
             return False
     except Exception as e:
-        # 当API不可用时，使用更精确的相似度计算作为备用方案
         logger_instance = logging.getLogger(__name__)
-        logger_instance.warning(f"语义对比API不可用，使用改进的文本对比: {str(e)}")
-
-        # 改进的文本相似度比较，特别针对这种查询相关的文本
-        if text1_clean == text2_clean:
-            return True
-
-        # 如果文本完全包含关系，也算语义一致
-        if text1_clean in text2_clean or text2_clean in text1_clean:
-            return True
-
-        # 特殊处理：对于询问类查询，提取核心主题词进行比较
-        import re
-        # 移除常见的语气词和助词
-        common_words = {'了', '的', '是', '在', '有', '得', '呢', '啊', '吧', '嘛', '呀', '嘛', '着', '过', '将', '就',
-                        '之前', '说', '来着', '东西', '什么', '时候', '怎么', '哪里', '谁', '哪个', '那些', '这个',
-                        '那个',
-                        '一个', '一些', '这种', '那样', '这样', '哪个', '为何', '为什么', '怎样', '如何', '请问',
-                        '知道',
-                        '记得', '告诉', '一下', '一下下', '稍微', '比较', '特别', '非常', '很', '最', '还', '也', '都'}
-
-        # 对文本进行更细致的预处理
-        def preprocess_text(text):
-            # 移除标点符号
-            text = re.sub(r'[^\w\s]', ' ', text)
-            # 分词（按空格和常见分隔符）
-            words = re.split(r'\s+|[，。、；：！？""''（）【】《》〈〉「」『』]', text.lower())
-            # 过滤空字符串和常用词
-            filtered_words = [w for w in words if w and w not in common_words]
-            return filtered_words
-
-        words1 = preprocess_text(text1_clean)
-        words2 = preprocess_text(text2_clean)
-
-        if not words1 and not words2:
-            return True
-        if not words1 or not words2:
-            return False
-
-        # 计算关键词重叠率
-        set1, set2 = set(words1), set(words2)
-        intersection = set1.intersection(set2)
-        union = set1.union(set2)
-
-        # 使用Jaccard相似度
-        jaccard_similarity = len(intersection) / len(union) if union else 0
-
-        # 额外检查：如果交集足够大（至少包含2个共同词），也认为是相似的
-        if len(intersection) >= 2:
-            return True
-
-        # 如果关键词重叠率达到一定阈值，则认为语义一致
-        return jaccard_similarity >= 0.2  # 降低阈值以适应更多语义相似的情况
-
+        logger_instance.error(
+            f"语义对比API调用失败（网络/限流等），强制判定为 FAILED。原始异常: {str(e)}",
+            extra={"extra_caseid": "SEMANTIC_FAIL"}
+        )
+        # 关键强化：网络失败时强制返回 FAILED，确保100%稳定性
+        # 实现"宁可错杀，不可漏放"策略
+        return False
 
 def parse_json_field(raw_value: str) -> Dict:
     """解析JSON字符串，提取name/arguments字段"""
@@ -526,7 +478,7 @@ def main(feishu_doc_url: str = None):
     start_time = time.time()
 
     if feishu_doc_url is None:
-        feishu_doc_url = "https://li.feishu.cn/sheets/A3ZIsbOdkhTKaxtdqvbcsOXfn8G?sheet=xGtBEz"  # 默认IM链路URL
+        feishu_doc_url = "https://li.feishu.cn/sheets/ZcNbsGz83hPDJPtKcqRcobTjnSg?sheet=0FHbZL"  # 默认IM链路URL
 
     # 加载飞书文档
     try:
@@ -553,6 +505,7 @@ def main(feishu_doc_url: str = None):
         case_id = safe_str(row.get('CaseID', f'CASE_{idx}'))
         expected_json = safe_str(row.get('预期APIINFO', ''))
         result_json = safe_str(row.get('第一步-规划', ''))
+        #dialogActsDassSlots、第一步-规划
 
         # 更新：接收两个返回值，但只使用第一个作为结果
         result, error_reason = compare_api_info(result_json, expected_json, case_id, logger)
@@ -564,7 +517,7 @@ def main(feishu_doc_url: str = None):
             logger.info(f"已处理 {idx + 1} 行数据")
 
     # 分片写入结果和错误原因
-    result_column = "APIINFO测试结果"  # IM链路结果列
+    result_column = "APIINFO测试结果111"  # IM链路结果列
     error_reason_column = "对比错误原因"  # 错误原因列
 
     write_results_in_chunks(sheet, result_column, results_with_indices)

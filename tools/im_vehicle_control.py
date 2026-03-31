@@ -21,7 +21,7 @@ def setup_logger():
     log_filename = os.path.join(log_dir, f"im_vehicle_control_{current_time}.log")
 
     logger = logging.getLogger(__name__)
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)  # 改为DEBUG级别以查看详细日志
 
     if logger.handlers:
         return logger
@@ -67,12 +67,60 @@ def parse_single_function(func_data):
     return parsed
 
 
+def clean_special_chars(raw_str):
+    """清理JSON字符串中的特殊字符（中文引号、全角字符、不可见字符）"""
+    if not raw_str:
+        return raw_str
+
+    cleaned = raw_str
+
+    # 1. 替换各种类型的引号为标准英文引号
+    quote_replacements = {
+        '"': '"',   # 左双引号
+        '"': '"',   # 右双引号
+        ''': "'",   # 左单引号
+        ''': "'",   # 右单引号
+        '＂': '"',  # 全角双引号
+        '＇': "'",  # 全角单引号
+        '`': "'",   # 反引号
+        '´': "'",   # 重音符
+    }
+    for old, new in quote_replacements.items():
+        cleaned = cleaned.replace(old, new)
+
+    # 2. 替换全角字符为半角
+    fullwidth_replacements = {
+        '：': ':',  # 全角冒号
+        '，': ',',  # 全角逗号
+        '｛': '{',  # 全角左花括号
+        '｝': '}',  # 全角右花括号
+        '［': '[',  # 全角左方括号
+        '］': ']',  # 全角右方括号
+        '（': '(',  # 全角左括号
+        '）': ')',  # 全角右括号
+    }
+    for old, new in fullwidth_replacements.items():
+        cleaned = cleaned.replace(old, new)
+
+    # 3. 移除或替换其他可能的问题字符
+    cleaned = cleaned.replace('\u200b', '')  # 零宽空格
+    cleaned = cleaned.replace('\ufeff', '')  # BOM标记
+    cleaned = cleaned.replace('\xa0', ' ')   # 不间断空格 → 普通空格
+    cleaned = cleaned.replace('\u3000', ' ') # 全角空格 → 普通空格
+
+    return cleaned
+
+
 def clean_json_str_for_single_object(raw_str):
-    """清理JSON字符串（仅用于单个JSON对象）：移除换行符、制表符、多余空格（仅保留JSON语法必需的空格）"""
+    """清理JSON字符串（仅用于单个JSON对象）：先清理特殊字符，再移除换行符、制表符、多余空格"""
     if not raw_str:
         return ""
+
+    # 首先清理特殊字符
+    cleaned = clean_special_chars(raw_str)
+
     # 1. 移除所有换行符、制表符
-    cleaned = re.sub(r'[\n\r\t]', '', raw_str)
+    cleaned = re.sub(r'[\n\r\t]', '', cleaned)
     # 2. 移除JSON语法中不需要的空格（冒号、逗号前后的空格）
     # 冒号前的空格："key" : value → "key":value
     cleaned = re.sub(r'\s*:\s*', ':', cleaned)
@@ -93,6 +141,12 @@ def parse_planning_data(raw_str):
     try:
         # 关键修改：清理所有换行、空格后再解析
         cleaned_str = clean_json_str_for_single_object(raw_str)
+
+        # 添加调试日志
+        if raw_str != cleaned_str:
+            logger.debug(f"parse_planning_data - 清理前: {repr(raw_str[:100])}")
+            logger.debug(f"parse_planning_data - 清理后: {repr(cleaned_str[:100])}")
+
         json_data = json.loads(cleaned_str)
 
         # 处理数组格式（多个函数）
@@ -108,7 +162,15 @@ def parse_planning_data(raw_str):
                 functions.append(parsed_func)
 
     except json.JSONDecodeError as e:
-        logger.warning(f"规划数据JSON解析失败（原始字符串：{raw_str[:100]}...）: {str(e)}")
+        logger.error(f"规划数据JSON解析失败!")
+        logger.error(f"  错误信息: {str(e)}")
+        logger.error(f"  原始字符串: {repr(raw_str[:200])}")
+        logger.error(f"  清理后字符串: {repr(clean_json_str_for_single_object(raw_str)[:200])}")
+        if hasattr(e, 'colno') and e.colno:
+            cleaned = clean_json_str_for_single_object(raw_str)
+            if e.colno <= len(cleaned):
+                problem_char = cleaned[e.colno-1] if e.colno > 0 else ''
+                logger.error(f"  问题字符: '{problem_char}' (Unicode: U+{ord(problem_char):04X})")
     return functions
 
 
@@ -124,6 +186,12 @@ def parse_expected_data(raw_str):
         try:
             # 清理空格但保留换行符，以便能够区分多个JSON对象
             cleaned_str = raw_str.strip()
+
+            # 添加调试日志
+            if raw_str != cleaned_str:
+                logger.debug(f"parse_expected_data - 清理前: {repr(raw_str[:100])}")
+                logger.debug(f"parse_expected_data - 清理后: {repr(cleaned_str[:100])}")
+
             json_data = json.loads(cleaned_str)
 
             # 处理单个对象格式
@@ -151,10 +219,13 @@ def parse_expected_data(raw_str):
                         if parsed_func["name"]:
                             functions.append(parsed_func)
                     except json.JSONDecodeError as e:
-                        logger.warning(f"单行JSON解析失败（原始字符串：{line[:100]}...）: {str(e)}")
+                        logger.error(f"单行JSON解析失败!")
+                        logger.error(f"  错误信息: {str(e)}")
+                        logger.error(f"  原始行: {repr(line[:200])}")
+                        logger.error(f"  清理后: {repr(cleaned_line[:200])}")
                         continue
     except Exception as e:
-        logger.warning(f"预期数据JSON解析失败（原始字符串：{raw_str[:100]}...）: {str(e)}")
+        logger.error(f"预期数据解析异常: {str(e)}, 原始字符串: {repr(raw_str[:200])}")
     return functions
 
 
@@ -275,6 +346,10 @@ def compare_api_info(planning_raw, expected_raw, case_id):
     plan_functions = parse_planning_data(planning_raw)
     expect_functions = parse_expected_data(expected_raw)
 
+    # 添加调试日志
+    logger.debug(f"CaseID: {case_id} - plan_functions: {plan_functions}")
+    logger.debug(f"CaseID: {case_id} - expect_functions: {expect_functions}")
+
     error_details = [f"CaseID: {case_id}"]
     is_passed = True
 
@@ -336,6 +411,10 @@ def compare_api_info(planning_raw, expected_raw, case_id):
     # 2. 转换为可对比的集合（忽略顺序）
     plan_keys = set(function_to_key(func) for func in normalized_plan)
     expect_keys = set(function_to_key(func) for func in normalized_expect)
+
+    # 添加调试日志
+    logger.debug(f"CaseID: {case_id} - plan_keys: {plan_keys}")
+    logger.debug(f"CaseID: {case_id} - expect_keys: {expect_keys}")
 
     # 3. 校验函数数量一致性
     if len(normalized_plan) != len(normalized_expect):
@@ -450,11 +529,12 @@ def main():
 
 
 # ================= 配置项 =================
-FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/BiJTsozjFhTURAts5DecfaMLnQg?sheet=LZa2ah'
+FEISHU_DOC_URL = r'https://li.feishu.cn/sheets/Dn5qsVZW7hgTwCtJvNkcJJJondf?sheet=0gzWit'
 EXPECTED_COLUMN_NAME = "预期APIINFO"
 PLANNING_COLUMN_NAME = "第一步-规划"
-RESULT_COLUMN_NAME = "APIINFO测试结果111"
+RESULT_COLUMN_NAME = "APIINFO测试结果"
 CASE_ID_COLUMN_NAME = "CaseID"
+#dialogActsDassSlots、第一步-规划
 # =========================================
 
 if __name__ == "__main__":
