@@ -1,7 +1,0 @@
-README.md
-setup.py
-vehicle_control_tools.egg-info/PKG-INFO
-vehicle_control_tools.egg-info/SOURCES.txt
-vehicle_control_tools.egg-info/dependency_links.txt
-vehicle_control_tools.egg-info/requires.txt
-vehicle_control_tools.egg-info/top_level.txt
